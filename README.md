@@ -1,6 +1,31 @@
 # ros2_slam_nav2
 AMR on Jetson 
 
+```
+sudo apt install libgazebo9-dev
+
+```
+
+```
+git clone https://github.com/ompl/ompl.git
+cd ompl
+mkdir build 
+cd build 
+cmake ..
+make -j16
+sudo make install 
+sudo ldconfig
+```
+
+```
+src/vision_opencv/cv_bridge/CMakeLists.txt
+#install(TARGETS ${PROJECT_NAME}
+#        RUNTIME DESTINATION bin
+#        ARCHIVE DESTINATION lib
+#        LIBRARY DESTINATION lib
+#)
+```
+
 # launch
 
 ```
