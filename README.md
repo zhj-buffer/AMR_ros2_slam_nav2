@@ -148,3 +148,63 @@ alan@nvidia-desktop:~/src/turtlebot3$ ros2 service list
 /rslidar_sdk/rslidar_sdk_node/set_parameters
 /rslidar_sdk/rslidar_sdk_node/set_parameters_atomically
 ```
+
+# launch the slam
+```
+alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_cartographer cartographer.launch.py 
+[INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-06-20-02-21-057360-nvidia-desktop-26325 
+[INFO] [launch]: Default logging verbosity is set to INFO 
+[INFO] [cartographer_node-1]: process started with pid [26329] 
+[INFO] [occupancy_grid_node-2]: process started with pid [26330] 
+[INFO] [rviz2-3]: process started with pid [26331]
+[cartographer_node-1] [INFO] [1641470541.254201729] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua' for 'turtlebot3_lds_2d.lua'.
+[cartographer_node-1] [INFO] [1641470541.255193397] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1641470541.255318620] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1641470541.255511622] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1641470541.255580713] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1641470541.256059554] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1641470541.256135558] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1641470541.256305519] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1641470541.256376627] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1641470541.256701988] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-1] [INFO] [1641470541.256771623] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[rviz2-3] No protocol specified
+[rviz2-3] qt.qpa.screen: QXcbConnection: Could not connect to display :0
+[rviz2-3] Could not connect to any X display.
+[ERROR] [rviz2-3]: process has died [pid 26331, exit code 1, cmd '/home/alan/ros2/install/lib/rviz2/rviz2 -d /home/alan/src/turtlebot3/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_6x3fchlj'].
+[cartographer_node-1] [INFO] [1641470541.339160485] [cartographer_ros]: I0106 20:02:21.000000 26329 submap_2d.cc:187] Added submap 1
+[cartographer_node-1] [INFO] [1641470541.339323501] [cartographer_ros]: I0106 20:02:21.000000 26329 map_builder_bridge.cc:132] Added trajectory with ID '0'.
+[occupancy_grid_node-2] [WARN] [1641470542.307796982] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470543.307854154] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470544.307858459] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470545.307970673] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470546.307971937] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470547.308089144] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470548.308057319] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641470549.308201982] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) 
+[cartographer_node-1] [INFO] [1641470550.114476178] [rclcpp]: signal_handler(signal_value=2)
+[occupancy_grid_node-2] [INFO] [1641470550.114719998] [rclcpp]: signal_handler(signal_value=2)
+[cartographer_node-1] [INFO] [1641470550.118486626] [cartographer_ros]: I0106 20:02:30.000000 26329 node.cc:545] Shutdown the subscriber of [scan]
+[cartographer_node-1] [INFO] [1641470550.118614921] [cartographer_ros]: I0106 20:02:30.000000 26329 node.cc:545] Shutdown the subscriber of [odom]
+[cartographer_node-1] [INFO] [1641470550.126324858] [cartographer_ros]: I0106 20:02:30.000000 26329 map_builder_bridge.cc:149] Finishing trajectory with ID '0'...   
+[cartographer_node-1] [INFO] [1641470550.126477858] [cartographer_ros]: I0106 20:02:30.000000 26329 map_builder_bridge.cc:158] Running final trajectory optimization...
+[cartographer_node-1] [INFO] [1641470550.126550950] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-1] [INFO] [1641470550.126625002] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:283] Score histogram: 
+[cartographer_node-1] Count: 0
+[cartographer_node-1] [INFO] [1641470550.126717230] [cartographer_ros]: I0106 20:02:30.000000 26341 pose_graph_2d.cc:382] Remaining work items in queue: 1
+[cartographer_node-1] [INFO] [1641470550.126779666] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-1] [INFO] [1641470550.126826196] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-1] Count: 0
+[cartographer_node-1] [INFO] [1641470550.127168710] [cartographer_ros]: I0106 20:02:30.000000 26344 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-1] [INFO] [1641470550.127225897] [cartographer_ros]: I0106 20:02:30.000000 26344 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-1] Count: 0
+Optimizing: Done.
+Optimizing: Done.
+[cartographer_node-1] [INFO] [1641470550.139013422] [cartographer_ros]: I0106 20:02:30.000000 26342 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-1] [INFO] [1641470550.139092402] [cartographer_ros]: I0106 20:02:30.000000 26342 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-1] Count: 0
+[INFO] [occupancy_grid_node-2]: process has finished cleanly [pid 26330]
+[INFO] [cartographer_node-1]: process has finished cleanly [pid 26329]
+alan@nvidia-desktop:~/src/turtlebot3$
+```
