@@ -1,3 +1,12 @@
+# export the ENV
+```
+source /home/alan/ros2/install/setup.bash
+export DISPLAY=:0
+export ROS_DOMAIN_ID=7
+export TURTLEBOT3_MODEL=waffle
+```
+
+
 # ros2_slam_nav2
 AMR on Jetson 
 
