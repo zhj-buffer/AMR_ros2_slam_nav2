@@ -31,18 +31,20 @@ from launch_ros.actions import Node
 def generate_launch_description():
     TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
-    usb_port = LaunchConfiguration('usb_port', default='/dev/ttyACM0')
-
-    tb3_param_dir = LaunchConfiguration(
-        'tb3_param_dir',
+    amr_param_dir = LaunchConfiguration(
+        'amr_param_dir',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_bringup'),
+            get_package_share_directory('ros2_drive_package_can_ctrol'),
             'param',
             TURTLEBOT3_MODEL + '.yaml'))
 
     lidar_pkg_dir = LaunchConfiguration(
         'lidar_pkg_dir',
-        default=os.path.join(get_package_share_directory('hls_lfcd_lds_driver'), 'launch'))
+        default=os.path.join(get_package_share_directory('rslidar_sdk'), 'launch'))
+
+    imu_pkg_dir = LaunchConfiguration(
+        'imu_pkg_dir',
+        default=os.path.join(get_package_share_directory('fdlink_ahrs'), 'launch'))
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
 
@@ -53,14 +55,9 @@ def generate_launch_description():
             description='Use simulation (Gazebo) clock if true'),
 
         DeclareLaunchArgument(
-            'usb_port',
-            default_value=usb_port,
-            description='Connected USB port with OpenCR'),
-
-        DeclareLaunchArgument(
-            'tb3_param_dir',
-            default_value=tb3_param_dir,
-            description='Full path to turtlebot3 parameter file to load'),
+            'amr_param_dir',
+            default_value=amr_param_dir,
+            description='Full path to amr parameter file to load'),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -69,14 +66,19 @@ def generate_launch_description():
         ),
 
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([lidar_pkg_dir, '/hlds_laser.launch.py']),
-            launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
+            PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
+#            launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
+        ),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([lidar_pkg_dir, '/start.py']),
+#            launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
 
+
         Node(
-            package='turtlebot3_node',
-            executable='turtlebot3_ros',
-            parameters=[tb3_param_dir],
-            arguments=['-i', usb_port],
+            package='ros2_drive_package_can_ctrol',
+            executable='ros2_drive_package_can_ctrol',
+            parameters=[amr_param_dir],
+ #           arguments=['-i', usb_port],
             output='screen'),
     ])

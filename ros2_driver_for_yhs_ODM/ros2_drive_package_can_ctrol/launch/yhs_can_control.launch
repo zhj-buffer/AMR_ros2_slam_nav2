@@ -1,0 +1,9 @@
+<!--yhs-->
+<launch>
+
+    <node pkg="ros2_drive_package_can_ctrol" type="ros2_drive_package_can_ctrol" name="ros2_drive_package_can_ctrole" output="screen">
+
+    </node>
+
+</launch>
+
