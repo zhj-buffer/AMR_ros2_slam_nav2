@@ -67,11 +67,9 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
-#            launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([lidar_pkg_dir, '/start.py']),
-#            launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
 
 
@@ -79,6 +77,11 @@ def generate_launch_description():
             package='ros2_drive_package_can_ctrol',
             executable='ros2_drive_package_can_ctrol',
             parameters=[amr_param_dir],
- #           arguments=['-i', usb_port],
             output='screen'),
+        Node(
+            package='ros2_rada_driver_pub',
+            executable='rada_pub',
+            parameters=[amr_param_dir],
+            output='screen'),
+ 
     ])
