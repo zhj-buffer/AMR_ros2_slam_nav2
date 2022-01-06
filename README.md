@@ -26,7 +26,7 @@ src/vision_opencv/cv_bridge/CMakeLists.txt
 #)
 ```
 
-# launch
+# launch the robot
 
 ```
 alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_bringup robot.launch.py                                                                                 
@@ -233,7 +233,22 @@ Optimizing: Done.
 [INFO] [cartographer_node-1]: process has finished cleanly [pid 26329]
 alan@nvidia-desktop:~/src/turtlebot3$
 ```
-
+# Same the map from SLAM
+```
+alan@nvidia-desktop:~/src/turtlebot3$  ros2 run nav2_map_server map_saver_cli -f ~/map 
+[INFO] [1641476904.985122753] [map_saver]:  
+        map_saver lifecycle node launched.
+        Waiting on external lifecycle transitions to activate
+        See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1641476904.985493333] [map_saver]: Creating 
+[INFO] [1641476904.986656372] [map_saver]: Saving map from 'map' topic to '/home/alan/map' file
+[WARN] [1641476904.986730136] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1641476904.986820381] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[ERROR] [1641476906.991951357] [map_saver]: Failed to save the map: timeout 
+[INFO] [1641476906.992239820] [map_saver]: Destroying 
+alan@nvidia-desktop:~/src/turtlebot3$  
+```
+# launch the navigation with existed map
 ```
 alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/map.yaml 
 [INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-06-21-45-18-169586-nvidia-desktop-12076 
