@@ -73,14 +73,14 @@ class RadaPublisher : public rclcpp::Node
 	    message.crc = (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff;
 
 	    if (message.crc == r_buf[9]) {
-		    RCLCPP_INFO(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ", rada.c_str(), r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
-		    RCLCPP_INFO(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
+		    RCLCPP_DEBUG(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ", rada.c_str(), r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
+		    RCLCPP_DEBUG(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
 		    publisher_->publish(message);
 	    }
 	    else {
-		    RCLCPP_INFO(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ",rada, r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
-		    RCLCPP_INFO(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
-		    RCLCPP_INFO(this->get_logger(), "%s CRC Wrong!\n", rada.c_str());
+		    RCLCPP_DEBUG(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ",rada, r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
+		    RCLCPP_DEBUG(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
+		    RCLCPP_DEBUG(this->get_logger(), "%s CRC Wrong!\n", rada.c_str());
 	    }
 	    mutex.unlock();
 
