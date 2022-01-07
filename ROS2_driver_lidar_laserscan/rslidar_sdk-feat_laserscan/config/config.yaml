@@ -28,7 +28,7 @@ lidar:
       ros_recv_packet_topic: /rslidar_packets          #Topic used to receive lidar packets from ROS
       ros_send_packet_topic: /rslidar_packets          #Topic used to send lidar packets through ROS
       ros_send_point_cloud_topic: /rslidar_points      #Topic used to send point cloud through ROS
-      ros_send_laser_scan_topic: /rslidar_laserscan    #Topic used to send laser scan through ROS
+      ros_send_laser_scan_topic: /scan    #Topic used to send laser scan through ROS
       laser_scan_ring: 7
     proto:
       point_cloud_recv_port: 60021                     #Port number used for receiving point cloud 

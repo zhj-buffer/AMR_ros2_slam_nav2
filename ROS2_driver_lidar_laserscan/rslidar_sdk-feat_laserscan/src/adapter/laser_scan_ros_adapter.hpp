@@ -225,7 +225,7 @@ inline void LaserScanRosAdapter::sendPointCloud(const LidarPointCloudMsg& lidar_
         }
       }
     }
-
+//
     pub_.publish(scan);
   }
 }
@@ -329,11 +329,11 @@ inline void LaserScanRosAdapter::setRing(std::string& lidar_type, int ring)
 inline void LaserScanRosAdapter::init(const YAML::Node& config)
 {
   bool send_laser_scan_ros;
-  node_ptr_.reset(new rclcpp::Node("rslidar_points_adapter"));
+  node_ptr_.reset(new rclcpp::Node("rslidar_laserscan_adapter"));
   yamlRead<bool>(config, "send_laser_scan_ros", send_laser_scan_ros, false);
   if (send_laser_scan_ros) {
   	std::string ros_send_topic;
-  	yamlRead<std::string>(config["ros"], "send_laser_scan_ros", ros_send_topic, "rslidar_laserscan");
+  	yamlRead<std::string>(config["ros"], "send_laser_scan_ros", ros_send_topic, "scan");
     laser_scan_pub_ = node_ptr_->create_publisher<sensor_msgs::msg::LaserScan>(ros_send_topic, 1);
   }
 
