@@ -31,13 +31,6 @@ from launch_ros.actions import Node
 def generate_launch_description():
     TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
-    amr_param_dir = LaunchConfiguration(
-        'amr_param_dir',
-        default=os.path.join(
-            get_package_share_directory('ros2_drive_package_can_ctrol'),
-            'param',
-            TURTLEBOT3_MODEL + '.yaml'))
-
     lidar_pkg_dir = LaunchConfiguration(
         'lidar_pkg_dir',
         default=os.path.join(get_package_share_directory('rslidar_sdk'), 'launch'))
@@ -54,11 +47,6 @@ def generate_launch_description():
             default_value=use_sim_time,
             description='Use simulation (Gazebo) clock if true'),
 
-        DeclareLaunchArgument(
-            'amr_param_dir',
-            default_value=amr_param_dir,
-            description='Full path to amr parameter file to load'),
-
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 [ThisLaunchFileDir(), '/turtlebot3_state_publisher.launch.py']),
@@ -68,20 +56,22 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
         ),
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([lidar_pkg_dir, '/start.py']),
-        ),
+#        IncludeLaunchDescription(
+#            PythonLaunchDescriptionSource([lidar_pkg_dir, '/start.py']),
+#        ),
 
+        Node(
+            package='rslidar_sdk',
+            executable='rslidar_sdk_node',
+            output='screen'),
 
         Node(
             package='ros2_drive_package_can_ctrol',
             executable='ros2_drive_package_can_ctrol',
-            parameters=[amr_param_dir],
             output='screen'),
         Node(
             package='ros2_rada_driver_pub',
             executable='rada_pub',
-            parameters=[amr_param_dir],
             output='screen'),
  
     ])
