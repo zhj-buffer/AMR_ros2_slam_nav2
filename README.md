@@ -12,6 +12,7 @@ AMR on Jetson
 
 ```
 sudo apt install libgazebo9-dev
+sudo apt install liblua5.3-dev 
 
 ```
 
