@@ -530,3 +530,73 @@ intensities: [0.0, 6.0, 7.0, 7.0, 7.0, 7.0, 8.0, 8.0, 0.0, 7.0, 12.0, 12.0, 13.0
 15.0, 15.0, 15.0, 14.0, 12.0, 16.0, 0.0, 11.0, 27.0, 11.0, 3.0, 3.0, 9.0, 8.0, 9.0, 7.0, 6.0, 6.0, 6.0, 6.0, 5.0, 5.0, 5.0, 4.0, 4.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 0.0, 10.0, 
 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 12.0, 0.0, 19.0, 21.0, 4.0, 2.0, 2.0, 3.0, 2.0, 0.0, 4.0, 7.0, 4.0, 9.0, 8.0, 8.0, 8.0, 8.0, 9.0, 9.0, 10.0, 10.0, 11.0, 11.0, 11.0, 10.0, 10.0, '...']
 ```
+
+
+```
+alan@nvidia-desktop:~/src/AMR$ ros2 launch turtlebot3_bringup robot.launch.py
+[INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-10-14-33-16-843794-nvidia-desktop-27471 
+[INFO] [launch]: Default logging verbosity is set to INFO 
+urdf_file_name : yhs_dgt001m.urdf 
+[INFO] [robot_state_publisher-1]: process started with pid [27475] 
+[INFO] [ahrs_driver_node-2]: process started with pid [27476] 
+[INFO] [rslidar_sdk_node-3]: process started with pid [27477]
+[INFO] [ros2_drive_package_can_ctrol-4]: process started with pid [27479]
+[INFO] [rada_pub-5]: process started with pid [27492]
+[rslidar_sdk_node-3] ********************************************************
+[rslidar_sdk_node-3] **********                                    **********
+[rslidar_sdk_node-3] **********    RSLidar_SDK Version: v1.3.0     **********
+[rslidar_sdk_node-3] **********                                    **********
+[rslidar_sdk_node-3] ********************************************************
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] Receive Packets From : Online LiDAR
+[rslidar_sdk_node-3] Msop Port: 6699
+[rslidar_sdk_node-3] Difop Port: 7788
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] Send PointCloud To : ROS
+[rslidar_sdk_node-3] PointCloud Topic: /rslidar_points
+[rslidar_sdk_node-3] ------------------------------------------------------
+[robot_state_publisher-1] Parsing robot urdf xml string. 
+[robot_state_publisher-1] [INFO] [1641796397.155332478] [robot_state_publisher]: got segment base_link
+[rslidar_sdk_node-3] ---here--------------------------------------------------- 
+[rslidar_sdk_node-3] Send LaserScan To : ROS 
+[rslidar_sdk_node-3] LaserScan Topic: /scan
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is running..... 
+[ros2_drive_package_can_ctrol-4] [INFO] [1641796397.359523092] [ros2_drive_package_can_ctrol]: Node inited:' 
+[ros2_drive_package_can_ctrol-4] [INFO] [1641796397.359955435] [ros2_drive_package_can_ctrol]: >>open can deivce success! 
+[ahrs_driver_node-2] [ERROR] [1641796447.195641547] [ahrs_bringup]: Serial Port initialized 
+[ahrs_driver_node-2] [INFO] [1641796447.198469377] [ahrs_bringup]: ahrsBringup::processLoop: start 
+[ahrs_driver_node-2] [WARN] [1641796447.198618185] [ahrs_bringup]: head_type error: 5F
+[ahrs_driver_node-2] [WARN] [1641796447.200358726] [ahrs_bringup]: head_type error: 69
+[ahrs_driver_node-2] [WARN] [1641796447.200443626] [ahrs_bringup]: head_type error: 88
+[ahrs_driver_node-2] [WARN] [1641796447.200535919] [ahrs_bringup]: head_type error: FC
+```
+
+```
+alan@nvidia-desktop:~/src/AMR$ ros2 topic list 
+/bms_fb 
+/bms_flag_fb
+/ctrl_cmd
+/ctrl_fb
+/imu
+/io_cmd
+/io_fb
+/joint_states 
+/l_wheel_fb
+/mag_pose_2d
+/odom
+/parameter_events
+/r_wheel_fb
+/rada1
+/rada2
+/rear_free_ctrl_cmd
+/robot_description
+/rosout
+/rslidar_points
+/scan
+/smoother_cmd_vel
+/tf
+/tf_static
+alan@nvidia-desktop:~/src/AMR$  
+```
