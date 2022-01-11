@@ -39,20 +39,20 @@ src/vision_opencv/cv_bridge/CMakeLists.txt
 # launch the robot
 
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_bringup robot.launch.py                                                                                 
-[INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-06-19-56-06-346460-nvidia-desktop-25874 
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_bringup robot.launch.py  
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2022-01-11-08-54-29-668969-nvidia-desktop-18209 
 [INFO] [launch]: Default logging verbosity is set to INFO 
-urdf_file_name : turtlebot3_waffle.urdf 
-[INFO] [robot_state_publisher-1]: process started with pid [25878] 
-[INFO] [ahrs_driver_node-2]: process started with pid [25879] 
-[INFO] [rslidar_sdk_node-3]: process started with pid [25880]
-[INFO] [rviz2-4]: process started with pid [25881]
-[INFO] [ros2_drive_package_can_ctrol-5]: process started with pid [25882]
+urdf_file_name : yhs_dgt001m.urdf 
+[INFO] [robot_state_publisher-1]: process started with pid [18214] 
+[INFO] [ahrs_driver_node-2]: process started with pid [18215] 
+[INFO] [rslidar_sdk_node-3]: process started with pid [18216]
+[INFO] [ros2_drive_package_can_ctrol-4]: process started with pid [18217]
+[INFO] [rada_pub-5]: process started with pid [18218]
 [rslidar_sdk_node-3] ********************************************************
 [rslidar_sdk_node-3] **********                                    **********
-[rslidar_sdk_node-3] **********    RSLidar_SDK Version: v1.3.0     ********** 
+[rslidar_sdk_node-3] **********    RSLidar_SDK Version: v1.3.0     **********
 [rslidar_sdk_node-3] **********                                    **********
-[rslidar_sdk_node-3] ********************************************************
+[rslidar_sdk_node-3] ******************************************************** 
 [rslidar_sdk_node-3] ------------------------------------------------------
 [rslidar_sdk_node-3] Receive Packets From : Online LiDAR
 [rslidar_sdk_node-3] Msop Port: 6699
@@ -62,108 +62,88 @@ urdf_file_name : turtlebot3_waffle.urdf
 [rslidar_sdk_node-3] Send PointCloud To : ROS
 [rslidar_sdk_node-3] PointCloud Topic: /rslidar_points
 [rslidar_sdk_node-3] ------------------------------------------------------
-[rviz2-4] No protocol specified
-[rviz2-4] qt.qpa.screen: QXcbConnection: Could not connect to display :0
-[rviz2-4] Could not connect to any X display.
 [robot_state_publisher-1] Parsing robot urdf xml string.
-[robot_state_publisher-1] Link base_link had 7 children
-[robot_state_publisher-1] Link camera_link had 2 children
-[robot_state_publisher-1] Link camera_depth_frame had 1 children
-[robot_state_publisher-1] Link camera_depth_optical_frame had 0 children
-[robot_state_publisher-1] Link camera_rgb_frame had 1 children
-[robot_state_publisher-1] Link camera_rgb_optical_frame had 0 children
-[robot_state_publisher-1] Link caster_back_left_link had 0 children
-[robot_state_publisher-1] Link caster_back_right_link had 0 children
+[robot_state_publisher-1] Link base_link had 2 children
 [robot_state_publisher-1] Link imu_link had 0 children
 [robot_state_publisher-1] Link base_scan had 0 children
-[robot_state_publisher-1] Link wheel_left_link had 0 children
-[robot_state_publisher-1] Link wheel_right_link had 0 children
-[robot_state_publisher-1] [INFO] [1641470166.643306649] [robot_state_publisher]: got segment base_footprint
-[robot_state_publisher-1] [INFO] [1641470166.643612137] [robot_state_publisher]: got segment base_link
-[robot_state_publisher-1] [INFO] [1641470166.643663372] [robot_state_publisher]: got segment base_scan
-[robot_state_publisher-1] [INFO] [1641470166.643695406] [robot_state_publisher]: got segment camera_depth_frame
-[robot_state_publisher-1] [INFO] [1641470166.643725359] [robot_state_publisher]: got segment camera_depth_optical_frame
-[robot_state_publisher-1] [INFO] [1641470166.643754833] [robot_state_publisher]: got segment camera_link
-[robot_state_publisher-1] [INFO] [1641470166.643785746] [robot_state_publisher]: got segment camera_rgb_frame
-[robot_state_publisher-1] [INFO] [1641470166.643815828] [robot_state_publisher]: got segment camera_rgb_optical_frame
-[robot_state_publisher-1] [INFO] [1641470166.643848118] [robot_state_publisher]: got segment caster_back_left_link
-[robot_state_publisher-1] [INFO] [1641470166.643878199] [robot_state_publisher]: got segment caster_back_right_link
-[robot_state_publisher-1] [INFO] [1641470166.643907993] [robot_state_publisher]: got segment imu_link
-[robot_state_publisher-1] [INFO] [1641470166.643939226] [robot_state_publisher]: got segment wheel_left_link
-[robot_state_publisher-1] [INFO] [1641470166.643970748] [robot_state_publisher]: got segment wheel_right_link
-[ERROR] [rviz2-4]: process has died [pid 25881, exit code 1, cmd '/home/alan/ros2/install/lib/rviz2/rviz2 -d /home/alan/src/turtlebot3/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz --ros-args -r __node:=rviz2 -r __ns:=/rviz2'].
-[ros2_drive_package_can_ctrol-5] [INFO] [1641470166.665016804] [ros2_drive_package_can_ctrol]: Node inited:'
-[ros2_drive_package_can_ctrol-5] [INFO] [1641470166.665387575] [ros2_drive_package_can_ctrol]: >>open can deivce success!
-[rslidar_sdk_node-3] ---here---------------------------------------------------
+[robot_state_publisher-1] [INFO] [1641862469.949822013] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1641862469.950346999] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1641862469.950411867] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-1] [INFO] [1641862469.950442940] [robot_state_publisher]: got segment imu_link
+[ros2_drive_package_can_ctrol-4] [INFO] [1641862469.994590606] [ros2_drive_package_can_ctrol]: Node inited:' 
+[ros2_drive_package_can_ctrol-4] [INFO] [1641862469.996615957] [ros2_drive_package_can_ctrol]: >>open can deivce success!
+[rslidar_sdk_node-3] ---here--------------------------------------------------- 
 [rslidar_sdk_node-3] Send LaserScan To : ROS
-[rslidar_sdk_node-3] LaserScan Topic: /rslidar_laserscan
+[rslidar_sdk_node-3] LaserScan Topic: /scan
 [rslidar_sdk_node-3] ------------------------------------------------------
-[rslidar_sdk_node-3] [WARN] [1641470166.667688943] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
-[rslidar_sdk_node-3] set ring: 6
-[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is running.....
-
-[rslidar_sdk_node-3] ERRCODE_DIFOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-[ahrs_driver_node-2] [ERROR] [1641470216.636639271] [ahrs_bringup]: Serial Port initialized 
-[ahrs_driver_node-2] [INFO] [1641470216.637380781] [ahrs_bringup]: ahrsBringup::processLoop: start 
-[rslidar_sdk_node-3] ERRCODE_DIFOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_DIFOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_DIFOPTIMEOUT 
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) 
-[ros2_drive_package_can_ctrol-5] [INFO] [1641470351.271357935] [rclcpp]: signal_handler(signal_value=2) 
-[rslidar_sdk_node-3] [INFO] [1641470351.272513099] [rclcpp]: signal_handler(signal_value=2) 
-[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is stopping.....
-[ahrs_driver_node-2] [INFO] [1641470351.274535668] [rclcpp]: signal_handler(signal_value=2)
-[robot_state_publisher-1] [INFO] [1641470351.274533908] [rclcpp]: signal_handler(signal_value=2)
-[INFO] [ahrs_driver_node-2]: process has finished cleanly [pid 25879] 
-[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 25878]
-[rslidar_sdk_node-3] ERRCODE_MSOPTIMEOUT 
-^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring... 
-[ros2_drive_package_can_ctrol-5] [INFO] [1641470351.774051580] [rclcpp]: signal_handler(signal_value=2)
-[rslidar_sdk_node-3] [INFO] [1641470351.774744352] [rclcpp]: signal_handler(signal_value=2)
-[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is stopping.....
-[INFO] [ros2_drive_package_can_ctrol-5]: process has finished cleanly [pid 25882] 
-[rslidar_sdk_node-3] ERRCODE_DIFOPTIMEOUT 
-[INFO] [rslidar_sdk_node-3]: process has finished cleanly [pid 25880] 
+[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is running..... 
+[ahrs_driver_node-2] [ERROR] [1641862519.936483789] [ahrs_bringup]: Serial Port initialized 
+[ahrs_driver_node-2] [INFO] [1641862519.938682653] [ahrs_bringup]: ahrsBringup::processLoop: start
 ```
 
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 topic list 
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 topic list 
 /bms_fb 
 /bms_flag_fb
+/clicked_point
+/constraint_list 
 /ctrl_cmd
 /ctrl_fb
 /imu
-/io_cmd 
+/initialpose
+/io_cmd
 /io_fb
 /joint_states
 /l_wheel_fb
-/mag_pose_2d
+/landmark_poses_list
+/map
+/map_updates
+/move_base_simple/goal
 /odom
 /parameter_events
 /r_wheel_fb
+/rada1
+/rada2
 /rear_free_ctrl_cmd
 /robot_description
 /rosout
 /rslidar_points
-/rslidar_sdk/rslidar_laserscan
+/scan
+/scan_matched_points2
 /smoother_cmd_vel
+/submap_list
 /tf
 /tf_static
+/trajectory_node_list
+nvidia@nvidia-desktop:~/workspace/alan/AMR$  
 ```
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 service list 
-/ahrs_bringup/describe_parameters 
-/ahrs_bringup/get_parameter_types
-/ahrs_bringup/get_parameters
-/ahrs_bringup/list_parameters 
-/ahrs_bringup/set_parameters
-/ahrs_bringup/set_parameters_atomically
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 service list 
+/RadaPublisher1/describe_parameters 
+/RadaPublisher1/get_parameter_types
+/RadaPublisher1/get_parameters
+/RadaPublisher1/list_parameters
+/RadaPublisher1/set_parameters 
+/RadaPublisher1/set_parameters_atomically
+/RadaPublisher2/describe_parameters
+/RadaPublisher2/get_parameter_types
+/RadaPublisher2/get_parameters
+/RadaPublisher2/list_parameters
+/RadaPublisher2/set_parameters
+/RadaPublisher2/set_parameters_atomically
+/cartographer_node/describe_parameters
+/cartographer_node/get_parameter_types
+/cartographer_node/get_parameters
+/cartographer_node/list_parameters
+/cartographer_node/set_parameters
+/cartographer_node/set_parameters_atomically
+/finish_trajectory
+/occupancy_grid_node/describe_parameters
+/occupancy_grid_node/get_parameter_types
+/occupancy_grid_node/get_parameters
+/occupancy_grid_node/list_parameters
+/occupancy_grid_node/set_parameters
+/occupancy_grid_node/set_parameters_atomically
 /robot_state_publisher/describe_parameters
 /robot_state_publisher/get_parameter_types
 /robot_state_publisher/get_parameters
@@ -176,72 +156,144 @@ alan@nvidia-desktop:~/src/turtlebot3$ ros2 service list
 /ros2_drive_package_can_ctrol/list_parameters
 /ros2_drive_package_can_ctrol/set_parameters
 /ros2_drive_package_can_ctrol/set_parameters_atomically
-/rslidar_sdk/rslidar_sdk_node/describe_parameters
-/rslidar_sdk/rslidar_sdk_node/get_parameter_types
-/rslidar_sdk/rslidar_sdk_node/get_parameters
-/rslidar_sdk/rslidar_sdk_node/list_parameters
-/rslidar_sdk/rslidar_sdk_node/set_parameters
-/rslidar_sdk/rslidar_sdk_node/set_parameters_atomically
+/rslidar_laserscan_adapter/describe_parameters
+/rslidar_laserscan_adapter/get_parameter_types
+/rslidar_laserscan_adapter/get_parameters
+/rslidar_laserscan_adapter/list_parameters
+/rslidar_laserscan_adapter/set_parameters
+/rslidar_laserscan_adapter/set_parameters_atomically
+/rslidar_points_adapter/describe_parameters 
+/rslidar_points_adapter/get_parameter_types
+/rslidar_points_adapter/get_parameters
+/rslidar_points_adapter/list_parameters
+/rslidar_points_adapter/set_parameters
+/rslidar_points_adapter/set_parameters_atomically
+/rviz2/describe_parameters
+/rviz2/get_parameter_types
+/rviz2/get_parameters
+/rviz2/list_parameters
+/rviz2/set_parameters
+/rviz2/set_parameters_atomically
+/start_trajectory
+/submap_query
+/write_state
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 node list 
+/RadaPublisher1 
+/RadaPublisher2
+/cartographer_node
+/occupancy_grid_node 
+/robot_state_publisher
+/ros2_drive_package_can_ctrol
+/rslidar_laserscan_adapter
+/rslidar_points_adapter
+/rviz2
+/transform_listener_impl_559187a380
+/transform_listener_impl_55b8376620
+nvidia@nvidia-desktop:~/workspace/alan/AMR$  
 ```
+
 
 # launch the slam
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_cartographer cartographer.launch.py 
-[INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-06-20-02-21-057360-nvidia-desktop-26325 
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_cartographer cartographer.launch.py  
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2022-01-11-08-59-02-933516-nvidia-desktop-18618 
 [INFO] [launch]: Default logging verbosity is set to INFO 
-[INFO] [cartographer_node-1]: process started with pid [26329] 
-[INFO] [occupancy_grid_node-2]: process started with pid [26330] 
-[INFO] [rviz2-3]: process started with pid [26331]
-[cartographer_node-1] [INFO] [1641470541.254201729] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua' for 'turtlebot3_lds_2d.lua'.
-[cartographer_node-1] [INFO] [1641470541.255193397] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
-[cartographer_node-1] [INFO] [1641470541.255318620] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
-[cartographer_node-1] [INFO] [1641470541.255511622] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
-[cartographer_node-1] [INFO] [1641470541.255580713] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
-[cartographer_node-1] [INFO] [1641470541.256059554] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
-[cartographer_node-1] [INFO] [1641470541.256135558] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
-[cartographer_node-1] [INFO] [1641470541.256305519] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
-[cartographer_node-1] [INFO] [1641470541.256376627] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
-[cartographer_node-1] [INFO] [1641470541.256701988] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
-[cartographer_node-1] [INFO] [1641470541.256771623] [cartographer_ros]: I0106 20:02:21.000000 26329 configuration_file_resolver.cc:41] Found '/home/alan/src/turtlebot3/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
-[rviz2-3] No protocol specified
-[rviz2-3] qt.qpa.screen: QXcbConnection: Could not connect to display :0
-[rviz2-3] Could not connect to any X display.
-[ERROR] [rviz2-3]: process has died [pid 26331, exit code 1, cmd '/home/alan/ros2/install/lib/rviz2/rviz2 -d /home/alan/src/turtlebot3/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_6x3fchlj'].
-[cartographer_node-1] [INFO] [1641470541.339160485] [cartographer_ros]: I0106 20:02:21.000000 26329 submap_2d.cc:187] Added submap 1
-[cartographer_node-1] [INFO] [1641470541.339323501] [cartographer_ros]: I0106 20:02:21.000000 26329 map_builder_bridge.cc:132] Added trajectory with ID '0'.
-[occupancy_grid_node-2] [WARN] [1641470542.307796982] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470543.307854154] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470544.307858459] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470545.307970673] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470546.307971937] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470547.308089144] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470548.308057319] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-[occupancy_grid_node-2] [WARN] [1641470549.308201982] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
-^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) 
-[cartographer_node-1] [INFO] [1641470550.114476178] [rclcpp]: signal_handler(signal_value=2)
-[occupancy_grid_node-2] [INFO] [1641470550.114719998] [rclcpp]: signal_handler(signal_value=2)
-[cartographer_node-1] [INFO] [1641470550.118486626] [cartographer_ros]: I0106 20:02:30.000000 26329 node.cc:545] Shutdown the subscriber of [scan]
-[cartographer_node-1] [INFO] [1641470550.118614921] [cartographer_ros]: I0106 20:02:30.000000 26329 node.cc:545] Shutdown the subscriber of [odom]
-[cartographer_node-1] [INFO] [1641470550.126324858] [cartographer_ros]: I0106 20:02:30.000000 26329 map_builder_bridge.cc:149] Finishing trajectory with ID '0'...   
-[cartographer_node-1] [INFO] [1641470550.126477858] [cartographer_ros]: I0106 20:02:30.000000 26329 map_builder_bridge.cc:158] Running final trajectory optimization...
-[cartographer_node-1] [INFO] [1641470550.126550950] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
-[cartographer_node-1] [INFO] [1641470550.126625002] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:283] Score histogram: 
-[cartographer_node-1] Count: 0
-[cartographer_node-1] [INFO] [1641470550.126717230] [cartographer_ros]: I0106 20:02:30.000000 26341 pose_graph_2d.cc:382] Remaining work items in queue: 1
-[cartographer_node-1] [INFO] [1641470550.126779666] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
-[cartographer_node-1] [INFO] [1641470550.126826196] [cartographer_ros]: I0106 20:02:30.000000 26341 constraint_builder_2d.cc:283] Score histogram:
-[cartographer_node-1] Count: 0
-[cartographer_node-1] [INFO] [1641470550.127168710] [cartographer_ros]: I0106 20:02:30.000000 26344 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
-[cartographer_node-1] [INFO] [1641470550.127225897] [cartographer_ros]: I0106 20:02:30.000000 26344 constraint_builder_2d.cc:283] Score histogram:
-[cartographer_node-1] Count: 0
-Optimizing: Done.
-Optimizing: Done.
-[cartographer_node-1] [INFO] [1641470550.139013422] [cartographer_ros]: I0106 20:02:30.000000 26342 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
-[cartographer_node-1] [INFO] [1641470550.139092402] [cartographer_ros]: I0106 20:02:30.000000 26342 constraint_builder_2d.cc:283] Score histogram:
-[cartographer_node-1] Count: 0
-[INFO] [occupancy_grid_node-2]: process has finished cleanly [pid 26330]
-[INFO] [cartographer_node-1]: process has finished cleanly [pid 26329]
-alan@nvidia-desktop:~/src/turtlebot3$
+[INFO] [cartographer_node-1]: process started with pid [18623] 
+[INFO] [occupancy_grid_node-2]: process started with pid [18624] 
+[INFO] [rviz2-3]: process started with pid [18625]
+[cartographer_node-1] [INFO] [1641862743.153832673] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua' for 'turtlebot3_lds_2d.lua'.
+[cartographer_node-1] [INFO] [1641862743.154662635] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1641862743.154792786] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1641862743.154965658] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1641862743.155040222] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1641862743.155408049] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1641862743.155480853] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1641862743.155606715] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1641862743.155723137] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1641862743.156051954] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-1] [INFO] [1641862743.156123862] [cartographer_ros]: I0111 08:59:03.000000 18623 configuration_file_resolver.cc:41] Found '/home/nvidia/workspace/alan/AMR/install/cartographer/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-1] [INFO] [1641862743.232129414] [cartographer_ros]: I0111 08:59:03.000000 18623 submap_2d.cc:187] Added submap 1
+[cartographer_node-1] [INFO] [1641862743.232301551] [cartographer_ros]: I0111 08:59:03.000000 18623 map_builder_bridge.cc:132] Added trajectory with ID '0'.
+[cartographer_node-1] Warning: Invalid frame ID "imu_link" passed to canTransform argument target_frame - frame does not exist 
+[cartographer_node-1]          at line 133 in /home/nvidia/workspace/ros2/src/ros2/geometry2/tf2/src/buffer_core.cpp
+[cartographer_node-1] Warning: Invalid frame ID "imu_link" passed to canTransform argument target_frame - frame does not exist
+[cartographer_node-1]          at line 133 in /home/nvidia/workspace/ros2/src/ros2/geometry2/tf2/src/buffer_core.cpp 
+[cartographer_node-1] Warning: Invalid frame ID "imu_link" passed to canTransform argument target_frame - frame does not exist 
+[cartographer_node-1]          at line 133 in /home/nvidia/workspace/ros2/src/ros2/geometry2/tf2/src/buffer_core.cpp
+[cartographer_node-1] Warning: Invalid frame ID "imu_link" passed to canTransform argument target_frame - frame does not exist 
+[cartographer_node-1]          at line 133 in /home/nvidia/workspace/ros2/src/ros2/geometry2/tf2/src/buffer_core.cpp
+[cartographer_node-1] Warning: Invalid frame ID "imu_link" passed to canTransform argument target_frame - frame does not exist 
+[cartographer_node-1]          at line 133 in /home/nvidia/workspace/ros2/src/ros2/geometry2/tf2/src/buffer_core.cpp
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] [INFO] [1641862744.181612898] [rviz2]: Stereo is NOT SUPPORTED 
+[rviz2-3] [INFO] [1641862744.182240258] [rviz2]: OpenGl version: 4.6 (GLSL 4.6) 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] [INFO] [1641862744.264968234] [rviz2]: Stereo is NOT SUPPORTED 
+[occupancy_grid_node-2] [WARN] [1641862744.542627207] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[rviz2-3] Parsing robot urdf xml string. 
+[rviz2-3] [WARN] [1641862744.742622110] [rviz2]: The STL file 'package://yhs_chassis_description/meshes/DGT-001M.STL' is malformed. It starts with the word 'solid', 
+indicating that it's an ASCII STL file, but it does not contain the word 'endsolid' so it is either a malformed ASCII STL file or it is actually a binary STL file. Trying to interpret it as a binary STL file instead.
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[occupancy_grid_node-2] [WARN] [1641862745.542582297] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[rviz2-3] XmbTextListToTextProperty result code -2 
+[occupancy_grid_node-2] [WARN] [1641862746.542665362] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862747.542710057] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862748.542765313] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862749.542814168] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862750.542862736] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862751.543127763] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862752.543012002] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862753.543047257] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862754.543093809] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862755.543077221] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862756.543175231] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862757.543227320] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862758.543257935] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862759.543303559] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862760.543376896] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862761.543414264] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862762.543527540] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862763.543834233] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862764.543534176] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862765.543645244] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862766.543739990] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862767.543770222] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862768.543836360] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862769.543924035] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862770.543830612] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862771.543964497] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862772.543991849] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862773.543930973] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862774.544051674] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862775.544138997] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862776.544159565] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862777.544210598] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862778.544283393] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862779.544276567] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862780.544469816] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862781.544514418] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862782.544502216] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862783.544548418] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862784.544716289] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862785.544572977] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862786.544717520] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862787.544802028] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862788.544716383] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862789.544859038] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862790.544937946] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862791.544914768] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862792.545161685] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[cartographer_node-1] [WARN] [1641862793.376474422] [cartographer_ros]: W0111 08:59:53.000000 18623 ordered_multi_queue.cc:155] Queue waiting for data: (0, imu) 
+[occupancy_grid_node-2] [WARN] [1641862793.545025542] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862794.545123746] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862795.545223840] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862796.545198070] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862797.545223088] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
+[occupancy_grid_node-2] [WARN] [1641862798.545314636] [occupancy_grid_node]: submap_slices and last_frame_id is empty 
 ```
 # Same the map from SLAM
 ```
@@ -260,7 +312,7 @@ alan@nvidia-desktop:~/src/turtlebot3$
 ```
 # launch the navigation with existed map
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/map.yaml 
+alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch amr_navigation2 navigation2.launch.py map:=$HOME/map.yaml 
 [INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-06-21-45-18-169586-nvidia-desktop-12076 
 [INFO] [launch]: Default logging verbosity is set to INFO 
 [INFO] [map_server-1]: process started with pid [12080] 
@@ -421,38 +473,6 @@ alan@nvidia-desktop:~/src/turtlebot3$ ros2 launch turtlebot3_navigation2 navigat
 ```
 
 ```
-alan@nvidia-desktop:~/src/turtlebot3$ ros2 topic list 
-/amcl/transition_event 
-/bms_fb
-/bms_flag_fb
-/bt_navigator/transition_event
-/ctrl_cmd
-/ctrl_fb
-/goal_pose
-/imu
-/io_cmd
-/io_fb 
-/joint_states
-/l_wheel_fb
-/mag_pose_2d
-/map_server/transition_event
-/odom
-/parameter_events
-/r_wheel_fb
-/rear_free_ctrl_cmd
-/robot_description
-/rosout
-/rslidar_points
-/rslidar_sdk/rslidar_laserscan
-/smoother_cmd_vel
-/tf
-/tf_static
-/waypoint_follower/transition_event
-alan@nvidia-desktop:~/src/turtlebot3$  
-```
-
-
-```
 alan@nvidia-desktop:~/src/AMR$ ros2 run rslidar_sdk rslidar_sdk_node  
 ******************************************************** 
 **********                                    **********
@@ -533,7 +553,7 @@ intensities: [0.0, 6.0, 7.0, 7.0, 7.0, 7.0, 8.0, 8.0, 0.0, 7.0, 12.0, 12.0, 13.0
 
 
 ```
-alan@nvidia-desktop:~/src/AMR$ ros2 launch turtlebot3_bringup robot.launch.py
+alan@nvidia-desktop:~/src/AMR$ ros2 launch amr_bringup robot.launch.py
 [INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-01-10-14-33-16-843794-nvidia-desktop-27471 
 [INFO] [launch]: Default logging verbosity is set to INFO 
 urdf_file_name : yhs_dgt001m.urdf 
@@ -571,34 +591,6 @@ urdf_file_name : yhs_dgt001m.urdf
 [ahrs_driver_node-2] [WARN] [1641796447.200358726] [ahrs_bringup]: head_type error: 69
 [ahrs_driver_node-2] [WARN] [1641796447.200443626] [ahrs_bringup]: head_type error: 88
 [ahrs_driver_node-2] [WARN] [1641796447.200535919] [ahrs_bringup]: head_type error: FC
-```
-
-```
-alan@nvidia-desktop:~/src/AMR$ ros2 topic list 
-/bms_fb 
-/bms_flag_fb
-/ctrl_cmd
-/ctrl_fb
-/imu
-/io_cmd
-/io_fb
-/joint_states 
-/l_wheel_fb
-/mag_pose_2d
-/odom
-/parameter_events
-/r_wheel_fb
-/rada1
-/rada2
-/rear_free_ctrl_cmd
-/robot_description
-/rosout
-/rslidar_points
-/scan
-/smoother_cmd_vel
-/tf
-/tf_static
-alan@nvidia-desktop:~/src/AMR$  
 ```
 
 
