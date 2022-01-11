@@ -29,7 +29,6 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-#    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
     lidar_pkg_dir = LaunchConfiguration(
         'lidar_pkg_dir',
@@ -56,9 +55,6 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
         ),
-#        IncludeLaunchDescription(
-#            PythonLaunchDescriptionSource([lidar_pkg_dir, '/start.py']),
-#        ),
 
         Node(
             package='rslidar_sdk',

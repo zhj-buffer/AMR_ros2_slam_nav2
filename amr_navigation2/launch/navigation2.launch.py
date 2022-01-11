@@ -32,15 +32,15 @@ def generate_launch_description():
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_navigation2'),
+            get_package_share_directory('amr_navigation2'),
             'map',
-            'turtlebot3_world.yaml'))
+            'amr_world.yaml'))
 
     param_file_name = TURTLEBOT3_MODEL + '.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_navigation2'),
+            get_package_share_directory('amr_navigation2'),
             'param',
             param_file_name))
 
