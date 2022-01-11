@@ -37,7 +37,7 @@ def generate_launch_description():
     publish_period_sec = LaunchConfiguration('publish_period_sec', default='1.0')
 
     rviz_config_dir = os.path.join(get_package_share_directory('turtlebot3_cartographer'),
-                                   'rviz', 'tb3_cartographer.rviz')
+                                   'rviz', 'amr_cartographer.rviz')
 
     return LaunchDescription([
         DeclareLaunchArgument(
