@@ -2,7 +2,7 @@
 # Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 3.5)
-project(turtlebot3_cartographer)
+project(amr_cartographer)
 
 ################################################################################
 # Find ament packages and libraries for ament and system dependencies
