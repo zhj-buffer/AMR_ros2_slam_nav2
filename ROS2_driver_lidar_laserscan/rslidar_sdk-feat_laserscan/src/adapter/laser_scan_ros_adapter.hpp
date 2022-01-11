@@ -323,7 +323,7 @@ inline void LaserScanRosAdapter::setRing(std::string& lidar_type, int ring)
     exit(-1);
   }
 
-  std::cout << "set ring: " << ring_ << std::endl;
+//  std::cout << "set ring: " << ring_ << std::endl;
 }
 
 inline void LaserScanRosAdapter::init(const YAML::Node& config)
@@ -352,8 +352,7 @@ inline void LaserScanRosAdapter::sendPointCloud(const LidarPointCloudMsg& lidar_
 
   sensor_msgs::msg::PointCloud2 msg = toRosMsg(lidar_msg);
 
-  printf("RobosenseLaserScan. point cloud width %u, height %u, extracting ring %u", 
-      msg.width, msg.height, ring_);
+//printf("RobosenseLaserScan. point cloud width %u, height %u, extracting ring %u",  msg.width, msg.height, ring_);
 
   // field offsets
   int offset_x = -1;

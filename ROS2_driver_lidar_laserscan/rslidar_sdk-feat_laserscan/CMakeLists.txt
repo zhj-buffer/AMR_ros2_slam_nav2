@@ -189,6 +189,7 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
   install(DIRECTORY
     launch
     rviz
+    config
     DESTINATION share/${PROJECT_NAME}
   )
   ament_package()
