@@ -69,7 +69,13 @@
     <origin xyz="0.0 0 0.068" rpy="0 0 0"/>
   </joint>
 
-  <link name="imu_link"/>
+   <link name="imu_link">
+    <visual>
+      <geometry>
+      </geometry>
+	<material name="blue"/>
+    </visual>
+  </link>
 
   <joint name="scan_joint" type="fixed">
     <parent link="base_link"/>
@@ -95,7 +101,7 @@
         <geometry>
           <cylinder radius="0.0516" length="0.0717"/>
         </geometry>
-	<material name="dark"/>
+	<material name="red"/>
       </collision>
     </link>
 	
