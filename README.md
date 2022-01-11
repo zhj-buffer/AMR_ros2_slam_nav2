@@ -742,3 +742,313 @@ ranges: [.nan, 1.6360862255096436, 1.6410796642303467, 1.6410796642303467, 1.636
 intensities: [0.0, 16.0, 14.0, 16.0, 13.0, 11.0, 11.0, 11.0, 11.0, 11.0, 12.0, 12.0, 11.0, 11.0, 11.0, 11.0, 14.0, 13.0, 4.0, 0.0, 39.0, 52.0, 47.0, 49.0, 46.0, 0.0, 15.0, 0.0, 15.0, 15.0, 14.0, 12.0, 16.0, 11.0, 27.0, 31.0, 11.0, 3.0, 3.0, 10.0, 7.0, 8.0, 7.0, 6.0, 6.0, 6.0, 5.0, 5.0, 5.0, 4.0, 4.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 4.0, 6.0, 13.0, 16.0, 16.0, 30.0, 32.0, 20.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 2.0, 2.0, 3.0, 4.0, 7.0, 4.0, 6.0, 10.0, 11.0, 11.0, 12.0, 12.0, 11.0, 11.0, 11.0, 11.0, 13.0, 13.0, 14.0, 13.0, 13.0, '...']
 --- 
 ```
+
+```
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_bringup robot.launch.py  
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2022-01-11-09-18-08-711841-nvidia-desktop-9960 
+[INFO] [launch]: Default logging verbosity is set to INFO 
+urdf_file_name : yhs_dgt001m.urdf 
+[INFO] [robot_state_publisher-1]: process started with pid [9965] 
+[INFO] [ahrs_driver_node-2]: process started with pid [9966] 
+[INFO] [rslidar_sdk_node-3]: process started with pid [9967]
+[INFO] [ros2_drive_package_can_ctrol-4]: process started with pid [9968]
+[INFO] [rada_pub-5]: process started with pid [9969]
+[rslidar_sdk_node-3] ********************************************************
+[rslidar_sdk_node-3] **********                                    **********
+[rslidar_sdk_node-3] **********    RSLidar_SDK Version: v1.3.0     **********
+[rslidar_sdk_node-3] **********                                    **********
+[rslidar_sdk_node-3] ******************************************************** 
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] Receive Packets From : Online LiDAR
+[rslidar_sdk_node-3] Msop Port: 6699
+[rslidar_sdk_node-3] Difop Port: 7788
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] Send PointCloud To : ROS
+[rslidar_sdk_node-3] PointCloud Topic: /rslidar_points
+[rslidar_sdk_node-3] ------------------------------------------------------
+[robot_state_publisher-1] Parsing robot urdf xml string.
+[robot_state_publisher-1] Link base_link had 2 children
+[robot_state_publisher-1] Link imu_link had 0 children
+[robot_state_publisher-1] Link base_scan had 0 children
+[robot_state_publisher-1] [INFO] [1641863889.025535333] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1641863889.025834228] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1641863889.025885527] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-1] [INFO] [1641863889.025947674] [robot_state_publisher]: got segment imu_link
+[ros2_drive_package_can_ctrol-4] [INFO] [1641863889.045216416] [ros2_drive_package_can_ctrol]: Node inited:' 
+[ros2_drive_package_can_ctrol-4] [INFO] [1641863889.045661047] [ros2_drive_package_can_ctrol]: >>open can deivce success!
+[rslidar_sdk_node-3] ---here---------------------------------------------------
+[rslidar_sdk_node-3] Send LaserScan To : ROS
+[rslidar_sdk_node-3] LaserScan Topic: /scan
+[rslidar_sdk_node-3] ------------------------------------------------------
+[rslidar_sdk_node-3] RoboSense-LiDAR-Driver is running..... 
+[ahrs_driver_node-2] [ERROR] [1641863938.998501038] [ahrs_bringup]: Serial Port initialized 
+[ahrs_driver_node-2] [INFO] [1641863938.998840448] [ahrs_bringup]: ahrsBringup::processLoop: start
+```
+
+
+```
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_navigation2 navigation2.launch.py map:=map.yaml 
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2022-01-11-09-23-39-498280-nvidia-desktop-11167 
+[INFO] [launch]: Default logging verbosity is set to INFO 
+[INFO] [map_server-1]: process started with pid [11173] 
+[INFO] [amcl-2]: process started with pid [11174] 
+[INFO] [lifecycle_manager-3]: process started with pid [11175]
+[INFO] [controller_server-4]: process started with pid [11176]
+[INFO] [planner_server-5]: process started with pid [11177]
+[INFO] [recoveries_server-6]: process started with pid [11178]
+[INFO] [bt_navigator-7]: process started with pid [11179]
+[INFO] [waypoint_follower-8]: process started with pid [11180]
+[INFO] [lifecycle_manager-9]: process started with pid [11181]
+[INFO] [rviz2-10]: process started with pid [11182]
+[lifecycle_manager-3] [INFO] [1641864220.765169668] [lifecycle_manager_localization]: Creating 
+[amcl-2] [INFO] [1641864220.821529247] [amcl]:  
+[amcl-2]        amcl lifecycle node launched.
+[amcl-2]        Waiting on external lifecycle transitions to activate
+[amcl-2]        See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1641864220.822303399] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1641864220.863528470] [lifecycle_manager_localization]: Creating and initializing lifecycle service clients 
+[lifecycle_manager-3] [INFO] [1641864220.890406849] [lifecycle_manager_localization]: Starting managed nodes bringup... 
+[lifecycle_manager-3] [INFO] [1641864220.890604363] [lifecycle_manager_localization]: Configuring map_server
+[map_server-1] [INFO] [1641864220.988650221] [map_server]:  
+[map_server-1]  map_server lifecycle node launched.
+[map_server-1]  Waiting on external lifecycle transitions to activate
+[map_server-1]  See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1641864220.994440471] [map_server]: Creating 
+[planner_server-5] [INFO] [1641864221.058964760] [planner_server]:  
+[waypoint_follower-8] [INFO] [1641864221.060907676] [waypoint_follower]:
+[waypoint_follower-8]   waypoint_follower lifecycle node launched.
+[waypoint_follower-8]   Waiting on external lifecycle transitions to activate
+[waypoint_follower-8]   See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-8] [INFO] [1641864221.061288368] [waypoint_follower]: Creating
+[planner_server-5]      planner_server lifecycle node launched.  
+[planner_server-5]      Waiting on external lifecycle transitions to activate
+[planner_server-5]      See https://design.ros2.org/articles/node_lifecycle.html for more information. 
+[bt_navigator-7] [INFO] [1641864221.097849838] [bt_navigator]:  
+[bt_navigator-7]        bt_navigator lifecycle node launched.
+[bt_navigator-7]        Waiting on external lifecycle transitions to activate
+[bt_navigator-7]        See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-7] [INFO] [1641864221.098311686] [bt_navigator]: Creating
+[map_server-1] [INFO] [1641864221.101277151] [map_server]: Configuring
+[map_server-1] [ERROR] [map_io]: Failed processing YAML file map.yaml at position (-1:-1) for reason: bad file
+[map_server-1] [ERROR] [1641864221.101966178] []: Caught exception in callback for transition 10
+[map_server-1] [ERROR] [1641864221.102012452] []: Original error: Failed to load map yaml file: map.yaml
+[map_server-1] [WARN] [1641864221.102074888] []: Error occurred while doing error handling.
+[map_server-1] [FATAL] [1641864221.102224527] [map_server]: Lifecycle node map_server does not have error state implemented
+[map_server-1] [INFO] [map_io]: Loading yaml file: map.yaml
+[lifecycle_manager-3] [ERROR] [1641864221.108313001] [lifecycle_manager_localization]: Failed to change state for node: map_server
+[lifecycle_manager-3] [ERROR] [1641864221.108447344] [lifecycle_manager_localization]: Failed to bring up all requested nodes. Aborting bringup.
+[lifecycle_manager-9] [INFO] [1641864221.114667761] [lifecycle_manager_navigation]: Creating
+[controller_server-4] [INFO] [1641864221.122436738] [controller_server]:  
+[controller_server-4]   controller_server lifecycle node launched.
+[controller_server-4]   Waiting on external lifecycle transitions to activate
+[controller_server-4]   See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-5] [INFO] [1641864221.144816165] [planner_server]: Creating 
+[recoveries_server-6] [INFO] [1641864221.167729507] [recoveries_server]:  
+[recoveries_server-6]   recoveries_server lifecycle node launched.  
+[recoveries_server-6]   Waiting on external lifecycle transitions to activate
+[recoveries_server-6]   See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1641864221.224730559] [controller_server]: Creating controller server 
+[lifecycle_manager-9] [INFO] [1641864221.244072517] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients 
+[lifecycle_manager-9] [INFO] [1641864221.344210258] [lifecycle_manager_navigation]: Starting managed nodes bringup... 
+[lifecycle_manager-9] [INFO] [1641864221.344337433] [lifecycle_manager_navigation]: Configuring controller_server 
+[planner_server-5] [INFO] [1641864221.397997257] [global_costmap.global_costmap]:  
+[planner_server-5]      global_costmap lifecycle node launched.  
+[planner_server-5]      Waiting on external lifecycle transitions to activate
+[planner_server-5]      See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-5] [INFO] [1641864221.403179988] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1641864221.406716395] [local_costmap.local_costmap]:  
+[controller_server-4]   local_costmap lifecycle node launched.
+[controller_server-4]   Waiting on external lifecycle transitions to activate
+[controller_server-4]   See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1641864221.411109037] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1641864221.479906794] [controller_server]: Configuring controller interface 
+[controller_server-4] [INFO] [1641864221.481894897] [controller_server]: Controller frequency set to 10.0000Hz 
+[controller_server-4] [INFO] [1641864221.482022072] [local_costmap.local_costmap]: Configuring
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[controller_server-4] [INFO] [1641864221.516201051] [local_costmap.local_costmap]: Using plugin "static_layer" 
+[controller_server-4] [INFO] [1641864221.529134038] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability 
+[controller_server-4] [INFO] [1641864221.534941633] [local_costmap.local_costmap]: Initialized plugin "static_layer" 
+[controller_server-4] [INFO] [1641864221.535061544] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-4] [INFO] [1641864221.539933443] [local_costmap.local_costmap]: Subscribed to Topics: scan 
+[controller_server-4] [INFO] [1641864221.559967180] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer" 
+[controller_server-4] [INFO] [1641864221.560202041] [local_costmap.local_costmap]: Using plugin "inflation_layer" 
+[controller_server-4] [INFO] [1641864221.564712705] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1641864221.597494236] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker 
+[controller_server-4] [INFO] [1641864221.602659911] [controller_server]: Created goal_checker : goal_checker of type nav2_controller::SimpleGoalChecker 
+[controller_server-4] [INFO] [1641864221.620548386] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner 
+[controller_server-4] [INFO] [1641864221.626159523] [controller_server]: Setting transform_tolerance to 0.200000 
+[controller_server-4] [INFO] [1641864221.681370595] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic) 
+[controller_server-4] [INFO] [1641864221.686087030] [controller_server]: Critic plugin initialized 
+[controller_server-4] [INFO] [1641864221.688046300] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic) 
+[controller_server-4] [INFO] [1641864221.689779957] [controller_server]: Critic plugin initialized 
+[controller_server-4] [INFO] [1641864221.690789385] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic) 
+[controller_server-4] [INFO] [1641864221.693283914] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1641864221.694313215] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1641864221.696574291] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1641864221.697584904] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1641864221.699705685] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1641864221.700700744] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1641864221.702179445] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1641864221.703245004] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1641864221.704710391] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1641864221.704824797] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1641864221.726173898] [lifecycle_manager_navigation]: Configuring planner_server
+[planner_server-5] [INFO] [1641864221.727852545] [planner_server]: Configuring
+[planner_server-5] [INFO] [1641864221.727964743] [global_costmap.global_costmap]: Configuring
+[planner_server-5] [INFO] [1641864221.751876664] [global_costmap.global_costmap]: Using plugin "static_layer" 
+[planner_server-5] [INFO] [1641864221.767753323] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability 
+[planner_server-5] [INFO] [1641864221.771721464] [global_costmap.global_costmap]: Initialized plugin "static_layer" 
+[planner_server-5] [INFO] [1641864221.771835486] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-5] [INFO] [1641864221.776452300] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-5] [INFO] [1641864221.790139118] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer" 
+[planner_server-5] [INFO] [1641864221.790260948] [global_costmap.global_costmap]: Using plugin "voxel_layer" 
+[planner_server-5] [INFO] [1641864221.800080751] [global_costmap.global_costmap]: Subscribed to Topics: pointcloud
+[planner_server-5] [INFO] [1641864221.835943849] [global_costmap.global_costmap]: Initialized plugin "voxel_layer" 
+[planner_server-5] [INFO] [1641864221.836081264] [global_costmap.global_costmap]: Using plugin "inflation_layer" 
+[planner_server-5] [INFO] [1641864221.840223590] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-5] [INFO] [1641864221.868667745] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner 
+[planner_server-5] [INFO] [1641864221.868841834] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-5] [INFO] [1641864221.892323973] [planner_server]: Planner Server has GridBased  planners available. 
+[lifecycle_manager-9] [INFO] [1641864221.916241943] [lifecycle_manager_navigation]: Configuring recoveries_server 
+[recoveries_server-6] [INFO] [1641864221.917957488] [recoveries_server]: Configuring 
+[recoveries_server-6] [INFO] [1641864221.945947732] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin 
+[recoveries_server-6] [INFO] [1641864221.951109790] [recoveries_server]: Configuring spin 
+[recoveries_server-6] [INFO] [1641864221.982418349] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp 
+[recoveries_server-6] [INFO] [1641864221.987598328] [recoveries_server]: Configuring backup 
+[recoveries_server-6] [INFO] [1641864222.013544275] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait 
+[recoveries_server-6] [INFO] [1641864222.018497490] [recoveries_server]: Configuring wait 
+[lifecycle_manager-9] [INFO] [1641864222.037960158] [lifecycle_manager_navigation]: Configuring bt_navigator 
+[bt_navigator-7] [INFO] [1641864222.040411613] [bt_navigator]: Configuring 
+[rviz2-10] [INFO] [1641864222.088248128] [rviz2]: Stereo is NOT SUPPORTED 
+[rviz2-10] [INFO] [1641864222.088830526] [rviz2]: OpenGl version: 4.6 (GLSL 4.6) 
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[rviz2-10] [INFO] [1641864222.159384054] [rviz2]: Stereo is NOT SUPPORTED 
+[bt_navigator-7] [INFO] [1641864222.181548813] [bt_navigator_rclcpp_node]: Waiting for "compute_path_to_pose" action server 
+[bt_navigator-7] [INFO] [1641864222.182360887] [bt_navigator_rclcpp_node]: "ComputePathToPose" BtActionNode initialized 
+[bt_navigator-7] [INFO] [1641864222.186002515] [bt_navigator_rclcpp_node]: Waiting for "global_costmap/clear_entirely_global_costmap" service
+[bt_navigator-7] [INFO] [1641864222.186411272] [bt_navigator_rclcpp_node]: "ClearGlobalCostmap-Context" BtServiceNode initialized
+[bt_navigator-7] [INFO] [1641864222.197044525] [bt_navigator_rclcpp_node]: Waiting for "follow_path" action server 
+[bt_navigator-7] [INFO] [1641864222.197683053] [bt_navigator_rclcpp_node]: "FollowPath" BtActionNode initialized
+[bt_navigator-7] [INFO] [1641864222.201088797] [bt_navigator_rclcpp_node]: Waiting for "local_costmap/clear_entirely_local_costmap" service 
+[bt_navigator-7] [INFO] [1641864222.201625241] [bt_navigator_rclcpp_node]: "ClearLocalCostmap-Context" BtServiceNode initialized
+[bt_navigator-7] [INFO] [1641864222.204078231] [bt_navigator_rclcpp_node]: Waiting for "local_costmap/clear_entirely_local_costmap" service
+[bt_navigator-7] [INFO] [1641864222.204527087] [bt_navigator_rclcpp_node]: "ClearLocalCostmap-Subtree" BtServiceNode initialized
+[bt_navigator-7] [INFO] [1641864222.207059761] [bt_navigator_rclcpp_node]: Waiting for "global_costmap/clear_entirely_global_costmap" service 
+[bt_navigator-7] [INFO] [1641864222.207451973] [bt_navigator_rclcpp_node]: "ClearGlobalCostmap-Subtree" BtServiceNode initialized
+[bt_navigator-7] [INFO] [1641864222.218262003] [bt_navigator_rclcpp_node]: Waiting for "spin" action server 
+[bt_navigator-7] [INFO] [1641864222.218972472] [bt_navigator_rclcpp_node]: "Spin" BtActionNode initialized 
+[bt_navigator-7] [INFO] [1641864222.229442132] [bt_navigator_rclcpp_node]: Waiting for "wait" action server
+[bt_navigator-7] [INFO] [1641864222.230147960] [bt_navigator_rclcpp_node]: "Wait" BtActionNode initialized
+[lifecycle_manager-9] [INFO] [1641864222.241793777] [lifecycle_manager_navigation]: Configuring waypoint_follower 
+[waypoint_follower-8] [INFO] [1641864222.243645712] [waypoint_follower]: Configuring 
+[lifecycle_manager-9] [INFO] [1641864222.339435422] [lifecycle_manager_navigation]: Activating controller_server 
+[controller_server-4] [INFO] [1641864222.340726912] [controller_server]: Activating
+[controller_server-4] [INFO] [1641864222.340845767] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1641864222.340891721] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1641864222.341057137] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [WARN] [1641864222.833036180] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[controller_server-4] [INFO] [1641864222.841155031] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [WARN] [1641864222.859530731] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rviz2-10] [WARN] [1641864222.888730637] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rviz2-10] [INFO] [1641864222.965428418] [rviz2]: Waiting for the lifecycle_manager_navigation/is_active service... 
+[rviz2-10] [INFO] [1641864222.966096292] [rviz2]: Sending lifecycle_manager_navigation/is_active request 
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[rviz2-10] XmbTextListToTextProperty result code -2 
+[rviz2-10] XmbTextListToTextProperty result code -2
+[controller_server-4] [INFO] [1641864223.341199706] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [INFO] [1641864223.792320801] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864222.771 for reason 'Unknown' 
+[controller_server-4] [INFO] [1641864223.841195866] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [INFO] [1641864223.887448716] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864222.871 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864223.966939985] [rviz2]: Waiting for the lifecycle_manager_navigation/is_active service... 
+[rviz2-10] [INFO] [1641864223.967442603] [rviz2]: Sending lifecycle_manager_navigation/is_active request 
+[rviz2-10] [INFO] [1641864223.983561770] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864222.971 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.079361272] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.071 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.176473290] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.171 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.303303000] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.271 for reason 'Unknown' 
+[controller_server-4] [INFO] [1641864224.341183994] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [INFO] [1641864224.400752635] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.371 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.496294939] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.471 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.591984324] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.571 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.687960602] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.671 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.784538160] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.771 for reason 'Unknown' 
+[controller_server-4] [INFO] [1641864224.841191067] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [INFO] [1641864224.879455665] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.871 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864224.969228615] [rviz2]: Waiting for the lifecycle_manager_navigation/is_active service... 
+[rviz2-10] [INFO] [1641864224.969701536] [rviz2]: Sending lifecycle_manager_navigation/is_active request 
+[rviz2-10] [INFO] [1641864224.975514380] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864223.971 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864225.103350926] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864224.071 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864225.199858848] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864224.171 for reason 'Unknown' 
+[rviz2-10] [INFO] [1641864225.295619660] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864224.271 for reason 'Unknown' 
+[controller_server-4] [INFO] [1641864225.341215708] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-10] [INFO] [1641864225.392410605] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1641864224.371 for reason 'Unknown'
+```
+
+```
+nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 topic list 
+/amcl/transition_event 
+/bms_fb
+/bms_flag_fb
+/bt_navigator/transition_event
+/clicked_point 
+/cmd_vel
+/controller_server/transition_event
+/cost_cloud
+/ctrl_cmd
+/ctrl_fb
+/downsampled_costmap
+/downsampled_costmap_updates
+/evaluation
+/global_costmap/clearing_endpoints
+/global_costmap/costmap
+/global_costmap/costmap_raw
+/global_costmap/costmap_updates
+/global_costmap/footprint
+/global_costmap/global_costmap/transition_event
+/global_costmap/published_footprint
+/global_costmap/voxel_grid
+/global_costmap/voxel_marked_cloud
+/goal_pose
+/initialpose
+/io_cmd
+/io_fb
+/joint_states
+/l_wheel_fb
+/local_costmap/costmap
+/local_costmap/costmap_raw
+/local_costmap/costmap_updates
+/local_costmap/footprint
+/local_costmap/local_costmap/transition_event
+/local_costmap/published_footprint
+/local_costmap/voxel_marked_cloud
+/local_plan
+/map
+/map_server/transition_event
+/map_updates
+/marker
+/mobile_base/sensors/bumper_pointcloud
+/odom
+/parameter_events
+/particlecloud
+/plan
+/planner_server/transition_event
+/r_wheel_fb
+/rada1
+/rada2
+/rear_free_ctrl_cmd
+/received_global_plan
+/recoveries_server/transition_event
+/robot_description
+/rosout
+/rslidar_points
+/scan
+/smoother_cmd_vel
+/tf
+/tf_static
+/transformed_global_plan
+/waypoint_follower/transition_event 
+/waypoints
+nvidia@nvidia-desktop:~/workspace/alan/AMR$
+```
