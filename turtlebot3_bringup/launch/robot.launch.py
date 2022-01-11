@@ -29,7 +29,7 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
+#    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
     lidar_pkg_dir = LaunchConfiguration(
         'lidar_pkg_dir',
