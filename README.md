@@ -191,6 +191,7 @@ nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 node list
 /transform_listener_impl_55b8376620
 nvidia@nvidia-desktop:~/workspace/alan/AMR$  
 ```
+![61bbfc2ba5d1cf39e173bca50b26c86](https://user-images.githubusercontent.com/27679222/150268909-d8becc0b-905f-4cd6-8573-f915f096804f.png)
 
 
 # launch the slam
