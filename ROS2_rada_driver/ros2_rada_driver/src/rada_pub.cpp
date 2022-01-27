@@ -73,14 +73,14 @@ class RadaPublisher : public rclcpp::Node
 	    message.crc = (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff;
 
 	    if (message.crc == r_buf[9]) {
-		    RCLCPP_DEBUG(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ", rada.c_str(), r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
-		    RCLCPP_DEBUG(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
+		    //RCLCPP_INFO(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ", rada.c_str(), r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
+		    //RCLCPP_INFO(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
 		    publisher_->publish(message);
 	    }
 	    else {
-		    RCLCPP_DEBUG(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ",rada, r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
-		    RCLCPP_DEBUG(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
-		    RCLCPP_DEBUG(this->get_logger(), "%s CRC Wrong!\n", rada.c_str());
+		    RCLCPP_INFO(this->get_logger()," %s: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x  n: %d ",rada, r_buf[0], r_buf[1], r_buf[2], r_buf[3], r_buf[4], r_buf[5],r_buf[6], r_buf[7], r_buf[8], r_buf[9] ,ret);
+		    RCLCPP_INFO(this->get_logger(),"CRC: %04x\n", (r_buf[0] + r_buf[1] + r_buf[2] + r_buf[3] + r_buf[4] + r_buf[5] + r_buf[6] + r_buf[7] + r_buf[8]) & 0x00ff);
+		    RCLCPP_INFO(this->get_logger(), "%s CRC Wrong!\n", rada.c_str());
 	    }
 	    mutex.unlock();
 
@@ -99,12 +99,12 @@ int main(int argc, char * argv[])
 		rclcpp::init(argc, argv);
 		using SingleThreadedExecutor = rclcpp::executors::SingleThreadedExecutor;
 		SingleThreadedExecutor executor;
-		auto rada1 = std::make_shared<RadaPublisher>("RadaPublisher1", "rada1", "/dev/ttyUSB4");
+		auto rada1 = std::make_shared<RadaPublisher>("RadaPublisher1", "rada1", "/dev/rada1");
 
 		executor.add_node(rada1);
 		std::thread executor_thread(std::bind(&SingleThreadedExecutor::spin, &executor));
 
-		auto rada2 = std::make_shared<RadaPublisher>("RadaPublisher2", "rada2", "/dev/ttyUSB5");
+		auto rada2 = std::make_shared<RadaPublisher>("RadaPublisher2", "rada2", "/dev/rada2");
 		SingleThreadedExecutor executor1;
 		executor1.add_node(rada2);
 
