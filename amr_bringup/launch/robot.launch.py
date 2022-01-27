@@ -48,13 +48,13 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                [ThisLaunchFileDir(), '/turtlebot3_state_publisher.launch.py']),
+                [ThisLaunchFileDir(), '/amr_state_publisher.launch.py']),
             launch_arguments={'use_sim_time': use_sim_time}.items(),
         ),
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
-        ),
+#        IncludeLaunchDescription(
+#            PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
+#        ),
 
         Node(
             package='rslidar_sdk',
@@ -68,6 +68,10 @@ def generate_launch_description():
         Node(
             package='ros2_rada_driver_pub',
             executable='rada_pub',
+            output='screen'),
+        Node(
+            package='fdlink_ahrs',
+            executable='ahrs_driver_node',
             output='screen'),
  
     ])
