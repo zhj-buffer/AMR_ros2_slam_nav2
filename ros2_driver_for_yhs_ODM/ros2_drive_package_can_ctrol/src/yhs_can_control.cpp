@@ -75,7 +75,7 @@ class ros2_drive_package_can_ctrol: public rclcpp::Node
 						io_cmd_sub_ = this->create_subscription<ros2_drive_package_msg::msg::IoCmd>("io_cmd", 5, std::bind(&ros2_drive_package_can_ctrol::io_cmdCallBack, this, std::placeholders::_1));
 						free_ctrl_cmd_sub_ = this->create_subscription<ros2_drive_package_msg::msg::FreeCtrlCmd>("rear_free_ctrl_cmd", 5, std::bind(&ros2_drive_package_can_ctrol::free_ctrl_cmdCallBack, this, std::placeholders::_1));
 
-						cmd_sub_ = this->create_subscription<geometry_msgs::msg::Twist>("smoother_cmd_vel", 5, std::bind(&ros2_drive_package_can_ctrol::cmdCallBack, this, std::placeholders::_1));
+						cmd_sub_ = this->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 5, std::bind(&ros2_drive_package_can_ctrol::cmdCallBack, this, std::placeholders::_1));
 
 						ctrl_fb_pub_ = this->create_publisher<ros2_drive_package_msg::msg::CtrlFb>("ctrl_fb",5);
 						io_fb_pub_ = this->create_publisher<ros2_drive_package_msg::msg::IoFb>("io_fb",5);
@@ -88,7 +88,7 @@ class ros2_drive_package_can_ctrol: public rclcpp::Node
 						odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("odom", 5);
 
 
-						timer_ = this->create_wall_timer(100ms, std::bind(&ros2_drive_package_can_ctrol::timer_callback, this));
+						timer_ = this->create_wall_timer(1ms, std::bind(&ros2_drive_package_can_ctrol::timer_callback, this));
 						//						clock_ = this->get_clock();
 						last_time = this->now();
 
@@ -98,11 +98,12 @@ class ros2_drive_package_can_ctrol: public rclcpp::Node
 						timer_odom_Frame_ = this->create_wall_timer(
 								1000ms, std::bind(&ros2_drive_package_can_ctrol::respond_odom_frame, this));
 
-						this->declare_parameter<std::string>("base_link_frame", "base_link");
+						//this->declare_parameter<std::string>("base_link_frame", "base_link");
+						this->declare_parameter<std::string>("base_link_frame", "base_footprint");
 						timer_base_link_Frame_ = this->create_wall_timer(
 								1000ms, std::bind(&ros2_drive_package_can_ctrol::respond_base_link_frame, this));
 
-						this->declare_parameter<bool>("tfUsed", false);
+						this->declare_parameter<bool>("tfUsed", true);
 						timer_tfUsed_ = this->create_wall_timer(
 								1000ms, std::bind(&ros2_drive_package_can_ctrol::respond_tfUsed, this));
 
@@ -415,11 +416,13 @@ void ros2_drive_package_can_ctrol::free_ctrl_cmdCallBack(const ros2_drive_packag
 //数据接收解析线程
 void ros2_drive_package_can_ctrol::recvData()
 {
+//	RCLCPP_ERROR(this->get_logger(), "recvData()");
 		if(read(dev_handler_, &recv_frames_[0], sizeof(recv_frames_[0])) >= 0)
 		{
 			for(int j=0;j<1;j++)
 			{
 
+	//RCLCPP_ERROR(this->get_logger(), "Frame ID: %x", recv_frames_[0].can_id);
 				switch (recv_frames_[0].can_id)
 				{
 					//
@@ -440,6 +443,8 @@ void ros2_drive_package_can_ctrol::recvData()
 								ctrl_fb_pub_->publish(msg);
 								static int n = 0;
 								odomPub(msg.ctrl_fb_linear,msg.ctrl_fb_angular/180*3.14 * 0.65);
+							} else {
+								RCLCPP_ERROR(this->get_logger(), "ODOM CRC error");
 							}
 
 							break;
@@ -653,7 +658,7 @@ void ros2_drive_package_can_ctrol::odomPub(float linear,float angular)
 	//转换为四元素
 	tf2::Quaternion tf2_quat;
 	tf2_quat.setRPY(0.0, 0.0, th);
-	tf2::toMsg(tf2_quat);
+	//tf2::toMsg(tf2_quat);
 	geometry_msgs::msg::Quaternion odom_quat = tf2::toMsg(tf2_quat);
 
 
@@ -667,6 +672,7 @@ void ros2_drive_package_can_ctrol::odomPub(float linear,float angular)
 	odom_trans.transform.translation.z = 0.0;
 	odom_trans.transform.rotation = odom_quat;
 
+	//std::cout << odom_quat << std::endl;
 	//是否发布tf转换
 	if(tfUsed_)
 		odom_broadcaster->sendTransform(odom_trans);
