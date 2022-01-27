@@ -20,7 +20,6 @@ def generate_launch_description():
             'serial_baud':921600,
             'imu_topic':'/imu',
             'imu_frame_id':'imu_link',
-#            'imu_frame_id':'gyro_link',
             'mag_pose_2d_topic':'/mag_pose_2d',
             'device_type':1}],
         output="screen"

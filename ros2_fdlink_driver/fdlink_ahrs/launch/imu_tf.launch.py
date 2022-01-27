@@ -10,6 +10,7 @@ def generate_launch_description():
         'position_y':1,
         'position_z':1,
         }],
+		output='screen',
     )
 
     launch_description =LaunchDescription([imu_tf])

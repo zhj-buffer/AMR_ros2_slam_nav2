@@ -7,7 +7,7 @@ ahrsBringup::ahrsBringup()
 : rclcpp::Node ("ahrs_bringup")
 {
   //topic_name & frame_id
-  this->declare_parameter("if_debug",false);
+  this->declare_parameter("if_debug", false);
   this->get_parameter("if_debug", if_debug);
 
   this->declare_parameter<std::int8_t>("device_type",1);
@@ -16,7 +16,7 @@ ahrsBringup::ahrsBringup()
   this->declare_parameter<std::string>("imu_topic","/imu");
   this->get_parameter("imu_topic",  imu_topic);
 
-  this->declare_parameter<std::string>("imu_frame_id","gyro_link");
+  this->declare_parameter<std::string>("imu_frame_id","imu_link");
   this->get_parameter("imu_frame_id",   imu_frame_id);
 
   this->declare_parameter<std::string>("mag_pose_2d_topic","/mag_pose_2d");
@@ -35,7 +35,7 @@ ahrsBringup::ahrsBringup()
   // pravite_nh.param("port", serial_port_, std::string("/dev/ttyTHS1")); 
   // pravite_nh.param("baud", serial_baud_, 921600);
   //publisher
-  sleep(50);
+  sleep(1);
   imu_pub_ = create_publisher<sensor_msgs::msg::Imu>(imu_topic, 10);
   mag_pose_pub_ = create_publisher<geometry_msgs::msg::Pose2D>(mag_pose_2d_topic, 10);
   //setp up serial
@@ -58,7 +58,7 @@ ahrsBringup::ahrsBringup()
   }
   if (serial_.isOpen())
   {
-    RCLCPP_ERROR(this->get_logger(),"Serial Port initialized");
+    RCLCPP_INFO(this->get_logger(),"Serial Port initialized");
   }
   else
   {
@@ -373,9 +373,9 @@ void ahrsBringup::processLoop()
         imu_data.angular_velocity.x = ahrs_frame_.frame.data.data_pack.RollSpeed;
         imu_data.angular_velocity.y = -ahrs_frame_.frame.data.data_pack.PitchSpeed;
         imu_data.angular_velocity.z = -ahrs_frame_.frame.data.data_pack.HeadingSpeed;
-        imu_data.linear_acceleration.x = -imu_frame_.frame.data.data_pack.accelerometer_x;
-        imu_data.linear_acceleration.y = imu_frame_.frame.data.data_pack.accelerometer_y;
-        imu_data.linear_acceleration.z = imu_frame_.frame.data.data_pack.accelerometer_z;
+        imu_data.linear_acceleration.x = imu_frame_.frame.data.data_pack.accelerometer_x;
+        imu_data.linear_acceleration.y = -imu_frame_.frame.data.data_pack.accelerometer_y;
+        imu_data.linear_acceleration.z = -imu_frame_.frame.data.data_pack.accelerometer_z;
       }
       imu_pub_->publish(imu_data);
 
