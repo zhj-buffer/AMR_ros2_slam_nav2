@@ -27,7 +27,7 @@ options = {
     {
       action = "min_max_range_filter",
       min_range = 1.,
-      max_range = 60.,
+      max_range = 160.,
     },
     {
       action = "dump_num_points",
