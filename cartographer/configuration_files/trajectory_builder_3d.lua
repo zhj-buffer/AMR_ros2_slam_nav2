@@ -12,7 +12,7 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
-MAX_3D_RANGE = 60.
+MAX_3D_RANGE = 150.
 
 TRAJECTORY_BUILDER_3D = {
   min_range = 1.,

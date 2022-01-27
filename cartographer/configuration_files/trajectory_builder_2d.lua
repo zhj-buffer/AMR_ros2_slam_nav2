@@ -15,7 +15,7 @@
 TRAJECTORY_BUILDER_2D = {
   use_imu_data = true,
   min_range = 0.,
-  max_range = 30.,
+  max_range = 150.,
   min_z = -0.8,
   max_z = 2.,
   missing_data_ray_length = 5.,
@@ -62,7 +62,7 @@ TRAJECTORY_BUILDER_2D = {
   imu_gravity_time_constant = 10.,
 
   submaps = {
-    num_range_data = 90,
+    num_range_data = 160,
     grid_options_2d = {
       grid_type = "PROBABILITY_GRID",
       resolution = 0.05,
