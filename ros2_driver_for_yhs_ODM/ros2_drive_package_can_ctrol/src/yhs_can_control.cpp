@@ -85,12 +85,13 @@ class ros2_drive_package_can_ctrol: public rclcpp::Node
 						bms_flag_fb_pub_ = this->create_publisher<ros2_drive_package_msg::msg::BmsFlagFb>("bms_flag_fb",5);
 
 
+						last_time = this->get_clock()->now();
+						current_time = this->get_clock()->now();
 						odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("odom", 5);
 
 
 						timer_ = this->create_wall_timer(1ms, std::bind(&ros2_drive_package_can_ctrol::timer_callback, this));
 						//						clock_ = this->get_clock();
-						last_time = this->now();
 
 						odom_broadcaster = std::make_shared<tf2_ros::TransformBroadcaster>(this);
 
@@ -640,12 +641,13 @@ void ros2_drive_package_can_ctrol::odomPub(float linear,float angular)
 	static double y = 0.0;
 	static double th = 0.0;
 
+	//last_time = this->now();
 	double vx = linear;
 	double vth = angular;
 
- 	current_time = this->now();
+ 	this->current_time = this->get_clock()->now();
 	//compute odometry in a typical way given the velocities of the robot
-	double dt = (current_time.seconds() - last_time.seconds());
+	double dt = (current_time - last_time).seconds();
 
 	double delta_x = (vx * cos(th)) * dt;
 	double delta_y = (vx * sin(th)) * dt;
@@ -656,42 +658,56 @@ void ros2_drive_package_can_ctrol::odomPub(float linear,float angular)
 	th += delta_th;
 
 	//转换为四元素
+//	RCLCPP_INFO(this->get_logger(), "ODM dt: %lf, vx: %lf, vth: %lf'", dt, vx, vth);
+//	RCLCPP_INFO(this->get_logger(), "ODM dt: %lf, x: %lf, y: %lf, th: %lf'", x, y, th);
+
 	tf2::Quaternion tf2_quat;
 	tf2_quat.setRPY(0.0, 0.0, th);
+
+	//RCLCPP_INFO(this->get_logger(), "ODM RPY: %lf'", th);
 	//tf2::toMsg(tf2_quat);
 	geometry_msgs::msg::Quaternion odom_quat = tf2::toMsg(tf2_quat);
 
 
 	geometry_msgs::msg::TransformStamped odom_trans;
-	odom_trans.header.stamp = current_time;
+	odom_trans.header.stamp = this->current_time;
 	odom_trans.header.frame_id = odomFrame_;
 	odom_trans.child_frame_id = baseFrame_;
 
 	odom_trans.transform.translation.x = x;
 	odom_trans.transform.translation.y = y;
-	odom_trans.transform.translation.z = 0.0;
-	odom_trans.transform.rotation = odom_quat;
+	odom_trans.transform.translation.z = 0;
+	//odom_trans.transform.rotation = odom_quat;
+	odom_trans.transform.rotation.x = tf2_quat.x();
+	odom_trans.transform.rotation.y = tf2_quat.y();
+	odom_trans.transform.rotation.z = tf2_quat.z();
+	odom_trans.transform.rotation.w = tf2_quat.w();
 
 	//std::cout << odom_quat << std::endl;
 	//是否发布tf转换
+//	RCLCPP_INFO(this->get_logger(), "ODM x: %f, y: %f", x, y);
 	if(tfUsed_)
 		odom_broadcaster->sendTransform(odom_trans);
 
 	//next, we'll publish the odometry message over ROS
 	nav_msgs::msg::Odometry odom;
-	odom.header.stamp = current_time;
+	odom.header.stamp = this->current_time;
 	odom.header.frame_id = odomFrame_;
 
 	//set the position
 	odom.pose.pose.position.x = x;
 	odom.pose.pose.position.y = y;
-	odom.pose.pose.position.z = 0.0;
-	odom.pose.pose.orientation = odom_quat;
+	odom.pose.pose.position.z = 0;
+//	odom.pose.pose.orientation = odom_quat;
+	odom.pose.pose.orientation.x = tf2_quat.x();
+	odom.pose.pose.orientation.y = tf2_quat.y();
+	odom.pose.pose.orientation.z = tf2_quat.z();
+	odom.pose.pose.orientation.w = tf2_quat.w();
 
 	//set the velocity
 	odom.child_frame_id = baseFrame_;
 	odom.twist.twist.linear.x = vx;
-	odom.twist.twist.linear.y = 0.0;
+	odom.twist.twist.linear.y = 0;
 	odom.twist.twist.angular.z = vth;
 
 	odom.pose.covariance[0]  = 0.1;   	// x的协方差 
@@ -705,7 +721,7 @@ void ros2_drive_package_can_ctrol::odomPub(float linear,float angular)
 	//publish the message
 	odom_pub_->publish(odom);
 
-	last_time = current_time;
+	this->last_time = this->current_time;
 
 }
 //数据发送线程
