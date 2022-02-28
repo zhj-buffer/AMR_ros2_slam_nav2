@@ -90,7 +90,7 @@ inline void DriverAdapter::init(const YAML::Node& config)
   uint16_t split_frame_mode;
   YAML::Node driver_config = yamlSubNodeAbort(config, "driver");
   yamlReadAbort<int>(config, "msg_source", msg_source);
-  yamlRead<std::string>(driver_config, "frame_id", driver_param.frame_id, "rslidar");
+  yamlRead<std::string>(driver_config, "frame_id", driver_param.frame_id, "point2");
   yamlRead<std::string>(driver_config, "angle_path", driver_param.angle_path, "");
   yamlReadAbort<std::string>(driver_config, "lidar_type", lidar_type);
   yamlRead<bool>(driver_config, "wait_for_difop", driver_param.wait_for_difop, true);

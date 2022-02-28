@@ -21,14 +21,15 @@ lidar:
       start_angle: 0               #Start angle of point cloud
       end_angle: 360               #End angle of point cloud 
       min_distance: 0.2            #Minimum distance of point cloud
-      max_distance: 200            #Maximum distance of point cloud
+      max_distance: 150            #Maximum distance of point cloud
 #      use_vlan: true              #Use vlan or not
       use_lidar_clock: false       #True--Use the lidar clock as the message timestamp
                                    #False-- Use the system clock as the timestamp
     ros:
       ros_recv_packet_topic: /rslidar_packets          #Topic used to receive lidar packets from ROS
       ros_send_packet_topic: /rslidar_packets          #Topic used to send lidar packets through ROS
-      ros_send_point_cloud_topic: /rslidar_points      #Topic used to send point cloud through ROS
+      #ros_send_point_cloud_topic: /rslidar_points      #Topic used to send point cloud through ROS
+      ros_send_point_cloud_topic: /rslidar      #Topic used to send point cloud through ROS
       ros_send_laser_scan_topic: /scan    #Topic used to send laser scan through ROS
       laser_scan_ring: 7
     proto:
