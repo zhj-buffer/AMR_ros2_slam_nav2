@@ -1,0 +1,3 @@
+[submodule "ROS2-driver-for-Realsense/realsense-ros"]
+	path = ROS2-driver-for-Realsense/realsense-ros
+	url = https://github.com/zhj-buffer/ROS2-driver-for-Realsense.git
