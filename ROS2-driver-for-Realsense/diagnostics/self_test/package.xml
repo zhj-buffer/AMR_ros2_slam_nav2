@@ -1,0 +1,30 @@
+<package format="2">
+  <name>self_test</name>
+  <version>2.0.8</version>
+  <description>self_test</description>
+  <author>Kevin Watts</author>
+  <author email="brice.rebsamen@gmail.com">Brice Rebsamen</author>
+  <maintainer email="brice.rebsamen@gmail.com">Brice Rebsamen</maintainer>
+  <maintainer email="namniart@gmail.com">Austin Hendrix</maintainer>
+  <maintainer email="karsten.knese@us.bosch.com">Karsten Knese</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wiki/self_test</url>
+
+  <author>Jeremy Leibs and Blaise Gassend</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>diagnostic_msgs</depend>
+  <depend>diagnostic_updater</depend>
+  <depend>rclcpp</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
