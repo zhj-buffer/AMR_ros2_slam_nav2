@@ -31,29 +31,15 @@ def generate_launch_description():
     cartographer_config_dir = LaunchConfiguration('cartographer_config_dir', default=os.path.join(
                                                   turtlebot3_cartographer_prefix, 'config'))
     configuration_basename = LaunchConfiguration('configuration_basename',
-                                                 default='amr_lds_2d_odom.lua')
+                                                 default='amr_lds_3d.lua')
 
     resolution = LaunchConfiguration('resolution', default='0.05')
     publish_period_sec = LaunchConfiguration('publish_period_sec', default='1.0')
 
     rviz_config_dir = os.path.join(get_package_share_directory('amr_cartographer'),
-         'rviz', 'amr_cartographer_odom.rviz')
-
-#    remappings = [('/camera/depth/color/points', '/points2'),
-#	    ('/rslidar', 'point'),
-#        ]
-
-#        IncludeLaunchDescription(
-#            PythonLaunchDescriptionSource([imu_pkg_dir, '/ahrs_driver.launch.py']),
-#        ),
-
+                                   'rviz', 'amr_cartographer_ODOM.rviz')
 
     return LaunchDescription([
-
-#        IncludeLaunchDescription(
-#            PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/rs_launch.py']),
-#                ),
-
         DeclareLaunchArgument(
             'cartographer_config_dir',
             default_value=cartographer_config_dir,
@@ -74,9 +60,7 @@ def generate_launch_description():
             output='screen',
             parameters=[{'use_sim_time': use_sim_time}],
             arguments=['-configuration_directory', cartographer_config_dir,
-                       '-configuration_basename', configuration_basename],
-#            remappings=remappings,
-        ),
+                       '-configuration_basename', configuration_basename]),
 
         DeclareLaunchArgument(
             'resolution',

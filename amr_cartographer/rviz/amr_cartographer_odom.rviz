@@ -51,7 +51,7 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        base_scan:
+        laser:
           Value: true
         camera_link:
           Value: true
@@ -82,7 +82,7 @@ Visualization Manager:
         map:
           odom:
               base_link:
-                base_scan:
+                laser:
                   {}
                 camera_link:
                   camera_rgb_frame:
