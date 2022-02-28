@@ -29,12 +29,13 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-    urdf_file_name = 'amr.urdf'
+    urdf_file_name = 'amr_scan.urdf'
 
     print("urdf_file_name : {}".format(urdf_file_name))
 
     urdf = os.path.join(
         get_package_share_directory('yhs_chassis_description'),
+        #get_package_share_directory('amr_description'),
         'urdf',
         urdf_file_name)
 
