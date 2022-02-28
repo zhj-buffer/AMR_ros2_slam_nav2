@@ -36,7 +36,7 @@ def generate_launch_description():
             'map',
             'amr_world.yaml'))
 
-    param_file_name = TURTLEBOT3_MODEL + '.yaml'
+    param_file_name = 'amr' + '.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
