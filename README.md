@@ -43,6 +43,9 @@ ros2 launch amr_bring all.launch.py
 
 ![amr](https://user-images.githubusercontent.com/27679222/156326068-f38b1550-f9df-4bf2-a0a9-d893a616b85d.png)
 
+
+https://user-images.githubusercontent.com/27679222/156332766-e67e1201-42a4-4d3f-a563-adaa5572028c.mp4
+
 ```
 nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_bringup robot.launch.py  
 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2022-01-11-08-54-29-668969-nvidia-desktop-18209 
