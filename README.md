@@ -44,9 +44,8 @@ source  ./install/setup.bash
 ros2 launch amr_bring all.launch.py
 ```
 ![40F_map](https://user-images.githubusercontent.com/27679222/156326564-d1ab850e-9176-4f82-98bf-b30a924a4a9f.jpg)
+![image](https://user-images.githubusercontent.com/27679222/156338672-031a6b97-e050-4d34-acde-920506032943.png)
 
-
-![amr](https://user-images.githubusercontent.com/27679222/156326068-f38b1550-f9df-4bf2-a0a9-d893a616b85d.png)
 
 
 https://user-images.githubusercontent.com/27679222/156332766-e67e1201-42a4-4d3f-a563-adaa5572028c.mp4
