@@ -52,7 +52,7 @@
 
 <link name="base_link">
     <visual>
-      <origin xyz="-0.064 0 0.0" rpy="0 0 0"/>
+      <origin xyz="-0.3 -0.2 0.0" rpy="0 0 0"/>
       <geometry>
         <mesh
           filename="package://yhs_chassis_description/meshes/DGT-001M.STL"/>
@@ -60,9 +60,9 @@
 		 <material name="light_black"/>
     </visual>
 	<collision>
-      <origin xyz="-0.064 0 0.047" rpy="0 0 0"/>
+      <origin xyz="-0.3 -0.2 0.0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.266 0.266 0.094"/>
+        <box size="0.6 0.4 0.4"/>
       </geometry>
     </collision>
     
