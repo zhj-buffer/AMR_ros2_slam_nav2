@@ -1,9 +1,6 @@
 # export the ENV
 ```
-source /home/alan/ros2/install/setup.bash
-export DISPLAY=:0
-export ROS_DOMAIN_ID=7
-export TURTLEBOT3_MODEL=waffle
+source  ./install/setup.bash
 ```
 
 
@@ -37,6 +34,12 @@ src/vision_opencv/cv_bridge/CMakeLists.txt
 ```
 
 # launch the robot
+
+```
+ros2 launch amr_bring all.launch.py
+```
+
+![amr](https://user-images.githubusercontent.com/27679222/156326068-f38b1550-f9df-4bf2-a0a9-d893a616b85d.png)
 
 ```
 nvidia@nvidia-desktop:~/workspace/alan/AMR$ ros2 launch amr_bringup robot.launch.py  
