@@ -1,3 +1,0 @@
-[console_scripts]
-nav2_gazebo_spawner = nav2_gazebo_spawner.nav2_gazebo_spawner:main
-

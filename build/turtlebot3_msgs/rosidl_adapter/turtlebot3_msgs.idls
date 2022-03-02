@@ -1,6 +1,0 @@
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Dqn.idl
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl

@@ -1,4 +1,0 @@
-source;share/cartographer_ros_msgs/environment/ament_prefix_path.sh
-source;share/cartographer_ros_msgs/environment/library_path.sh
-source;share/cartographer_ros_msgs/environment/path.sh
-source;share/cartographer_ros_msgs/environment/pythonpath.sh

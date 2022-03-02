@@ -1,9 +1,0 @@
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/install.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/install/strip.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/amr_bringup_uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/install/local.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/test.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/list_install_components.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/edit_cache.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_bringup/CMakeFiles/rebuild_cache.dir

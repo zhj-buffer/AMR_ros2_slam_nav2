@@ -1,9 +1,0 @@
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/install/strip.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/install.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/install/local.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/test.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/list_install_components.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/amr_cartographer_uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/edit_cache.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_cartographer/CMakeFiles/rebuild_cache.dir

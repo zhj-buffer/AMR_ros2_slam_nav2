@@ -1,6 +1,0 @@
-{
-  "package_name": "ros2_rada_msg",
-  "non_idl_tuples": [
-    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_rada_driver/ros2_rada_msg:msg/Rada.msg"
-  ]
-}

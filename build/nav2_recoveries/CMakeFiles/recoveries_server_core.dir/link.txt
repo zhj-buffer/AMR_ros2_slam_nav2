@@ -1,2 +1,0 @@
-/usr/bin/ar qc librecoveries_server_core.a  CMakeFiles/recoveries_server_core.dir/src/recovery_server.cpp.o
-/usr/bin/ranlib librecoveries_server_core.a

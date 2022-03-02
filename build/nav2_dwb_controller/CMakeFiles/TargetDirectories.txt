@@ -1,9 +1,0 @@
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/install/strip.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/install.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/nav2_dwb_controller_uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/install/local.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/test.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/list_install_components.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/uninstall.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/edit_cache.dir
-/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_dwb_controller/CMakeFiles/rebuild_cache.dir

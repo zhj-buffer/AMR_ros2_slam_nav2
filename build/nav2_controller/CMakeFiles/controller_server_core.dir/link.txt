@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcontroller_server_core.a  CMakeFiles/controller_server_core.dir/src/nav2_controller.cpp.o
-/usr/bin/ranlib libcontroller_server_core.a

@@ -1,2 +1,0 @@
-
-cartographer_ros_msgs/StatusResponse status
