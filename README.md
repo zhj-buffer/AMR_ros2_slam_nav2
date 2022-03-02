@@ -38,6 +38,8 @@ src/vision_opencv/cv_bridge/CMakeLists.txt
 ```
 ros2 launch amr_bring all.launch.py
 ```
+![40F_map](https://user-images.githubusercontent.com/27679222/156326564-d1ab850e-9176-4f82-98bf-b30a924a4a9f.jpg)
+
 
 ![amr](https://user-images.githubusercontent.com/27679222/156326068-f38b1550-f9df-4bf2-a0a9-d893a616b85d.png)
 
