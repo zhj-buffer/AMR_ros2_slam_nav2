@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Found FastRTPS: /home/workspace/ros2/install/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.4 (/home/workspace/ros2/install/share/sensor_msgs/cmake)
+-- Found rslidar_msg: 0.0.0 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake)
+-- COMPILING /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_driver_lidar_laserscan/rslidar_sdk-feat_laserscan/src/msg/proto_msg/packet.proto USING /usr/bin/protoc
+-- COMPILING /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_driver_lidar_laserscan/rslidar_sdk-feat_laserscan/src/msg/proto_msg/point_cloud.proto USING /usr/bin/protoc
+-- COMPILING /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_driver_lidar_laserscan/rslidar_sdk-feat_laserscan/src/msg/proto_msg/scan.proto USING /usr/bin/protoc
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.4
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.4)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- FLANN found (include: , lib: flann;flann_cpp)
+-- FLANN found (include: , lib: flann;flann_cpp)
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.21
+-- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found libusb-1.0: /usr/include  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+-- Found PCL_2D: /usr/local/include/pcl-1.9  
+-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.9  
+-- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system date_time regex 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_sdk
+[35m[1mScanning dependencies of target rslidar_sdk_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/point_cloud.pb.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/scan.pb.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/packet.pb.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/adapter_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rslidar_sdk_node[0m
+[100%] Built target rslidar_sdk_node
+-- Install configuration: "RELEASE"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/config
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/config/config.yaml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/package.xml

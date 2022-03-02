@@ -1,0 +1,40 @@
+[0.428s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry -- -j8 -l8
+[0.589s] [ 22%] Built target gtest_main
+[0.623s] [ 44%] Built target gtest
+[0.665s] [ 77%] Built target image_geometry
+[0.792s] [100%] Built target image_geometry-utest
+[0.828s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry -- -j8 -l8
+[1.371s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry
+[1.375s] -- Install configuration: ""
+[1.378s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.380s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[1.382s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry
+[1.383s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py
+[1.384s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py
+[1.502s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry'...
+[1.532s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry
+[1.532s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/visibility_control.hpp
+[1.533s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[1.533s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[1.534s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/libimage_geometry.so
+[1.534s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/library_path.sh
+[1.535s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[1.535s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.535s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.540s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.546s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.547s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/path.sh
+[1.548s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.549s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.bash
+[1.550s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.sh
+[1.551s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.551s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.552s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/package.dsv
+[1.552s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.552s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[1.553s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.553s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.558s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.560s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.560s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/package.xml
+[1.686s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_geometry

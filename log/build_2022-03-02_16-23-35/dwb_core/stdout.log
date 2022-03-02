@@ -1,0 +1,39 @@
+[ 18%] Built target gtest_main
+[ 36%] Built target gtest
+[ 81%] Built target dwb_core
+[100%] Built target utils_test
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/lib/libdwb_core.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/lib/libdwb_core.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/publisher.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/exceptions.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/local_planner_plugin.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_definitions-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_core/share/dwb_core/package.xml

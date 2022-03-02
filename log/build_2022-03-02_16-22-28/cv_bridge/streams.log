@@ -1,0 +1,44 @@
+[0.462s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge -- -j8 -l8
+[0.633s] [ 12%] Built target gtest_main
+[0.660s] [ 25%] Built target gtest
+[0.757s] [ 43%] Built target cv_bridge
+[0.958s] [ 62%] Built target cv_bridge_boost
+[0.980s] [100%] Built target cv_bridge-utest
+[1.030s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge -- -j8 -l8
+[1.329s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge
+[1.362s] -- Install configuration: ""
+[1.363s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[1.364s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[1.364s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/include/cv_bridge
+[1.365s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[1.369s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[1.369s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[1.370s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[1.370s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[1.371s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[1.372s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/path.sh
+[1.374s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[1.376s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/local_setup.bash
+[1.377s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/local_setup.sh
+[1.377s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[1.377s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[1.379s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/package.dsv
+[1.380s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[1.380s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[1.381s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.381s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.384s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[1.384s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[1.385s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[1.386s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/package.xml
+[1.386s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[1.386s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[1.387s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge
+[1.387s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py
+[1.387s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py
+[1.702s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge'...
+[1.702s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost'...
+[1.715s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/libcv_bridge.so
+[1.716s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[1.719s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[1.859s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cv_bridge

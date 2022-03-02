@@ -1,0 +1,79 @@
+[0.077s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_rada_driver/ros2_rada_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub
+[0.395s] -- The C compiler identification is GNU 7.5.0
+[0.668s] -- The CXX compiler identification is GNU 7.5.0
+[0.725s] -- Check for working C compiler: /usr/bin/cc
+[0.922s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.933s] -- Detecting C compiler ABI info
+[1.164s] -- Detecting C compiler ABI info - done
+[1.348s] -- Detecting C compile features
+[1.353s] -- Detecting C compile features - done
+[1.387s] -- Check for working CXX compiler: /usr/bin/c++
+[1.619s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.633s] -- Detecting CXX compiler ABI info
+[1.889s] -- Detecting CXX compiler ABI info - done
+[2.087s] -- Detecting CXX compile features
+[2.094s] -- Detecting CXX compile features - done
+[2.112s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.256s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.312s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[3.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.837s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.188s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.354s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[5.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.810s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[5.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.837s] -- Looking for pthread.h
+[6.051s] -- Looking for pthread.h - found
+[6.054s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.297s] -- Looking for pthread_create in pthreads
+[6.485s] -- Looking for pthread_create in pthreads - not found
+[6.488s] -- Looking for pthread_create in pthread
+[6.784s] -- Looking for pthread_create in pthread - found
+[6.799s] -- Found Threads: TRUE  
+[8.828s] -- Found ros2_rada_msg: 0.0.0 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/share/ros2_rada_msg/cmake)
+[8.925s] -- Found rosidl_default_generators: 1.0.1 (/home/workspace/ros2/install/share/rosidl_default_generators/cmake)
+[9.503s] -- Found Boost: /usr/include (found version "1.65.1") found components: system thread chrono date_time atomic 
+[9.550s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[10.250s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.264s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.272s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_rada_driver/ros2_rada_driver/include
+[10.274s] -- Configured cppcheck exclude dirs and/or files: 
+[10.285s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.287s] -- Configured cpplint exclude dirs and/or files: 
+[10.299s] -- Added test 'lint_cmake' to check CMake code style
+[10.318s] -- Added test 'uncrustify' to check C / C++ code style
+[10.320s] -- Configured uncrustify additional arguments: 
+[10.329s] -- Added test 'xmllint' to check XML markup files
+[10.353s] -- Configuring done
+[10.467s] -- Generating done
+[10.494s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub
+[10.547s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_rada_driver/ros2_rada_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub
+[10.550s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub -- -j8 -l8
+[10.674s] [35m[1mScanning dependencies of target rada_pub[0m
+[10.892s] [ 50%] [32mBuilding CXX object CMakeFiles/rada_pub.dir/src/rada_pub.cpp.o[0m
+[22.132s] [100%] [32m[1mLinking CXX executable rada_pub[0m
+[22.964s] [100%] Built target rada_pub
+[22.984s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub -- -j8 -l8
+[23.082s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub
+[23.112s] -- Install configuration: ""
+[23.118s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/lib/ros2_rada_driver_pub/rada_pub
+[23.125s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/lib/ros2_rada_driver_pub/rada_pub" to ""
+[23.127s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ament_index/resource_index/package_run_dependencies/ros2_rada_driver_pub
+[23.130s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ament_index/resource_index/parent_prefix_path/ros2_rada_driver_pub
+[23.133s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/environment/ament_prefix_path.sh
+[23.135s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/environment/ament_prefix_path.dsv
+[23.138s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/environment/path.sh
+[23.139s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/environment/path.dsv
+[23.140s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/local_setup.bash
+[23.140s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/local_setup.sh
+[23.141s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/local_setup.zsh
+[23.143s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/local_setup.dsv
+[23.144s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/package.dsv
+[23.144s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ament_index/resource_index/packages/ros2_rada_driver_pub
+[23.145s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/cmake/ros2_rada_driver_pubConfig.cmake
+[23.146s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/cmake/ros2_rada_driver_pubConfig-version.cmake
+[23.146s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_driver_pub/share/ros2_rada_driver_pub/package.xml
+[23.161s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_rada_msg/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_driver_pub

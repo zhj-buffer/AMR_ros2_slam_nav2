@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/home/workspace/ros2/install/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_description
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/urdf
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_description/share/turtlebot3_description/package.xml

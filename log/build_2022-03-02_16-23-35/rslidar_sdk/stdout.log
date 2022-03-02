@@ -1,0 +1,27 @@
+[100%] Built target rslidar_sdk_node
+-- Install configuration: "RELEASE"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/config
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/config/config.yaml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_sdk/share/rslidar_sdk/package.xml

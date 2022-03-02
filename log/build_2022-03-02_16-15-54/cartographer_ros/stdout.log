@@ -1,0 +1,43 @@
+[  0%] Built target cartographer_ros_detect_changes
+[ 68%] Built target cartographer_ros
+[ 78%] Built target pbstream_to_ros_map_node
+[ 89%] Built target cartographer_node
+[100%] Built target occupancy_grid_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/lib/libcartographer_ros.a
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/package.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/share/cartographer_ros/package.xml
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/lib/cartographer_ros/occupancy_grid_node
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer_ros/lib/cartographer_ros/pbstream_to_ros_map_node

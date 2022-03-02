@@ -1,0 +1,2 @@
+source;share/perception_pcl/environment/ament_prefix_path.sh
+source;share/perception_pcl/environment/path.sh

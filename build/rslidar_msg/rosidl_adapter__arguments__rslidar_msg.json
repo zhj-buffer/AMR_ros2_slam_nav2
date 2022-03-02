@@ -1,0 +1,7 @@
+{
+  "package_name": "rslidar_msg",
+  "non_idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_driver_lidar_laserscan/rslidar_msg:msg/RslidarPacket.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2_driver_lidar_laserscan/rslidar_msg:msg/RslidarScan.msg"
+  ]
+}

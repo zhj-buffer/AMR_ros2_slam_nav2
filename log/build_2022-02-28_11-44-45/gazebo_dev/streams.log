@@ -1,0 +1,43 @@
+[0.194s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/gazebo_ros_pkgs/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev
+[0.559s] -- The C compiler identification is GNU 7.5.0
+[0.972s] -- The CXX compiler identification is GNU 7.5.0
+[1.043s] -- Check for working C compiler: /usr/bin/cc
+[1.273s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.283s] -- Detecting C compiler ABI info
+[1.518s] -- Detecting C compiler ABI info - done
+[1.779s] -- Detecting C compile features
+[1.785s] -- Detecting C compile features - done
+[1.823s] -- Check for working CXX compiler: /usr/bin/c++
+[2.089s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.102s] -- Detecting CXX compiler ABI info
+[2.418s] -- Detecting CXX compiler ABI info - done
+[2.654s] -- Detecting CXX compile features
+[2.661s] -- Detecting CXX compile features - done
+[2.678s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.802s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.803s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.226s] -- Configuring done
+[4.240s] -- Generating done
+[4.248s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev
+[4.270s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev' returned '0': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/gazebo_ros_pkgs/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev
+[4.275s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev -- -j8 -l8
+[4.351s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev' returned '0': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev -- -j8 -l8
+[4.435s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev
+[4.461s] -- Install configuration: ""
+[4.462s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[4.463s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[4.464s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[4.465s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[4.466s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[4.466s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[4.467s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[4.468s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[4.469s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[4.469s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[4.470s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/package.dsv
+[4.471s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[4.472s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[4.472s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[4.477s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[4.490s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/gazebo_dev/share/gazebo_dev/package.xml
+[4.491s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev' returned '0': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/gazebo_dev

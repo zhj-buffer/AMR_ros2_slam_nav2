@@ -1,0 +1,206 @@
+[0.074s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros
+[0.458s] -- The C compiler identification is GNU 7.5.0
+[0.740s] -- The CXX compiler identification is GNU 7.5.0
+[0.791s] -- Check for working C compiler: /usr/bin/cc
+[0.990s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.007s] -- Detecting C compiler ABI info
+[1.252s] -- Detecting C compiler ABI info - done
+[1.489s] -- Detecting C compile features
+[1.495s] -- Detecting C compile features - done
+[1.534s] -- Check for working CXX compiler: /usr/bin/c++
+[1.770s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.780s] -- Detecting CXX compiler ABI info
+[2.054s] -- Detecting CXX compiler ABI info - done
+[2.251s] -- Detecting CXX compile features
+[2.255s] -- Detecting CXX compile features - done
+[2.344s] -- Checking for module 'eigen3'
+[2.421s] --   Found eigen3, version 3.3.4
+[2.541s] -- Found Eigen: /usr/include/eigen3  
+[2.541s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.4)
+[4.086s] -- Checking for module 'flann'
+[4.183s] --   Found flann, version 1.9.1
+[4.328s] -- FLANN found (include: , lib: flann;flann_cpp)
+[4.375s] -- FLANN found (include: , lib: flann;flann_cpp)
+[5.121s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.122s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.122s] but this file does not exist.  Possible reasons include:
+[5.123s] * The file was deleted, renamed, or moved to another location.
+[5.123s] * An install or uninstall procedure did not complete successfully.
+[5.123s] * The installation package was faulty and contained
+[5.124s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[5.124s] but not all the files it references.
+[5.125s] 
+[5.127s] -- The imported target "vtk" references the file
+[5.127s]    "/usr/bin/vtk"
+[5.128s] but this file does not exist.  Possible reasons include:
+[5.128s] * The file was deleted, renamed, or moved to another location.
+[5.128s] * An install or uninstall procedure did not complete successfully.
+[5.129s] * The installation package was faulty and contained
+[5.129s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[5.130s] but not all the files it references.
+[5.130s] 
+[5.765s] -- Checking for module 'libusb-1.0'
+[5.844s] --   Found libusb-1.0, version 1.0.21
+[5.989s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[6.206s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.480s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[6.818s] -- Found libusb-1.0: /usr/include  
+[6.868s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.922s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[7.348s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[7.349s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[7.358s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[7.366s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[7.374s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[7.384s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[7.392s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[7.402s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[7.410s] -- Found PCL_2D: /usr/local/include/pcl-1.9  
+[7.419s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.9  
+[7.428s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[7.440s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[7.452s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[7.462s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[7.475s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[7.490s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[7.501s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[7.514s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[7.527s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[7.537s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[7.551s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[7.562s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[7.575s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[7.604s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[7.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[7.729s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.734s] -- Found pcl_conversions: 2.4.0 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions/share/pcl_conversions/cmake)
+[9.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.106s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[9.480s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[9.619s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[10.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.618s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[14.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.662s] -- Found Threads: TRUE  
+[16.807s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[16.935s] -- Found tf2_geometry_msgs: 0.13.12 (/home/workspace/ros2/install/share/tf2_geometry_msgs/cmake)
+[17.026s] -- Found eigen3_cmake_module: 0.1.1 (/home/workspace/ros2/install/share/eigen3_cmake_module/cmake)
+[17.040s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[22.329s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[23.127s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.161s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/perception_pcl/pcl_ros/include
+[23.162s] -- Configured cppcheck exclude dirs and/or files: 
+[23.188s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.189s] -- Configured cpplint exclude dirs and/or files: 
+[23.199s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.210s] -- Added test 'lint_cmake' to check CMake code style
+[23.219s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.246s] -- Added test 'uncrustify' to check C / C++ code style
+[23.246s] -- Configured uncrustify additional arguments: 
+[23.255s] -- Added test 'xmllint' to check XML markup files
+[23.306s] -- Configuring done
+[23.756s] -- Generating done
+[23.776s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros
+[23.860s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros
+[23.864s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros -- -j8 -l8
+[23.973s] [35m[1mScanning dependencies of target pcl_ros_tf[0m
+[24.506s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[65.325s] [100%] [32m[1mLinking CXX static library libpcl_ros_tf.a[0m
+[65.470s] [100%] Built target pcl_ros_tf
+[65.496s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros -- -j8 -l8
+[65.598s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros
+[65.645s] -- Install configuration: ""
+[65.647s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include
+[65.649s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros
+[65.650s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/pcl_nodelet.hpp
+[65.652s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/publisher.hpp
+[65.654s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/transforms.hpp
+[65.656s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters
+[65.657s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/crop_box.hpp
+[65.660s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/filter.hpp
+[65.662s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/statistical_outlier_removal.hpp
+[65.663s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/passthrough.hpp
+[65.666s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/voxel_grid.hpp
+[65.667s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/extract_indices.hpp
+[65.669s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/radius_outlier_removal.hpp
+[65.670s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/filters/project_inliers.hpp
+[65.672s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/io
+[65.673s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/io/pcd_io.hpp
+[65.674s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/io/concatenate_fields.hpp
+[65.676s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/io/concatenate_data.hpp
+[65.677s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/io/bag_io.hpp
+[65.678s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/point_cloud.hpp
+[65.680s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/segmentation
+[65.681s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/segmentation/extract_clusters.hpp
+[65.683s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/segmentation/sac_segmentation.hpp
+[65.684s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/segmentation/segment_differences.hpp
+[65.685s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[65.687s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features
+[65.689s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/pfh.hpp
+[65.690s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/moment_invariants.hpp
+[65.692s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/boundary.hpp
+[65.693s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/normal_3d.hpp
+[65.695s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/feature.hpp
+[65.696s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/principal_curvatures.hpp
+[65.697s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/shot_omp.hpp
+[65.699s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/normal_3d_omp.hpp
+[65.700s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/vfh.hpp
+[65.710s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/fpfh_omp.hpp
+[65.710s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/shot.hpp
+[65.711s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/normal_3d_tbb.hpp
+[65.711s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/features/fpfh.hpp
+[65.711s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/impl
+[65.712s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/impl/transforms.hpp
+[65.713s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/surface
+[65.714s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/surface/moving_least_squares.hpp
+[65.714s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/include/pcl_ros/surface/convex_hull.hpp
+[65.715s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/lib/libpcl_ros_tf.a
+[65.719s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins
+[65.720s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet
+[65.721s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[65.723s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[65.724s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[65.725s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[65.726s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[65.727s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples
+[65.730s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros
+[65.731s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters
+[65.732s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config
+[65.733s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[65.734s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[65.736s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[65.737s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[65.738s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io
+[65.740s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[65.741s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation
+[65.742s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[65.743s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features
+[65.744s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[65.745s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface
+[65.746s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[65.747s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/data
+[65.748s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[65.751s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[65.752s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[65.754s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[65.757s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[65.763s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[65.765s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[65.767s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/path.sh
+[65.769s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[65.771s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/local_setup.bash
+[65.773s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/local_setup.sh
+[65.774s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[65.776s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[65.778s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/package.dsv
+[65.780s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[65.783s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[65.785s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+[65.786s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.789s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[65.791s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.793s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[65.795s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[65.796s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[65.798s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_ros/share/pcl_ros/package.xml
+[65.811s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_conversions:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/pcl_ros

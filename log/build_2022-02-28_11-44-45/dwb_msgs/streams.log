@@ -1,0 +1,453 @@
+[0.071s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs
+[0.450s] -- The C compiler identification is GNU 7.5.0
+[0.810s] -- The CXX compiler identification is GNU 7.5.0
+[0.889s] -- Check for working C compiler: /usr/bin/cc
+[1.098s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.114s] -- Detecting C compiler ABI info
+[1.337s] -- Detecting C compiler ABI info - done
+[1.529s] -- Detecting C compile features
+[1.534s] -- Detecting C compile features - done
+[1.572s] -- Check for working CXX compiler: /usr/bin/c++
+[1.800s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.814s] -- Detecting CXX compiler ABI info
+[2.061s] -- Detecting CXX compiler ABI info - done
+[2.251s] -- Detecting CXX compile features
+[2.260s] -- Detecting CXX compile features - done
+[2.272s] -- Found builtin_interfaces: 1.0.0 (/home/workspace/ros2/install/share/builtin_interfaces/cmake)
+[2.395s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.727s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.133s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.304s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[5.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.650s] -- Found geometry_msgs: 2.0.4 (/home/workspace/ros2/install/share/geometry_msgs/cmake)
+[6.511s] -- Found nav_2d_msgs: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[7.434s] -- Found nav_msgs: 2.0.4 (/home/workspace/ros2/install/share/nav_msgs/cmake)
+[8.343s] -- Found rosidl_default_generators: 1.0.1 (/home/workspace/ros2/install/share/rosidl_default_generators/cmake)
+[8.608s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[11.863s] -- Found ament_cmake_ros: 0.9.2 (/home/workspace/ros2/install/share/ament_cmake_ros/cmake)
+[16.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.760s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[19.766s] -- Found python_cmake_module: 0.8.1 (/home/workspace/ros2/install/share/python_cmake_module/cmake)
+[19.902s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[19.903s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.904s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[19.905s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[20.012s] -- Found PythonExtra: .so  
+[21.443s] -- Configuring done
+[22.289s] -- Generating done
+[22.308s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs
+[22.348s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs
+[22.351s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs -- -j8 -l8
+[22.474s] [35m[1mScanning dependencies of target dwb_msgs__cpp[0m
+[22.499s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[26.335s] [  1%] Built target dwb_msgs__cpp
+[26.360s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.212s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_generator_c[0m
+[30.282s] [  3%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[30.397s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[30.542s] [  5%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[30.696s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[30.840s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[30.985s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[31.123s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[31.239s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[31.357s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[31.475s] [ 12%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[31.584s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[31.609s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[34.581s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_introspection_cpp[0m
+[34.676s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[35.500s] [ 15%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[36.487s] [ 16%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[37.460s] [ 17%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[38.335s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[39.263s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[40.193s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[41.139s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[42.131s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[43.263s] [ 24%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[43.493s] [ 24%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[43.519s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[46.017s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_c[0m
+[46.078s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[46.166s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[46.262s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[46.356s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[46.454s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[46.551s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[46.641s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[46.725s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[46.806s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[46.891s] [ 35%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[46.986s] [ 35%] Built target dwb_msgs__rosidl_typesupport_c
+[47.011s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[50.238s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_introspection_c[0m
+[50.349s] [ 37%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[50.441s] [ 38%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[50.551s] [ 40%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[50.659s] [ 41%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[50.775s] [ 42%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[50.888s] [ 43%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[50.998s] [ 44%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[51.101s] [ 45%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[51.212s] [ 46%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[51.327s] [ 47%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[51.420s] [ 47%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[51.445s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[53.899s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_cpp[0m
+[53.984s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[54.790s] [ 50%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[55.597s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[56.355s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[57.158s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[57.930s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[58.717s] [ 55%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[59.497s] [ 56%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[60.317s] [ 57%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[61.116s] [ 58%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[61.222s] [ 58%] Built target dwb_msgs__rosidl_typesupport_cpp
+[61.244s] [ 60%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[64.711s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[64.842s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[66.038s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[67.273s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[68.621s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[69.901s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[71.148s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[72.377s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[73.741s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[75.227s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[76.794s] [ 70%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[77.069s] [ 70%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[77.092s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[80.586s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c[0m
+[80.833s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[81.916s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[83.119s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[84.245s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[85.382s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[86.504s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[87.544s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[88.602s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[89.683s] [ 81%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[90.783s] [ 82%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[90.988s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[91.008s] [35m[1mScanning dependencies of target dwb_msgs[0m
+[91.045s] [ 82%] Built target dwb_msgs
+[91.072s] [35m[1mScanning dependencies of target dwb_msgs__py[0m
+[91.095s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[97.368s] [ 83%] Built target dwb_msgs__py
+[97.387s] [35m[1mScanning dependencies of target dwb_msgs__python[0m
+[97.587s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[97.880s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[98.177s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[98.478s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[98.767s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[99.054s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[99.374s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[99.697s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[100.012s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__python.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[100.319s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__python.so[0m
+[100.438s] [ 93%] Built target dwb_msgs__python
+[100.458s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[100.563s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[101.023s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[101.121s] [ 95%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[101.139s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_c__pyext[0m
+[101.227s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[101.691s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[101.783s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[101.803s] [35m[1mScanning dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[101.926s] [ 98%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[102.386s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[102.559s] [100%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[102.582s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs -- -j8 -l8
+[103.273s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs
+[103.299s] -- Install configuration: ""
+[103.300s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[103.302s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.303s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.303s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.h
+[103.304s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.h
+[103.304s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.h
+[103.305s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.306s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__functions.h
+[103.306s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[103.307s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[103.308s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[103.308s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[103.309s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.h
+[103.310s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__functions.c
+[103.310s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__functions.c
+[103.311s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[103.312s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.h
+[103.312s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[103.313s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.h
+[103.314s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__functions.c
+[103.314s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[103.315s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[103.316s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[103.316s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__functions.h
+[103.317s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.h
+[103.317s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__functions.h
+[103.320s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[103.320s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.h
+[103.321s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.h
+[103.321s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.324s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.h
+[103.326s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.328s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[103.329s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[103.329s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__functions.c
+[103.330s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.h
+[103.330s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[103.330s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[103.331s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[103.331s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.h
+[103.332s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.h
+[103.332s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[103.333s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__functions.h
+[103.334s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__functions.h
+[103.342s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[103.343s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__functions.c
+[103.344s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[103.345s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[103.346s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/critic_score.h
+[103.347s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.h
+[103.347s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[103.348s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.h
+[103.348s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[103.348s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[103.349s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[103.349s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[103.350s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.350s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.351s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.351s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[103.351s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[103.352s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[103.352s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[103.353s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[103.353s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.353s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.356s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[103.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[103.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[103.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[103.358s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[103.358s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[103.359s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[103.360s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.360s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.360s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.361s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[103.361s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[103.361s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/dds_fastrtps
+[103.362s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[103.362s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[103.362s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[103.363s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.364s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.365s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[103.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[103.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/dds_fastrtps
+[103.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[103.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[103.367s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[103.367s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[103.368s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[103.369s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.369s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.370s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.370s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[103.371s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.c
+[103.371s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[103.372s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[103.372s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[103.372s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[103.373s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[103.373s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[103.374s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[103.374s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[103.374s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.374s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.375s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[103.375s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[103.376s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[103.376s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[103.376s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[103.377s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[103.377s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[103.379s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.c
+[103.379s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[103.380s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[103.380s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[103.380s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[103.381s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[103.381s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.381s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.382s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.hpp
+[103.382s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.hpp
+[103.382s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.hpp
+[103.383s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.hpp
+[103.383s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.383s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[103.384s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[103.384s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[103.384s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[103.385s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[103.385s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[103.385s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[103.386s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[103.386s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[103.386s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[103.387s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[103.387s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[103.387s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[103.387s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[103.388s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[103.388s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.hpp
+[103.389s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.389s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.389s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[103.390s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[103.390s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[103.390s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__traits.hpp
+[103.390s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[103.391s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__builder.hpp
+[103.391s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[103.391s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[103.391s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[103.392s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.hpp
+[103.392s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[103.392s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[103.392s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/critic_score.hpp
+[103.393s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.hpp
+[103.393s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.hpp
+[103.393s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.hpp
+[103.394s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs
+[103.394s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv
+[103.394s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail
+[103.395s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[103.395s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[103.395s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[103.395s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[103.396s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[103.396s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[103.396s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[103.396s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[103.397s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[103.397s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[103.397s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg
+[103.398s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail
+[103.398s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[103.398s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[103.398s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[103.399s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[103.399s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[103.399s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[103.399s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[103.401s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[103.401s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[103.402s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[103.402s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[103.402s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[103.403s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[103.403s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[103.403s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/__init__.py
+[103.514s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/__init__.py'...
+[103.529s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg
+[103.530s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/__init__.py
+[103.530s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[103.531s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[103.532s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_critic_score.py
+[103.532s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[103.533s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_trajectory_score.py
+[103.533s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_critic_score_s.c
+[103.534s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[103.534s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[103.535s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv
+[103.536s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[103.538s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[103.539s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/__init__.py
+[103.539s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[103.541s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[103.541s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_get_critic_score.py
+[103.543s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_generate_twists.py
+[103.544s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[103.545s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[103.548s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_score_trajectory.py
+[103.550s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[103.553s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[103.558s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[103.560s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[103.564s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[103.566s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[103.569s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/python3.6/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[103.570s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__python.so
+[103.573s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/lib/libdwb_msgs__python.so" to ""
+[103.574s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[103.575s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[103.576s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[103.577s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[103.578s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[103.579s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[103.580s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[103.582s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[103.583s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[103.584s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[103.586s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[103.586s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[103.587s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[103.588s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[103.588s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[103.589s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[103.590s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[103.591s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[103.592s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[103.595s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[103.595s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[103.596s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[103.596s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[103.599s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[103.599s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[103.600s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[103.600s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[103.601s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[103.602s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[103.602s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[103.603s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[103.604s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[103.605s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[103.605s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[103.606s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[103.607s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[103.608s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[103.609s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[103.610s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/package.dsv
+[103.611s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[103.612s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport.cmake
+[103.613s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[103.614s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[103.616s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[103.617s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[103.621s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[103.622s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cppExport.cmake
+[103.622s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[103.623s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[103.623s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[103.623s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[103.624s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[103.625s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.626s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[103.627s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[103.628s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.628s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[103.629s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[103.630s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[103.630s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[103.631s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_msgs/share/dwb_msgs/package.xml
+[103.648s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav_2d_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dwb_msgs

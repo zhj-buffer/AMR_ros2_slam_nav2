@@ -1,0 +1,130 @@
+[0.080s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs
+[0.398s] -- The C compiler identification is GNU 7.5.0
+[0.690s] -- The CXX compiler identification is GNU 7.5.0
+[0.762s] -- Check for working C compiler: /usr/bin/cc
+[0.983s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.994s] -- Detecting C compiler ABI info
+[1.228s] -- Detecting C compiler ABI info - done
+[1.404s] -- Detecting C compile features
+[1.409s] -- Detecting C compile features - done
+[1.441s] -- Check for working CXX compiler: /usr/bin/c++
+[1.689s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.710s] -- Detecting CXX compiler ABI info
+[2.005s] -- Detecting CXX compiler ABI info - done
+[2.242s] -- Detecting CXX compile features
+[2.253s] -- Detecting CXX compile features - done
+[2.292s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.426s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.427s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.522s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[3.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.059s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.468s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.654s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[5.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.154s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[6.175s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.184s] -- Looking for pthread.h
+[6.407s] -- Looking for pthread.h - found
+[6.410s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.631s] -- Looking for pthread_create in pthreads
+[6.832s] -- Looking for pthread_create in pthreads - not found
+[6.836s] -- Looking for pthread_create in pthread
+[7.077s] -- Looking for pthread_create in pthread - found
+[7.098s] -- Found Threads: TRUE  
+[9.207s] -- Found rclpy: 1.0.7 (/home/workspace/ros2/install/share/rclpy/cmake)
+[9.213s] -- Found sensor_msgs: 2.0.4 (/home/workspace/ros2/install/share/sensor_msgs/cmake)
+[10.648s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[10.781s] -- Found tf2_ros: 0.13.12 (/home/workspace/ros2/install/share/tf2_ros/cmake)
+[14.620s] -- Found serial: 1.2.1 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake)
+[14.685s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[15.462s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.475s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.488s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/include;/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src
+[15.489s] -- Configured cppcheck exclude dirs and/or files: 
+[15.503s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.505s] -- Configured cpplint exclude dirs and/or files: 
+[15.513s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.523s] -- Added test 'lint_cmake' to check CMake code style
+[15.531s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[15.541s] -- Added test 'uncrustify' to check C / C++ code style
+[15.543s] -- Configured uncrustify additional arguments: 
+[15.551s] -- Added test 'xmllint' to check XML markup files
+[15.572s] -- Configuring done
+[15.795s] -- Generating done
+[15.812s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs
+[15.874s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs
+[15.881s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs -- -j8 -l8
+[15.979s] [35m[1mScanning dependencies of target ahrs_driver_node[0m
+[16.477s] [ 20%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m
+[23.761s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:[m[K In member function ‘[01m[Kvoid FDILink::ahrsBringup::processLoop()[m[K’:
+[23.762s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:134:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_sn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[23.762s]        size_t [01;35m[Kground_sn_s[m[K = serial_.read(ground_sn, 1);
+[23.763s]               [01;35m[K^~~~~~~~~~~[m[K
+[23.763s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:157:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_ignore_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[23.764s]        size_t [01;35m[Kground_ignore_s[m[K = serial_.read(ground_ignore, (check_len[0]+4));
+[23.764s]               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[23.787s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:247:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[23.788s]        size_t [01;35m[Kdata_s[m[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1
+[23.788s]               [01;35m[K^~~~~~[m[K
+[23.798s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:282:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[23.798s]        size_t [01;35m[Kdata_s[m[K = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1
+[23.799s]               [01;35m[K^~~~~~[m[K
+[23.801s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:314:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[23.802s]        size_t [01;35m[Kdata_s[m[K = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1
+[23.803s]               [01;35m[K^~~~~~[m[K
+[24.055s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:348:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_xiao_rr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[24.056s]        Eigen::Quaterniond [01;35m[Kq_xiao_rr[m[K =
+[24.056s]                           [01;35m[K^~~~~~~~~[m[K
+[24.058s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:103:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.059s]      size_t [01;35m[Ktype_s[m[K = serial_.read(head_type, 1);
+[24.059s]             [01;35m[K^~~~~~[m[K
+[24.060s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:114:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.060s]      size_t [01;35m[Klen_s[m[K = serial_.read(check_len, 1);
+[24.061s]             [01;35m[K^~~~~[m[K
+[24.061s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:162:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.061s]      size_t [01;35m[Ksn_s[m[K = serial_.read(check_sn, 1);
+[24.062s]             [01;35m[K^~~~[m[K
+[24.062s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:164:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc8_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.063s]      size_t [01;35m[Kcrc8_s[m[K = serial_.read(head_crc8, 1);
+[24.063s]             [01;35m[K^~~~~~[m[K
+[24.063s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:167:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_H_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.064s]      size_t [01;35m[Kcrc16_H_s[m[K = serial_.read(head_crc16_H, 1);
+[24.064s]             [01;35m[K^~~~~~~~~[m[K
+[24.065s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_fdlink_driver/fdlink_ahrs/src/ahrs_driver.cpp:168:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_L_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.065s]      size_t [01;35m[Kcrc16_L_s[m[K = serial_.read(head_crc16_L, 1);
+[24.065s]             [01;35m[K^~~~~~~~~[m[K
+[32.597s] [ 40%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/crc_table.cpp.o[0m
+[33.291s] [ 60%] [32m[1mLinking CXX executable ahrs_driver_node[0m
+[34.285s] [ 60%] Built target ahrs_driver_node
+[34.305s] [35m[1mScanning dependencies of target imu_tf_node[0m
+[34.573s] [ 80%] [32mBuilding CXX object CMakeFiles/imu_tf_node.dir/src/imu_tf.cpp.o[0m
+[54.305s] [100%] [32m[1mLinking CXX executable imu_tf_node[0m
+[55.668s] [100%] Built target imu_tf_node
+[55.698s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs -- -j8 -l8
+[55.816s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs
+[55.848s] -- Install configuration: ""
+[55.849s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/ahrs_driver_node
+[55.854s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/ahrs_driver_node" to ""
+[55.855s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/imu_tf_node
+[55.865s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/imu_tf_node" to ""
+[55.866s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch
+[55.868s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch/ahrs_driver.launch.py
+[55.868s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch/imu_tf.launch.py
+[55.869s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdlink_ahrs
+[55.870s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdlink_ahrs
+[55.872s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/ament_prefix_path.sh
+[55.872s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/ament_prefix_path.dsv
+[55.874s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/path.sh
+[55.875s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/path.dsv
+[55.875s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.bash
+[55.876s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.sh
+[55.877s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.zsh
+[55.877s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.dsv
+[55.878s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/package.dsv
+[55.879s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/packages/fdlink_ahrs
+[55.880s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/cmake/fdlink_ahrsConfig.cmake
+[55.881s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/cmake/fdlink_ahrsConfig-version.cmake
+[55.882s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/package.xml
+[55.893s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/fdlink_ahrs

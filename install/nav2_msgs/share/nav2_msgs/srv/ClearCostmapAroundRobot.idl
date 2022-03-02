@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nav2_msgs/srv/ClearCostmapAroundRobot.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module nav2_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Clears the costmap within a window around the robot")
+    struct ClearCostmapAroundRobot_Request {
+      float window_size_x;
+
+      float window_size_y;
+    };
+    struct ClearCostmapAroundRobot_Response {
+      std_msgs::msg::Empty response;
+    };
+  };
+};

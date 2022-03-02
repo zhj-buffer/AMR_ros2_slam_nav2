@@ -1,0 +1,45 @@
+[0.243s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description -- -j8 -l8
+[0.489s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description -- -j8 -l8
+[0.645s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description
+[0.657s] -- Install configuration: ""
+[0.658s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes
+[0.660s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/DGT-001L.STL
+[0.660s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/FR-07PRO.STL
+[0.661s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/FW-001.STL
+[0.661s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/VLP16_base_1.stl
+[0.663s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/FB-001.STL
+[0.663s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/DGT-001mini.STL
+[0.663s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/VLP16_base_1.dae
+[0.664s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/wheels
+[0.664s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/wheels/left_tire.stl
+[0.665s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/wheels/right_tire.stl
+[0.665s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/DGT-001M.STL
+[0.665s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/MID-001.STL
+[0.669s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/DGT001S.STL
+[0.670s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/DGT-001S.STL
+[0.671s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/meshes/FR-09PRO.STL
+[0.685s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf
+[0.685s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/test.urdf
+[0.686s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/.gitkeep
+[0.686s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/amr.urdf
+[0.686s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/yhs_dgt001m.urdf
+[0.687s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/sam_bot_description.urdf
+[0.687s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/urdf/amr.urdf.bak
+[0.687s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/rviz
+[0.687s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/rviz/urdf.rviz
+[0.688s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[0.688s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[0.689s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[0.689s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[0.690s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/environment/path.sh
+[0.692s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/environment/path.dsv
+[0.692s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/local_setup.bash
+[0.692s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/local_setup.sh
+[0.693s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/local_setup.zsh
+[0.693s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/local_setup.dsv
+[0.694s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/package.dsv
+[0.694s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[0.694s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[0.694s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[0.695s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/amr_description/share/amr_description/package.xml
+[0.695s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/amr_description

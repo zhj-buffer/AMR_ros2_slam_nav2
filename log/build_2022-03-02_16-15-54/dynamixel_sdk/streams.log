@@ -1,0 +1,41 @@
+[0.361s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk -- -j8 -l8
+[0.554s] [100%] Built target dynamixel_sdk
+[0.804s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk -- -j8 -l8
+[1.094s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk
+[1.143s] -- Install configuration: ""
+[1.169s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include/
+[1.169s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk
+[1.169s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.172s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.172s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.173s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.174s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.175s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.175s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.176s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.176s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.176s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.177s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.177s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.177s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.179s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.180s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.195s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.195s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.196s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.196s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.197s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.197s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.197s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.197s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.198s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.198s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.199s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.199s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.199s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.204s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.204s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.205s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.205s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.206s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.233s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk

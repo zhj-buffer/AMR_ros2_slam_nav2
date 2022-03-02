@@ -1,0 +1,32 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "output_dir": "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces",
+  "template_dir": "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/workspace/ros2/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/workspace/ros2/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../../../lib/python3.6/site-packages/rosidl_generator_c/__init__.py",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
+    "/home/workspace/ros2/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/workspace/ros2/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

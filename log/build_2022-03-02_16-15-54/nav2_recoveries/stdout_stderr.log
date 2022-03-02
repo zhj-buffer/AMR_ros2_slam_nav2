@@ -1,0 +1,41 @@
+[ 12%] Built target gtest_main
+[ 25%] Built target gtest
+[ 37%] Built target recoveries_server_core
+[ 50%] Built target nav2_backup_recovery
+[ 62%] Built target nav2_wait_recovery
+[ 75%] Built target nav2_spin_recovery
+[ 87%] Built target test_recoveries
+[100%] Built target recoveries_server
+-- Install configuration: "Release"
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/recovery_plugin.xml
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/lib/librecoveries_server_core.a
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/lib/libnav2_backup_recovery.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/lib/libnav2_spin_recovery.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/lib/libnav2_wait_recovery.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/lib/nav2_recoveries/recoveries_server
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/include/
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/include//nav2_recoveries
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/include//nav2_recoveries/recovery_server.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/include//nav2_recoveries/recovery.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/recovery_plugin.xml
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/ament_index/resource_index/package_run_dependencies/nav2_recoveries
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/ament_index/resource_index/parent_prefix_path/nav2_recoveries
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/environment/path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/local_setup.bash
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/local_setup.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/local_setup.zsh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/package.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/ament_index/resource_index/packages/nav2_recoveries
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_recoveries
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_definitions-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig-version.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_recoveries/share/nav2_recoveries/package.xml

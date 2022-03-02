@@ -1,0 +1,48 @@
+[ 11%] Built target gtest_main
+[ 22%] Built target gtest
+[ 33%] Built target simple_progress_checker
+[ 44%] Built target simple_goal_checker
+[ 55%] Built target controller_server_core
+[ 66%] Built target pctest
+[ 77%] Built target stopped_goal_checker
+[ 88%] Built target controller_server
+[100%] Built target gctest
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_progress_checker.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_progress_checker.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_goal_checker.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_goal_checker.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libstopped_goal_checker.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libstopped_goal_checker.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libcontroller_server_core.a
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/nav2_controller/controller_server
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/nav2_controller/controller_server" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/simple_progress_checker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/simple_goal_checker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/stopped_goal_checker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/nav2_controller.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/plugins.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/package_run_dependencies/nav2_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/parent_prefix_path/nav2_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/packages/nav2_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_definitions-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/package.xml

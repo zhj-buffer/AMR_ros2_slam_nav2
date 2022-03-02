@@ -1,0 +1,12 @@
+source;share/cartographer/hook/cmake_prefix_path.ps1
+source;share/cartographer/hook/cmake_prefix_path.dsv
+source;share/cartographer/hook/cmake_prefix_path.sh
+source;share/cartographer/hook/path.ps1
+source;share/cartographer/hook/path.dsv
+source;share/cartographer/hook/path.sh
+source;share/cartographer/hook/pkg_config_path.ps1
+source;share/cartographer/hook/pkg_config_path.dsv
+source;share/cartographer/hook/pkg_config_path.sh
+source;share/cartographer/hook/pkg_config_path_multiarch.ps1
+source;share/cartographer/hook/pkg_config_path_multiarch.dsv
+source;share/cartographer/hook/pkg_config_path_multiarch.sh

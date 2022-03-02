@@ -1,0 +1,314 @@
+[0.064s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2-driver-for-Realsense/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs
+[0.396s] -- The C compiler identification is GNU 7.5.0
+[0.682s] -- The CXX compiler identification is GNU 7.5.0
+[0.742s] -- Check for working C compiler: /usr/bin/cc
+[0.956s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.975s] -- Detecting C compiler ABI info
+[1.240s] -- Detecting C compiler ABI info - done
+[1.450s] -- Detecting C compile features
+[1.461s] -- Detecting C compile features - done
+[1.500s] -- Check for working CXX compiler: /usr/bin/c++
+[1.715s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.726s] -- Detecting CXX compiler ABI info
+[1.969s] -- Detecting CXX compiler ABI info - done
+[2.156s] -- Detecting CXX compile features
+[2.162s] -- Detecting CXX compile features - done
+[2.178s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.313s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.315s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.380s] -- Found rosidl_default_generators: 1.0.1 (/home/workspace/ros2/install/share/rosidl_default_generators/cmake)
+[3.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.493s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.009s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.155s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[4.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.215s] -- Found builtin_interfaces: 1.0.0 (/home/workspace/ros2/install/share/builtin_interfaces/cmake)
+[5.345s] -- Found std_msgs: 2.0.4 (/home/workspace/ros2/install/share/std_msgs/cmake)
+[5.704s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[7.280s] -- Found ament_cmake_cppcheck: 0.9.6 (/home/workspace/ros2/install/share/ament_cmake_cppcheck/cmake)
+[7.293s] -- Found ament_cmake_cpplint: 0.9.6 (/home/workspace/ros2/install/share/ament_cmake_cpplint/cmake)
+[7.310s] -- Found ament_cmake_uncrustify: 0.9.6 (/home/workspace/ros2/install/share/ament_cmake_uncrustify/cmake)
+[7.327s] -- Found ament_cmake_ros: 0.9.2 (/home/workspace/ros2/install/share/ament_cmake_ros/cmake)
+[9.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.048s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[11.053s] -- Found python_cmake_module: 0.8.1 (/home/workspace/ros2/install/share/python_cmake_module/cmake)
+[11.217s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[11.218s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.219s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[11.220s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[11.312s] -- Found PythonExtra: .so  
+[12.111s] -- Found ament_cmake_flake8: 0.9.6 (/home/workspace/ros2/install/share/ament_cmake_flake8/cmake)
+[12.123s] -- Found ament_cmake_pep257: 0.9.6 (/home/workspace/ros2/install/share/ament_cmake_pep257/cmake)
+[12.227s] -- Configuring done
+[12.706s] -- Generating done
+[12.727s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs
+[12.767s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2-driver-for-Realsense/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs
+[12.777s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs -- -j8 -l8
+[12.885s] [35m[1mScanning dependencies of target realsense2_camera_msgs__cpp[0m
+[12.907s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.704s] [  1%] Built target realsense2_camera_msgs__cpp
+[14.730s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.540s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_generator_c[0m
+[16.583s] [  5%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[16.692s] [  7%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[16.817s] [  9%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[16.917s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[17.021s] [ 12%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[17.102s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[17.121s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.543s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[18.588s] [ 16%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[19.454s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[20.311s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[21.195s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[22.052s] [ 23%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.226s] [ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[22.245s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.393s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_c[0m
+[23.431s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[23.510s] [ 29%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[23.594s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[23.666s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[23.744s] [ 34%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[23.834s] [ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[23.854s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.296s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c[0m
+[25.349s] [ 38%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[25.443s] [ 40%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[25.548s] [ 41%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[25.645s] [ 43%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[25.750s] [ 45%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[25.820s] [ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[25.847s] [ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[27.081s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_cpp[0m
+[27.129s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[27.889s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[28.652s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[29.531s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[30.470s] [ 56%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[30.567s] [ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[30.587s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[32.296s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[32.396s] [ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[33.794s] [ 61%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[35.073s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[36.303s] [ 65%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[37.572s] [ 67%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[37.786s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[37.812s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[39.438s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[39.557s] [ 70%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[40.674s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[41.803s] [ 74%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[42.850s] [ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[43.866s] [ 78%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[44.055s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[44.075s] [35m[1mScanning dependencies of target realsense2_camera_msgs[0m
+[44.095s] [ 78%] Built target realsense2_camera_msgs
+[44.117s] [35m[1mScanning dependencies of target realsense2_camera_msgs__py[0m
+[44.140s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[47.090s] [ 80%] Built target realsense2_camera_msgs__py
+[47.112s] [35m[1mScanning dependencies of target realsense2_camera_msgs__python[0m
+[47.237s] [ 81%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__python.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[47.559s] [ 83%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__python.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[47.879s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__python.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[48.136s] [ 87%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__python.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[48.448s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__python.so[0m
+[48.547s] [ 89%] Built target realsense2_camera_msgs__python
+[48.565s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[48.648s] [ 90%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[48.945s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[49.018s] [ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[49.036s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[49.137s] [ 94%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[49.447s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[49.606s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[49.625s] [35m[1mScanning dependencies of target realsense2_camera_msgs__rosidl_typesupport_c__pyext[0m
+[49.707s] [ 98%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[50.145s] [100%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[50.243s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[50.267s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs -- -j8 -l8
+[50.606s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs
+[50.644s] -- Install configuration: ""
+[50.647s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[50.650s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.651s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.653s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.h
+[50.654s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.656s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[50.657s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[50.659s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[50.660s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[50.661s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.662s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.h
+[50.664s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.666s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[50.667s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[50.668s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[50.670s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[50.672s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[50.673s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[50.674s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[50.676s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[50.677s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[50.678s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[50.680s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[50.682s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[50.684s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[50.685s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.h
+[50.687s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.h
+[50.689s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[50.692s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[50.695s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[50.698s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""
+[50.700s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.702s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.704s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.705s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[50.707s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.708s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.709s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[50.710s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[50.713s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[50.715s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[50.718s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[50.722s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[50.725s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.727s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.728s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.729s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[50.730s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[50.732s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.733s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.734s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[50.736s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[50.737s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[50.738s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[50.740s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[50.744s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[50.747s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.750s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.751s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.752s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.753s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[50.755s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[50.756s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.757s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.759s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[50.761s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[50.762s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[50.764s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[50.765s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[50.767s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[50.768s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[50.771s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[50.774s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[50.777s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[50.780s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""
+[50.783s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.784s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.785s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.hpp
+[50.787s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.788s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[50.790s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[50.791s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[50.792s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.793s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.794s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[50.796s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[50.797s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[50.799s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[50.800s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[50.802s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[50.804s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[50.806s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[50.807s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[50.808s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.hpp
+[50.810s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.hpp
+[50.811s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.hpp
+[50.816s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs
+[50.818s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv
+[50.819s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail
+[50.820s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[50.821s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[50.823s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg
+[50.824s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail
+[50.825s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[50.826s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[50.828s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[50.829s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[50.830s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[50.832s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[50.836s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[50.840s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[50.842s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[50.846s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[50.849s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[50.851s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[50.854s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/__init__.py
+[50.999s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/__init__.py'...
+[51.024s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg
+[51.024s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_imu_info.py
+[51.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/__init__.py
+[51.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[51.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_metadata.py
+[51.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[51.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[51.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[51.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/srv
+[51.027s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/srv/__init__.py
+[51.027s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[51.027s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/srv/_device_info.py
+[51.028s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[51.031s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[51.033s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[51.037s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[51.040s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[51.044s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/python3.6/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[51.046s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__python.so
+[51.049s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__python.so" to ""
+[51.051s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[51.053s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[51.055s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[51.057s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[51.059s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[51.061s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[51.063s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[51.066s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[51.068s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[51.070s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[51.072s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[51.074s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[51.076s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[51.078s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[51.080s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[51.082s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[51.084s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[51.086s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[51.089s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[51.090s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[51.092s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[51.094s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[51.097s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[51.099s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[51.101s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[51.103s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[51.105s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[51.107s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[51.110s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[51.114s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[51.116s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[51.118s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[51.120s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[51.122s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[51.124s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.126s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[51.128s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[51.131s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.133s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[51.135s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[51.139s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[51.141s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[51.143s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[51.157s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/realsense2_camera_msgs

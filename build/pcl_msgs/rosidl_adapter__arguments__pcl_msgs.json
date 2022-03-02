@@ -1,0 +1,10 @@
+{
+  "package_name": "pcl_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/pcl_msgs:msg/ModelCoefficients.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/pcl_msgs:msg/PointIndices.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/pcl_msgs:msg/PolygonMesh.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/pcl_msgs:msg/Vertices.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/pcl_msgs:srv/UpdateFilename.srv"
+  ]
+}

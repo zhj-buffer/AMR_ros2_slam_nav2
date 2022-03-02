@@ -1,0 +1,27 @@
+[4.806s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_gazebo_spawner build --build-base /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/build install --prefix /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner --record /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/install.log --single-version-externally-managed
+[5.903s] /home/nvidia/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.903s]   % (opt, underscore_opt)
+[5.904s] /home/nvidia/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.904s]   % (opt, underscore_opt)
+[6.087s] running egg_info
+[6.087s] writing ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[6.088s] writing dependency_links to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[6.088s] writing entry points to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[6.088s] writing requirements to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[6.088s] writing top-level names to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[6.089s] reading manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[6.089s] writing manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[6.089s] running build
+[6.090s] running build_py
+[6.090s] running install
+[6.091s] /home/nvidia/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.092s]   setuptools.SetuptoolsDeprecationWarning,
+[6.093s] running install_lib
+[6.095s] running install_data
+[6.097s] running install_egg_info
+[6.097s] removing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages/nav2_gazebo_spawner-0.3.0-py3.6.egg-info' (and everything under it)
+[6.098s] Copying ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages/nav2_gazebo_spawner-0.3.0-py3.6.egg-info
+[6.098s] running install_scripts
+[6.156s] Installing nav2_gazebo_spawner script to /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[6.161s] writing list of installed files to '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/install.log'
+[6.316s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_gazebo_spawner build --build-base /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/build install --prefix /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner --record /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/install.log --single-version-externally-managed

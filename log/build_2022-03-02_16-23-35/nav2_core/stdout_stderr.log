@@ -1,0 +1,26 @@
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/goal_checker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/exceptions.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/controller.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/recovery.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/progress_checker.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/include//nav2_core/global_planner.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/ament_index/resource_index/package_run_dependencies/nav2_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/ament_index/resource_index/parent_prefix_path/nav2_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/ament_index/resource_index/packages/nav2_core
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_core/share/nav2_core/package.xml

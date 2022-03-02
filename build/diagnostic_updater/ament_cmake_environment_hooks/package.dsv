@@ -1,0 +1,4 @@
+source;share/diagnostic_updater/local_setup.bash
+source;share/diagnostic_updater/local_setup.dsv
+source;share/diagnostic_updater/local_setup.sh
+source;share/diagnostic_updater/local_setup.zsh

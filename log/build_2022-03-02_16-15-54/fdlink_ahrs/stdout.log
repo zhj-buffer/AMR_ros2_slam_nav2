@@ -1,0 +1,23 @@
+[ 40%] Built target imu_tf_node
+[100%] Built target ahrs_driver_node
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/ahrs_driver_node
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/lib/fdlink_ahrs/imu_tf_node
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch/ahrs_driver.launch.py
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/launch/imu_tf.launch.py
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdlink_ahrs
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdlink_ahrs
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/environment/path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.bash
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.zsh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/package.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/ament_index/resource_index/packages/fdlink_ahrs
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/cmake/fdlink_ahrsConfig.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/cmake/fdlink_ahrsConfig-version.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/fdlink_ahrs/share/fdlink_ahrs/package.xml

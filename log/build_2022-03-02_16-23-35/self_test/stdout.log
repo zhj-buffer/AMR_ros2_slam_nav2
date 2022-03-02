@@ -1,0 +1,31 @@
+[ 12%] Built target gtest
+[ 25%] Built target gtest_main
+[ 37%] Built target run_selftest
+[ 50%] Built target selftest_example
+[ 62%] Built target test_no_id_selftest
+[ 75%] Built target test_exception_selftest
+[ 87%] Built target test_error_selftest
+[100%] Built target test_nominal_selftest
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include/self_test/test_runner.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/run_selftest
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/run_selftest" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/selftest_example
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/selftest_example" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/packages/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/cmake/self_testConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/package.xml

@@ -1,0 +1,43 @@
+[100%] Built target dwb_critics
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/lib/libdwb_critics.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/lib/libdwb_critics.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/oscillation.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/path_dist.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/twirling.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/map_grid.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/goal_align.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/path_align.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/default_critics.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/default_critics.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_definitions-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dwb_critics/share/dwb_critics/package.xml

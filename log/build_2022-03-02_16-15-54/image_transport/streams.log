@@ -1,0 +1,80 @@
+[0.314s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport -- -j8 -l8
+[0.574s] [  6%] Built target gtest
+[0.608s] [ 13%] Built target gtest_main
+[0.706s] [ 40%] Built target image_transport
+[0.891s] [ 46%] Built target image_transport_plugins
+[0.897s] [ 53%] Built target image_transport-camera_common
+[0.910s] [ 60%] Built target image_transport-publisher
+[0.911s] [ 66%] Built target list_transports
+[0.925s] [ 73%] Built target republish
+[0.960s] [ 80%] Built target image_transport-remapping
+[0.965s] [ 86%] Built target image_transport-subscriber
+[0.975s] [ 93%] Built target image_transport-message_passing
+[1.044s] [100%] Built target image_transport-single_subscriber_publisher
+[1.093s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport -- -j8 -l8
+[1.742s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport
+[1.767s] -- Install configuration: ""
+[1.778s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/default_plugins.xml
+[1.814s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/lib/libimage_transport.so
+[1.815s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/lib/libimage_transport_plugins.so
+[1.825s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/lib/image_transport/list_transports
+[1.825s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/lib/image_transport/republish
+[1.826s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include
+[1.826s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport
+[1.826s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/visibility_control.hpp
+[1.827s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_publisher.hpp
+[1.827s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/raw_subscriber.h
+[1.827s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/simple_publisher_plugin.hpp
+[1.828s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/transport_hints.h
+[1.828s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber_filter.hpp
+[1.828s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/loader_fwds.h
+[1.828s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/publisher.hpp
+[1.829s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/simple_publisher_plugin.h
+[1.829s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/transport_hints.hpp
+[1.830s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber_plugin.hpp
+[1.830s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/image_transport.hpp
+[1.841s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_common.h
+[1.842s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/raw_subscriber.hpp
+[1.842s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/publisher_plugin.h
+[1.843s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/exception.h
+[1.843s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/raw_publisher.h
+[1.843s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/simple_subscriber_plugin.h
+[1.843s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/image_transport.h
+[1.844s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber_plugin.h
+[1.844s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/single_subscriber_publisher.hpp
+[1.844s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/single_subscriber_publisher.h
+[1.844s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_common.hpp
+[1.845s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/publisher.h
+[1.846s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_publisher.h
+[1.847s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber.h
+[1.847s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_subscriber.hpp
+[1.848s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber_filter.h
+[1.849s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+[1.850s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/publisher_plugin.hpp
+[1.850s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/raw_publisher.hpp
+[1.851s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/camera_subscriber.h
+[1.855s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/loader_fwds.hpp
+[1.856s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/subscriber.hpp
+[1.856s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/include/image_transport/exception.hpp
+[1.857s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/library_path.sh
+[1.857s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/library_path.dsv
+[1.858s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[1.859s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[1.860s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[1.861s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[1.861s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/path.sh
+[1.862s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/environment/path.dsv
+[1.862s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/local_setup.bash
+[1.862s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/local_setup.sh
+[1.863s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/local_setup.zsh
+[1.863s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/local_setup.dsv
+[1.863s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/package.dsv
+[1.864s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[1.864s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[1.864s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.864s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[1.865s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.865s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[1.866s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[1.866s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_transport/share/image_transport/package.xml
+[2.000s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/image_transport

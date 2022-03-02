@@ -1,0 +1,60 @@
+[  5%] Built target gtest
+[ 10%] Built target gtest_main
+[ 15%] Built target dump_params
+[ 20%] Built target test_execution_timer
+[ 45%] Built target nav2_util_core
+[ 50%] Built target test_service_client
+[ 55%] Built target lifecycle_bringup
+[ 60%] Built target test_lifecycle_node
+[ 65%] Built target test_lifecycle_utils
+[ 70%] Built target test_actions
+[ 80%] Built target test_string_utils
+[ 80%] Built target test_lifecycle_cli_node
+[ 85%] Built target test_robot_utils
+[ 90%] Built target test_geometry_utils
+[ 95%] Built target test_node_utils
+[100%] Built target test_odometry_utils
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/geometry_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/line_iterator.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/execution_timer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/odometry_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/simple_action_server.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/string_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/costmap.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/service_client.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/node_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/node_thread.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/include//nav2_util/robot_utils.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/package.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/libnav2_util_core.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/libnav2_util_core.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/nav2_util/lifecycle_bringup
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/nav2_util/dump_params
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib/nav2_util/dump_params" to ""

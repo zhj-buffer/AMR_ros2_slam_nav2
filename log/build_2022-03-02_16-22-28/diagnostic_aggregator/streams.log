@@ -1,0 +1,50 @@
+[0.663s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator -- -j8 -l8
+[0.747s] [ 40%] Built target diagnostic_aggregator
+[0.760s] [ 60%] Built target aggregator_node
+[0.761s] [100%] Built target diagnostic_aggregator_analyzers
+[0.889s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator -- -j8 -l8
+[2.579s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator
+[2.706s] -- Install configuration: ""
+[2.712s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node
+[2.712s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+[2.713s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+[2.714s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include
+[2.714s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator
+[2.715s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/visibility_control.hpp
+[2.715s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/discard_analyzer.hpp
+[2.715s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/ignore_analyzer.hpp
+[2.715s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/status_item.hpp
+[2.716s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer.hpp
+[2.716s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/aggregator.hpp
+[2.716s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer_group.hpp
+[2.717s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer_base.hpp
+[2.717s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer.hpp
+[2.717s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/other_analyzer.hpp
+[2.718s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.sh
+[2.718s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.dsv
+[2.718s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator
+[2.719s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator/__init__.py
+[2.798s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator'...
+[2.810s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/example.launch.py
+[2.811s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/diagnostic_aggregator/example_pub.py
+[2.811s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/example.yaml
+[2.812s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/plugin_description.xml
+[2.812s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_aggregator
+[2.812s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_aggregator
+[2.813s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.sh
+[2.813s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.dsv
+[2.814s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.sh
+[2.815s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.dsv
+[2.815s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.bash
+[2.816s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.sh
+[2.816s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.zsh
+[2.817s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.dsv
+[2.817s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv
+[2.818s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/packages/diagnostic_aggregator
+[2.819s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/diagnostic_aggregator__pluginlib__plugin/diagnostic_aggregator
+[2.819s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.820s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.820s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+[2.820s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake
+[2.821s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.xml
+[4.258s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_aggregator

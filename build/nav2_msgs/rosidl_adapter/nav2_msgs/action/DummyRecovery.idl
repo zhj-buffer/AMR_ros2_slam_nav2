@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from nav2_msgs/action/DummyRecovery.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "std_msgs/msg/String.idl"
+
+module nav2_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct DummyRecovery_Goal {
+      std_msgs::msg::String command;
+    };
+    struct DummyRecovery_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      builtin_interfaces::msg::Duration total_elapsed_time;
+    };
+    struct DummyRecovery_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

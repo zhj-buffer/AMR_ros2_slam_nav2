@@ -1,0 +1,105 @@
+[0.108s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol
+[0.424s] -- The C compiler identification is GNU 7.5.0
+[0.735s] -- The CXX compiler identification is GNU 7.5.0
+[0.808s] -- Check for working C compiler: /usr/bin/cc
+[1.051s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.062s] -- Detecting C compiler ABI info
+[1.312s] -- Detecting C compiler ABI info - done
+[1.532s] -- Detecting C compile features
+[1.539s] -- Detecting C compile features - done
+[1.574s] -- Check for working CXX compiler: /usr/bin/c++
+[1.821s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.836s] -- Detecting CXX compiler ABI info
+[2.122s] -- Detecting CXX compiler ABI info - done
+[2.301s] -- Detecting CXX compile features
+[2.307s] -- Detecting CXX compile features - done
+[2.322s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.543s] -- Found geometry_msgs: 2.0.4 (/home/workspace/ros2/install/share/geometry_msgs/cmake)
+[3.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.860s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.247s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.431s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[5.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.483s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[6.967s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[6.990s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.997s] -- Looking for pthread.h
+[7.280s] -- Looking for pthread.h - found
+[7.287s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.534s] -- Looking for pthread_create in pthreads
+[7.743s] -- Looking for pthread_create in pthreads - not found
+[7.746s] -- Looking for pthread_create in pthread
+[8.000s] -- Looking for pthread_create in pthread - found
+[8.015s] -- Found Threads: TRUE  
+[9.834s] -- Found rclpy: 1.0.7 (/home/workspace/ros2/install/share/rclpy/cmake)
+[9.838s] -- Found ros2_drive_package_msg: 0.0.0 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/share/ros2_drive_package_msg/cmake)
+[10.309s] -- Found rosidl_default_generators: 1.0.1 (/home/workspace/ros2/install/share/rosidl_default_generators/cmake)
+[10.460s] -- Found move_base_msgs: 2.0.2 (/home/workspace/ros2/install/share/move_base_msgs/cmake)
+[12.632s] -- Found nav_msgs: 2.0.4 (/home/workspace/ros2/install/share/nav_msgs/cmake)
+[13.525s] -- Found pcl_msgs: 0.2.0 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/share/pcl_msgs/cmake)
+[15.974s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[16.110s] -- Found tf2_ros: 0.13.12 (/home/workspace/ros2/install/share/tf2_ros/cmake)
+[19.625s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[20.278s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.294s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.301s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/include
+[20.302s] -- Configured cppcheck exclude dirs and/or files: 
+[20.317s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.319s] -- Configured cpplint exclude dirs and/or files: 
+[20.331s] -- Added test 'lint_cmake' to check CMake code style
+[20.343s] -- Added test 'uncrustify' to check C / C++ code style
+[20.345s] -- Configured uncrustify additional arguments: 
+[20.354s] -- Added test 'xmllint' to check XML markup files
+[20.377s] -- Configuring done
+[20.578s] -- Generating done
+[20.594s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol
+[20.650s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol
+[20.654s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol -- -j8 -l8
+[20.772s] [35m[1mScanning dependencies of target ros2_drive_package_can_ctrol[0m
+[21.040s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_drive_package_can_ctrol.dir/src/yhs_can_control.cpp.o[0m
+[27.056s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::ctrl_cmdCallBack(ros2_drive_package_msg::msg::CtrlCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[27.056s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:320:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgear[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[27.057s]    int [01;35m[Kgear[m[K = msg->ctrl_cmd_gear;
+[27.057s]        [01;35m[K^~~~[m[K
+[27.092s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::recvData()[m[K’:
+[27.092s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:445:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[27.093s]          static int [01;35m[Kn[m[K = 0;
+[27.094s]                     [01;35m[K^[m[K
+[27.233s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::odomPub(float, float)[m[K’:
+[27.234s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:669:33:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kodom_quat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[27.234s]   geometry_msgs::msg::Quaternion [01;35m[Kodom_quat[m[K = tf2::toMsg(tf2_quat);
+[27.235s]                                  [01;35m[K^~~~~~~~~[m[K
+[43.443s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K At global scope:
+[43.443s] [01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:445:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kn[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[43.443s]          static int [01;35m[Kn[m[K = 0;
+[43.444s]                     [01;35m[K^[m[K
+[66.377s] [100%] [32m[1mLinking CXX executable ros2_drive_package_can_ctrol[0m
+[68.675s] [100%] Built target ros2_drive_package_can_ctrol
+[68.701s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol -- -j8 -l8
+[68.783s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol
+[68.797s] -- Install configuration: ""
+[68.799s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/lib/ros2_drive_package_can_ctrol/ros2_drive_package_can_ctrol
+[68.823s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/lib/ros2_drive_package_can_ctrol/ros2_drive_package_can_ctrol" to ""
+[68.824s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/param
+[68.824s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/param/waffle.yaml
+[68.825s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/param/burger.yaml
+[68.825s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/param/waffle_pi.yaml
+[68.826s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ament_index/resource_index/package_run_dependencies/ros2_drive_package_can_ctrol
+[68.827s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ament_index/resource_index/parent_prefix_path/ros2_drive_package_can_ctrol
+[68.827s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/environment/ament_prefix_path.sh
+[68.828s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/environment/ament_prefix_path.dsv
+[68.829s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/environment/path.sh
+[68.830s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/environment/path.dsv
+[68.831s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/local_setup.bash
+[68.832s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/local_setup.sh
+[68.833s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/local_setup.zsh
+[68.834s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/local_setup.dsv
+[68.834s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/package.dsv
+[68.835s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ament_index/resource_index/packages/ros2_drive_package_can_ctrol
+[68.837s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/cmake/ros2_drive_package_can_ctrolConfig.cmake
+[68.837s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/cmake/ros2_drive_package_can_ctrolConfig-version.cmake
+[68.838s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_can_ctrol/share/ros2_drive_package_can_ctrol/package.xml
+[68.853s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/ros2_drive_package_msg/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/pcl_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_drive_package_can_ctrol

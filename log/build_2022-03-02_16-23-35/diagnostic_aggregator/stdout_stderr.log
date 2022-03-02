@@ -1,0 +1,50 @@
+[ 40%] Built target diagnostic_aggregator
+[ 60%] Built target aggregator_node
+[100%] Built target diagnostic_aggregator_analyzers
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/visibility_control.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/discard_analyzer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/ignore_analyzer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/status_item.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/aggregator.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer_group.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer_base.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/include/diagnostic_aggregator/other_analyzer.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator/__init__.py
+Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/python3.6/site-packages/diagnostic_aggregator/__init__.py'...
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/example.launch.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/lib/diagnostic_aggregator/example_pub.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/example.yaml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/plugin_description.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/packages/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/ament_index/resource_index/diagnostic_aggregator__pluginlib__plugin/diagnostic_aggregator
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.xml

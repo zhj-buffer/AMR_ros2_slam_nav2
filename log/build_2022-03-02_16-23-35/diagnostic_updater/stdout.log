@@ -1,0 +1,47 @@
+[ 25%] Built target gtest
+[ 50%] Built target gtest_main
+[ 75%] Built target example
+[100%] Built target diagnostic_updater_test
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py
+Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py'...
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/package.xml

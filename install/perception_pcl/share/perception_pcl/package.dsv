@@ -1,0 +1,8 @@
+source;share/perception_pcl/hook/cmake_prefix_path.ps1
+source;share/perception_pcl/hook/cmake_prefix_path.dsv
+source;share/perception_pcl/hook/cmake_prefix_path.sh
+source;share/perception_pcl/local_setup.bash
+source;share/perception_pcl/local_setup.dsv
+source;share/perception_pcl/local_setup.ps1
+source;share/perception_pcl/local_setup.sh
+source;share/perception_pcl/local_setup.zsh

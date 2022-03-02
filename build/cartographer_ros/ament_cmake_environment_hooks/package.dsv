@@ -1,0 +1,4 @@
+source;share/cartographer_ros/local_setup.bash
+source;share/cartographer_ros/local_setup.dsv
+source;share/cartographer_ros/local_setup.sh
+source;share/cartographer_ros/local_setup.zsh

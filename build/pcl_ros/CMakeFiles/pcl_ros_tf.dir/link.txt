@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpcl_ros_tf.a  CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o
+/usr/bin/ranlib libpcl_ros_tf.a

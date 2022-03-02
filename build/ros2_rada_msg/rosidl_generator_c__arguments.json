@@ -1,0 +1,24 @@
+{
+  "package_name": "ros2_rada_msg",
+  "output_dir": "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_msg/rosidl_generator_c/ros2_rada_msg",
+  "template_dir": "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_msg/rosidl_adapter/ros2_rada_msg:msg/Rada.idl"
+  ],
+  "target_dependencies": [
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../../../lib/python3.6/site-packages/rosidl_generator_c/__init__.py",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/workspace/ros2/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/ros2_rada_msg/rosidl_adapter/ros2_rada_msg/msg/Rada.idl"
+  ]
+}

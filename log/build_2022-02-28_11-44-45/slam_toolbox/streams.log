@@ -1,0 +1,712 @@
+[0.095s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox
+[0.319s] -- The C compiler identification is GNU 7.5.0
+[0.543s] -- The CXX compiler identification is GNU 7.5.0
+[0.593s] -- Check for working C compiler: /usr/bin/cc
+[0.768s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.776s] -- Detecting C compiler ABI info
+[0.955s] -- Detecting C compiler ABI info - done
+[1.084s] -- Detecting C compile features
+[1.088s] -- Detecting C compile features - done
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.320s] -- Detecting CXX compiler ABI info
+[1.532s] -- Detecting CXX compiler ABI info - done
+[1.682s] -- Detecting CXX compile features
+[1.688s] -- Detecting CXX compile features - done
+[1.703s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[1.807s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.807s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.620s] -- Found message_filters: 3.2.5 (/home/workspace/ros2/install/share/message_filters/cmake)
+[2.648s] -- Found nav_msgs: 2.0.4 (/home/workspace/ros2/install/share/nav_msgs/cmake)
+[2.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.883s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[3.173s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[3.286s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[3.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.613s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[6.063s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[6.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.088s] -- Looking for pthread.h
+[6.291s] -- Looking for pthread.h - found
+[6.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.519s] -- Looking for pthread_create in pthreads
+[6.709s] -- Looking for pthread_create in pthreads - not found
+[6.713s] -- Looking for pthread_create in pthread
+[7.075s] -- Looking for pthread_create in pthread - found
+[7.085s] -- Found Threads: TRUE  
+[9.015s] -- Found sensor_msgs: 2.0.4 (/home/workspace/ros2/install/share/sensor_msgs/cmake)
+[10.670s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[10.832s] -- Found tf2_ros: 0.13.12 (/home/workspace/ros2/install/share/tf2_ros/cmake)
+[17.647s] -- Found visualization_msgs: 2.0.4 (/home/workspace/ros2/install/share/visualization_msgs/cmake)
+[18.787s] -- Found pluginlib: 2.5.3 (/home/workspace/ros2/install/share/pluginlib/cmake)
+[18.979s] -- Found tf2_geometry_msgs: 0.13.12 (/home/workspace/ros2/install/share/tf2_geometry_msgs/cmake)
+[19.151s] -- Found eigen3_cmake_module: 0.1.1 (/home/workspace/ros2/install/share/eigen3_cmake_module/cmake)
+[19.197s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[19.738s] -- Found tf2_sensor_msgs: 0.13.12 (/home/workspace/ros2/install/share/tf2_sensor_msgs/cmake)
+[20.007s] -- Found std_srvs: 2.0.4 (/home/workspace/ros2/install/share/std_srvs/cmake)
+[20.141s] -- Found rosidl_default_generators: 1.0.1 (/home/workspace/ros2/install/share/rosidl_default_generators/cmake)
+[20.292s] -- Found nav2_map_server: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/cmake)
+[20.321s] -- Found rviz_common: 8.2.5 (/home/workspace/ros2/install/share/rviz_common/cmake)
+[20.425s] -- Setting OGRE_DIR to: '/home/workspace/ros2/install/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[20.448s] -- Found OGRE
+[20.450s] --   static     : OFF
+[20.451s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[20.452s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage;Codec_EXR
+[20.453s] --   media      : /home/workspace/ros2/install/opt/rviz_ogre_vendor/share/OGRE/Media
+[20.453s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[20.454s] -- OGRE_LIBRARY_DIRS: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib
+[20.454s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage;Codec_EXR
+[20.455s] -- OGRE_PLUGIN_DIR: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib/OGRE
+[20.456s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[20.456s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[20.462s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[20.463s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/workspace/ros2/install/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[20.620s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[20.667s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[21.673s] -- Found X11: /usr/include   
+[21.687s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[22.250s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[22.252s] -- Looking for gethostbyname
+[22.939s] -- Looking for gethostbyname - found
+[22.940s] -- Looking for connect
+[23.471s] -- Looking for connect - found
+[23.474s] -- Looking for remove
+[24.153s] -- Looking for remove - found
+[24.156s] -- Looking for shmat
+[24.821s] -- Looking for shmat - found
+[24.823s] -- Looking for IceConnectionNumber in ICE
+[25.445s] -- Looking for IceConnectionNumber in ICE - found
+[25.547s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[25.547s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[26.608s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[27.587s] -- Setting yaml-cpp_DIR to: '/home/workspace/ros2/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[27.634s] -- Found rviz_default_plugins: 8.2.5 (/home/workspace/ros2/install/share/rviz_default_plugins/cmake)
+[31.137s] -- Found Boost: /usr/include (found version "1.65.1") found components: system serialization filesystem thread chrono date_time atomic 
+[31.818s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[31.851s] -- Found CSPARSE: /usr/include/suitesparse  
+[32.075s] -- Found CHOLMOD: /usr/include/suitesparse  
+[32.098s] -- Looking for sgemm_
+[32.289s] -- Looking for sgemm_ - not found
+[32.500s] -- Looking for sgemm_
+[32.686s] -- Looking for sgemm_ - found
+[32.690s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libblas.so  
+[32.709s] -- Looking for cheev_
+[32.891s] -- Looking for cheev_ - not found
+[32.941s] -- Looking for cheev_
+[33.158s] -- Looking for cheev_ - found
+[33.159s] -- A library with LAPACK API found.
+[33.177s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[33.187s] -- Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+[33.203s] -- Found required Ceres dependency: glog
+[33.222s] -- Found installed version of gflags: /usr/lib/aarch64-linux-gnu/cmake/gflags
+[33.223s] -- Detected gflags version: 2.2.1
+[33.231s] -- Found required Ceres dependency: gflags
+[33.237s] -- Found Ceres version: 1.13.0 installed in: /usr/local with components: [LAPACK, SuiteSparse, SparseLinearAlgebraLibrary, CXSparse, SchurSpecializations, C++11, OpenMP]
+[33.530s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[35.970s] -- Found ament_cmake_ros: 0.9.2 (/home/workspace/ros2/install/share/ament_cmake_ros/cmake)
+[40.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.604s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[42.612s] -- Found python_cmake_module: 0.8.1 (/home/workspace/ros2/install/share/python_cmake_module/cmake)
+[42.734s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[42.735s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[42.736s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[42.736s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[42.817s] -- Found PythonExtra: .so  
+[44.727s] -- Configuring done
+[47.095s] -- Generating done
+[47.129s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox
+[47.197s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox
+[47.210s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox -- -j8 -l8
+[47.331s] [35m[1mScanning dependencies of target kartoSlamToolbox[0m
+[47.337s] [35m[1mScanning dependencies of target slam_toolbox__cpp[0m
+[47.361s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[47.524s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[47.549s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[51.362s] [  2%] Built target slam_toolbox__cpp
+[136.783s] [  3%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[137.793s] [  3%] Built target kartoSlamToolbox
+[137.811s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[140.119s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp[0m
+[140.176s] [  5%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o[0m
+[140.919s] [  6%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o[0m
+[141.693s] [  6%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o[0m
+[142.436s] [  7%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o[0m
+[143.168s] [  8%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o[0m
+[143.925s] [  9%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o[0m
+[144.783s] [  9%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o[0m
+[145.646s] [ 10%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o[0m
+[146.555s] [ 10%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o[0m
+[147.431s] [ 11%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o[0m
+[148.261s] [ 12%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so[0m
+[148.399s] [ 12%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[148.418s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[151.453s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp[0m
+[151.578s] [ 14%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[152.947s] [ 14%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o[0m
+[154.234s] [ 15%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o[0m
+[155.475s] [ 16%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o[0m
+[156.699s] [ 17%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o[0m
+[158.030s] [ 17%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o[0m
+[159.433s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[160.706s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o[0m
+[161.899s] [ 20%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o[0m
+[163.295s] [ 20%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o[0m
+[164.403s] [ 21%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[164.598s] [ 21%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[164.615s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[166.407s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_cpp[0m
+[166.457s] [ 23%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[167.228s] [ 24%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[167.950s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[168.653s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[169.367s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[170.090s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[170.875s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[171.733s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[171.746s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[173.043s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[174.757s] [ 30%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so[0m
+[175.134s] [ 30%] Built target slam_toolbox__rosidl_typesupport_cpp
+[175.289s] [ 31%] [34m[1mGenerating C code for ROS interfaces[0m
+[186.269s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_generator_c[0m
+[186.483s] [ 31%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[187.275s] [ 32%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o[0m
+[188.057s] [ 32%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o[0m
+[188.793s] [ 33%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o[0m
+[189.488s] [ 34%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[190.319s] [ 35%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[190.993s] [ 35%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[191.748s] [ 36%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[192.337s] [ 37%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[193.059s] [ 38%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[193.758s] [ 39%] [32m[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so[0m
+[194.113s] [ 39%] Built target slam_toolbox__rosidl_generator_c
+[194.241s] [ 40%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[202.142s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c[0m
+[202.594s] [ 40%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o[0m
+[205.164s] [ 41%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o[0m
+[207.243s] [ 42%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o[0m
+[209.574s] [ 43%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o[0m
+[212.019s] [ 43%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o[0m
+[214.973s] [ 44%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o[0m
+[216.728s] [ 44%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o[0m
+[218.422s] [ 45%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o[0m
+[219.867s] [ 46%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o[0m
+[221.323s] [ 47%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o[0m
+[222.756s] [ 48%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so[0m
+[222.945s] [ 48%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[222.966s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[224.997s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c[0m
+[225.052s] [ 49%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[225.151s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[225.244s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[225.360s] [ 51%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[225.466s] [ 52%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[225.570s] [ 53%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[225.676s] [ 54%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[225.782s] [ 54%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[225.888s] [ 55%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[225.990s] [ 56%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[226.092s] [ 57%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so[0m
+[226.202s] [ 57%] Built target slam_toolbox__rosidl_typesupport_c
+[226.222s] [ 58%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[229.031s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c[0m
+[229.094s] [ 59%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o[0m
+[229.208s] [ 60%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o[0m
+[229.326s] [ 60%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o[0m
+[229.444s] [ 61%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o[0m
+[229.563s] [ 62%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o[0m
+[229.687s] [ 63%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o[0m
+[229.808s] [ 63%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o[0m
+[229.935s] [ 64%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o[0m
+[230.055s] [ 65%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o[0m
+[230.177s] [ 65%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o[0m
+[230.292s] [ 66%] [32m[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so[0m
+[230.362s] [ 66%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[230.381s] [35m[1mScanning dependencies of target slam_toolbox[0m
+[230.401s] [ 66%] Built target slam_toolbox
+[230.422s] [35m[1mScanning dependencies of target toolbox_common[0m
+[231.027s] [ 67%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[335.530s] [ 68%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[366.595s] [ 69%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[407.301s] [ 69%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[457.846s] [ 70%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[486.133s] [ 71%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[489.475s] [ 71%] Built target toolbox_common
+[489.494s] [35m[1mScanning dependencies of target slam_toolbox__py[0m
+[489.515s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[495.699s] [ 72%] Built target slam_toolbox__py
+[495.717s] [35m[1mScanning dependencies of target lifelong_slam_toolbox[0m
+[496.104s] [ 73%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o[0m
+[537.533s] [ 74%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[541.062s] [ 74%] Built target lifelong_slam_toolbox
+[541.148s] [35m[1mScanning dependencies of target slam_toolbox__python[0m
+[541.513s] [ 75%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o[0m
+[542.220s] [ 75%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o[0m
+[542.758s] [ 76%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o[0m
+[543.529s] [ 77%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o[0m
+[544.375s] [ 78%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o[0m
+[545.201s] [ 78%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o[0m
+[546.037s] [ 79%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o[0m
+[546.802s] [ 80%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o[0m
+[547.469s] [ 81%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o[0m
+[548.071s] [ 81%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o[0m
+[548.756s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__python.so[0m
+[549.060s] [ 82%] Built target slam_toolbox__python
+[549.153s] [35m[1mScanning dependencies of target lifelong_slam_toolbox_node[0m
+[550.046s] [ 82%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o[0m
+[596.009s] [ 83%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[598.503s] [ 83%] Built target lifelong_slam_toolbox_node
+[598.567s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext[0m
+[598.811s] [ 84%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[600.587s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[600.735s] [ 84%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[600.756s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c__pyext[0m
+[600.863s] [ 84%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o[0m
+[602.145s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[602.230s] [ 85%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[602.249s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[602.343s] [ 85%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[603.655s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[603.825s] [ 86%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[603.843s] [35m[1mScanning dependencies of target async_slam_toolbox[0m
+[604.224s] [ 87%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o[0m
+[639.965s] [ 88%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[641.842s] [ 88%] Built target async_slam_toolbox
+[641.865s] [35m[1mScanning dependencies of target sync_slam_toolbox[0m
+[642.318s] [ 89%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o[0m
+[684.548s] [ 90%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[686.537s] [ 90%] Built target sync_slam_toolbox
+[686.558s] [35m[1mScanning dependencies of target async_slam_toolbox_node[0m
+[687.051s] [ 91%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o[0m
+[725.750s] [ 91%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[727.839s] [ 91%] Built target async_slam_toolbox_node
+[727.860s] [35m[1mScanning dependencies of target sync_slam_toolbox_node[0m
+[728.345s] [ 91%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o[0m
+[767.761s] [ 92%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[769.819s] [ 92%] Built target sync_slam_toolbox_node
+[769.842s] [35m[1mScanning dependencies of target localization_slam_toolbox[0m
+[770.312s] [ 93%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o[0m
+[826.723s] [ 93%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[828.642s] [ 93%] Built target localization_slam_toolbox
+[828.666s] [35m[1mScanning dependencies of target merge_maps_kinematic[0m
+[829.033s] [ 94%] [32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o[0m
+[902.694s] [ 94%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[906.275s] [ 94%] Built target merge_maps_kinematic
+[906.371s] [35m[1mScanning dependencies of target localization_slam_toolbox_node[0m
+[906.936s] [ 95%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o[0m
+[951.262s] [ 96%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[953.221s] [ 96%] Built target localization_slam_toolbox_node
+[953.240s] [ 96%] [34m[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp[0m
+[953.273s] [35m[1mScanning dependencies of target SlamToolboxPlugin[0m
+[953.738s] [ 97%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o[0m
+[1003.551s] [ 98%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o[0m
+[1015.982s] [ 98%] [32m[1mLinking CXX shared library libSlamToolboxPlugin.so[0m
+[1019.286s] [ 98%] Built target SlamToolboxPlugin
+[1019.306s] [35m[1mScanning dependencies of target ceres_solver_plugin[0m
+[1019.674s] [ 99%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[1059.425s] [100%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[1061.663s] [100%] Built target ceres_solver_plugin
+[1061.693s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox -- -j8 -l8
+[1062.815s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox
+[1062.866s] -- Install configuration: "Release"
+[1062.871s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[1062.874s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1062.877s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1062.878s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h
+[1062.882s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h
+[1062.884s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h
+[1062.886s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h
+[1062.888s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h
+[1062.890s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1062.891s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.c
+[1062.893s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[1062.895s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h
+[1062.897s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.c
+[1062.898s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h
+[1062.900s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[1062.902s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h
+[1062.904s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h
+[1062.905s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[1062.907s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[1062.909s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h
+[1062.910s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h
+[1062.912s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h
+[1062.913s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.c
+[1062.915s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[1062.917s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.c
+[1062.918s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h
+[1062.921s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.c
+[1062.923s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h
+[1062.924s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h
+[1062.926s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h
+[1062.927s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h
+[1062.929s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[1062.930s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h
+[1062.932s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.c
+[1062.934s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h
+[1062.935s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h
+[1062.937s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[1062.938s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.c
+[1062.940s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[1062.942s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h
+[1062.944s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h
+[1062.946s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.c
+[1062.947s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h
+[1062.949s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h
+[1062.950s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.c
+[1062.952s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h
+[1062.954s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[1062.955s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c
+[1062.957s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h
+[1062.959s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/pause.h
+[1062.961s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h
+[1062.962s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/save_map.h
+[1062.964s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/clear.h
+[1062.966s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h
+[1062.968s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg
+[1062.970s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[1062.972s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[1062.975s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[1062.978s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[1062.983s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""
+[1062.986s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1062.987s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1062.988s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1062.989s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[1062.991s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[1062.993s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[1062.994s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[1062.997s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[1062.998s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[1063.000s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[1063.001s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[1063.003s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[1063.004s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[1063.006s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg
+[1063.007s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1063.010s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[1063.014s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""
+[1063.017s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1063.019s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1063.020s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1063.021s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.024s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.028s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.029s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.033s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/dds_fastrtps
+[1063.035s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.037s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.039s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.041s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.043s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[1063.045s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg
+[1063.046s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1063.050s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[1063.055s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1063.058s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1063.060s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1063.062s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1063.063s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.c
+[1063.065s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[1063.067s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[1063.069s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.c
+[1063.071s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[1063.072s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.c
+[1063.074s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.c
+[1063.076s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[1063.078s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[1063.081s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[1063.082s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[1063.084s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c
+[1063.086s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[1063.089s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c
+[1063.090s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.c
+[1063.092s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[1063.094s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[1063.096s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.c
+[1063.097s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.c
+[1063.099s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.c
+[1063.101s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg
+[1063.102s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1063.105s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[1063.109s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""
+[1063.112s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[1063.116s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""
+[1063.118s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1063.120s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1063.122s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1063.123s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp
+[1063.125s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[1063.127s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[1063.128s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[1063.130s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp
+[1063.132s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[1063.134s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[1063.135s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[1063.137s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[1063.139s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[1063.141s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp
+[1063.142s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[1063.144s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp
+[1063.146s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp
+[1063.147s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[1063.149s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[1063.151s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[1063.152s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[1063.154s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[1063.155s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp
+[1063.157s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[1063.158s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp
+[1063.160s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp
+[1063.162s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[1063.163s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp
+[1063.165s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp
+[1063.167s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[1063.168s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp
+[1063.170s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[1063.171s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp
+[1063.174s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp
+[1063.175s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp
+[1063.177s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp
+[1063.179s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp
+[1063.181s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp
+[1063.183s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp
+[1063.184s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp
+[1063.186s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp
+[1063.187s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp
+[1063.189s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp
+[1063.192s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1063.193s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv
+[1063.194s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail
+[1063.195s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.cpp
+[1063.197s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[1063.198s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[1063.200s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.cpp
+[1063.203s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[1063.205s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[1063.206s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[1063.208s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.cpp
+[1063.210s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp
+[1063.211s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp
+[1063.213s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.cpp
+[1063.215s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[1063.216s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[1063.218s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.cpp
+[1063.220s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.cpp
+[1063.221s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp
+[1063.223s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[1063.225s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[1063.227s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.cpp
+[1063.229s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[1063.232s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[1063.236s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""
+[1063.239s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[1063.243s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""
+[1063.245s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[1063.248s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[1063.251s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/__init__.py
+[1063.425s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/__init__.py'...
+[1063.446s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv
+[1063.449s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_toggle_interactive.py
+[1063.451s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_clear.py
+[1063.453s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/__init__.py
+[1063.457s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_clear_s.c
+[1063.459s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_save_map_s.c
+[1063.460s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[1063.462s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[1063.464s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_add_submap.py
+[1063.466s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[1063.467s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_save_map.py
+[1063.469s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_pause_s.c
+[1063.470s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_merge_maps_s.c
+[1063.472s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_clear_queue.py
+[1063.474s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[1063.475s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_merge_maps.py
+[1063.478s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[1063.478s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_loop_closure_s.c
+[1063.479s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_pause.py
+[1063.482s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_loop_closure.py
+[1063.486s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_add_submap_s.c
+[1063.486s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/srv/_clear_queue_s.c
+[1063.489s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[1063.494s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[1063.498s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[1063.503s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[1063.506s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[1063.511s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/python3.6/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[1063.514s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__python.so
+[1063.518s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libslam_toolbox__python.so" to ""
+[1063.520s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[1063.523s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[1063.526s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[1063.529s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[1063.531s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[1063.534s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[1063.537s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[1063.539s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[1063.542s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[1063.545s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[1063.547s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[1063.550s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[1063.554s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[1063.556s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[1063.558s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[1063.561s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[1063.563s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[1063.566s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[1063.569s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[1063.571s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[1063.575s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[1063.577s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[1063.580s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[1063.582s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[1063.586s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[1063.589s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[1063.592s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[1063.594s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[1063.598s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[1063.600s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[1063.603s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[1063.605s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[1063.608s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[1063.611s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[1063.614s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[1063.617s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[1063.620s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[1063.622s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[1063.625s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[1063.628s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[1063.630s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml
+[1063.633s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml
+[1063.636s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[1063.644s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node" to ""
+[1063.647s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[1063.653s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node" to ""
+[1063.657s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[1063.664s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node" to ""
+[1063.668s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[1063.675s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node" to ""
+[1063.678s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[1063.690s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic" to ""
+[1063.693s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libtoolbox_common.so
+[1063.709s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libtoolbox_common.so" to ""
+[1063.712s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[1063.720s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libSlamToolboxPlugin.so" to ""
+[1063.723s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libceres_solver_plugin.so
+[1063.739s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libceres_solver_plugin.so" to ""
+[1063.742s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[1063.750s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libasync_slam_toolbox.so" to ""
+[1063.752s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[1063.760s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libsync_slam_toolbox.so" to ""
+[1063.763s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[1063.772s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/liblocalization_slam_toolbox.so" to ""
+[1063.775s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[1063.782s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/liblifelong_slam_toolbox.so" to ""
+[1063.788s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[1063.792s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include
+[1063.793s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox
+[1063.795s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[1063.796s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[1063.798s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[1063.800s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[1063.801s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[1063.803s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[1063.805s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[1063.806s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[1063.808s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[1063.809s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[1063.810s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/experimental
+[1063.813s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[1063.814s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[1063.816s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[1063.817s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[1063.819s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[1063.820s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[1063.823s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch
+[1063.824s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[1063.825s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[1063.827s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[1063.829s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[1063.830s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[1063.832s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py
+[1063.834s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config
+[1063.835s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[1063.837s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[1063.839s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[1063.841s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[1063.842s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[1063.845s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/solver_plugins.xml
+[1063.846s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/rviz_plugins.xml
+[1063.849s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[1063.856s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[1063.858s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[1063.861s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[1063.864s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[1063.866s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[1063.869s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[1063.872s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[1063.874s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[1063.877s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[1063.880s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/package.dsv
+[1063.884s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[1063.888s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[1063.891s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[1063.895s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake
+[1063.897s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake
+[1063.900s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[1063.904s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[1063.907s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[1063.910s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[1063.913s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake
+[1063.916s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[1063.919s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[1063.922s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[1063.925s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[1063.928s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[1063.932s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[1063.935s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[1063.937s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[1063.940s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[1063.943s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[1063.946s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[1063.949s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1063.952s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1063.954s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[1063.956s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[1063.960s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/slam_toolbox/package.xml
+[1063.966s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include/
+[1063.967s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk
+[1063.969s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[1063.971s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/Mapper.h
+[1063.973s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/Math.h
+[1063.974s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/Karto.h
+[1063.977s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/Macros.h
+[1063.979s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[1063.981s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/include//karto_sdk/Types.h
+[1063.984s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[1064.002s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/lib/libkartoSlamToolbox.so" to ""
+[1064.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/library_path.sh
+[1064.008s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv
+[1064.011s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk
+[1064.014s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk
+[1064.016s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh
+[1064.020s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv
+[1064.022s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/path.sh
+[1064.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/environment/path.dsv
+[1064.027s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/local_setup.bash
+[1064.029s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/local_setup.sh
+[1064.031s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/local_setup.zsh
+[1064.034s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/local_setup.dsv
+[1064.036s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/package.dsv
+[1064.038s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk
+[1064.041s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1064.044s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1064.046s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake
+[1064.048s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake
+[1064.050s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake
+[1064.053s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/slam_toolbox/share/karto_sdk/package.xml
+[1064.070s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/slam_toolbox

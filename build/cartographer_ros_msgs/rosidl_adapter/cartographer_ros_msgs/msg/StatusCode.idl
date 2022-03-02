@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cartographer_ros_msgs/msg/StatusCode.msg
+// generated code does not contain a copyright notice
+
+
+module cartographer_ros_msgs {
+  module msg {
+    module StatusCode_Constants {
+      const uint8 OK = 0;
+      const uint8 CANCELLED = 1;
+      const uint8 UNKNOWN = 2;
+      const uint8 INVALID_ARGUMENT = 3;
+      const uint8 DEADLINE_EXCEEDED = 4;
+      const uint8 NOT_FOUND = 5;
+      const uint8 ALREADY_EXISTS = 6;
+      const uint8 PERMISSION_DENIED = 7;
+      const uint8 RESOURCE_EXHAUSTED = 8;
+      const uint8 FAILED_PRECONDITION = 9;
+      const uint8 ABORTED = 10;
+      const uint8 OUT_OF_RANGE = 11;
+      const uint8 UNIMPLEMENTED = 12;
+      const uint8 INTERNAL = 13;
+      const uint8 UNAVAILABLE = 14;
+      const uint8 DATA_LOSS = 15;
+    };
+    @verbatim (language="comment", text=
+      " Copyright 2018 The Cartographer Authors" "\n"
+      "" "\n"
+      " Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      " you may not use this file except in compliance with the License." "\n"
+      " You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "      http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      " Unless required by applicable law or agreed to in writing, software" "\n"
+      " distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      " WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      " See the License for the specific language governing permissions and" "\n"
+      " limitations under the License.")
+    struct StatusCode {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

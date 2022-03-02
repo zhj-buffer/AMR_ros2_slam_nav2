@@ -1,0 +1,144 @@
+[0.200s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg -- -j8 -l8
+[0.326s] [  2%] Built target rslidar_msg__cpp
+[0.331s] [ 12%] Built target rslidar_msg__rosidl_generator_c
+[0.424s] [ 23%] Built target rslidar_msg__rosidl_typesupport_cpp
+[0.432s] [ 33%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[0.442s] [ 43%] Built target rslidar_msg__rosidl_typesupport_c
+[0.462s] [ 53%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[0.513s] [ 64%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[0.523s] [ 74%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[0.580s] [ 74%] Built target rslidar_msg
+[0.637s] [ 76%] Built target rslidar_msg__py
+[0.708s] [ 84%] Built target rslidar_msg__python
+[0.777s] [ 89%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[0.785s] [ 94%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.790s] [100%] Built target rslidar_msg__rosidl_typesupport_c__pyext
+[0.938s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg -- -j8 -l8
+[1.644s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg
+[1.744s] -- Install configuration: ""
+[1.746s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg
+[1.759s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.761s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.762s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.762s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.h
+[1.763s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__struct.h
+[1.767s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.h
+[1.768s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.c
+[1.772s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__functions.h
+[1.772s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__type_support.h
+[1.773s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__functions.c
+[1.774s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.h
+[1.774s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan.h
+[1.774s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_c__visibility_control.h
+[1.774s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.h
+[1.775s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh
+[1.776s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv
+[1.776s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so
+[1.778s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""
+[1.779s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.779s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.780s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.781s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h
+[1.781s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__rosidl_typesupport_fastrtps_c.h
+[1.797s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.803s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so
+[1.804s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[1.804s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.804s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.805s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.805s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[1.806s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.806s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/dds_fastrtps
+[1.806s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.808s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.809s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.815s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.819s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.820s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.821s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.c
+[1.822s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__rosidl_typesupport_introspection_c.h
+[1.823s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h
+[1.823s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__type_support.c
+[1.824s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.824s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so
+[1.826s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""
+[1.827s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so
+[1.831s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""
+[1.833s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.833s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.834s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.836s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.hpp
+[1.836s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__traits.hpp
+[1.837s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__builder.hpp
+[1.838s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__struct.hpp
+[1.839s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__builder.hpp
+[1.839s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__traits.hpp
+[1.841s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.hpp
+[1.842s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan.hpp
+[1.846s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg
+[1.848s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg
+[1.850s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.851s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[1.852s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.852s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_scan__type_support.cpp
+[1.853s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp
+[1.868s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so
+[1.870s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[1.904s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so
+[1.905s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""
+[1.906s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh
+[1.906s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv
+[1.908s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/__init__.py
+[2.002s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/__init__.py'...
+[2.003s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg
+[2.003s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/__init__.py
+[2.004s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_scan_s.c
+[2.004s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_packet_s.c
+[2.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_scan.py
+[2.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_packet.py
+[2.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[2.006s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[2.006s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[2.007s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[2.008s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[2.008s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[2.008s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__python.so
+[2.011s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/lib/librslidar_msg__python.so" to ""
+[2.011s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl
+[2.012s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/msg/RslidarScan.idl
+[2.012s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg
+[2.013s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/msg/RslidarScan.msg
+[2.013s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg
+[2.014s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg
+[2.014s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh
+[2.015s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv
+[2.015s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/path.sh
+[2.015s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/environment/path.dsv
+[2.016s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/local_setup.bash
+[2.016s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/local_setup.sh
+[2.016s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/local_setup.zsh
+[2.017s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/local_setup.dsv
+[2.017s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/package.dsv
+[2.017s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg
+[2.018s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport.cmake
+[2.018s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport-noconfig.cmake
+[2.019s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.019s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.020s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake
+[2.020s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.020s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cppExport.cmake
+[2.021s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.021s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.021s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake
+[2.022s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.022s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake
+[2.022s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.023s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.024s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.024s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake
+[2.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake
+[2.026s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/rslidar_msg/share/rslidar_msg/package.xml
+[2.223s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/rslidar_msg

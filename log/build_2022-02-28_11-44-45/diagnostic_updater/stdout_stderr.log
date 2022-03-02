@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found diagnostic_msgs: 2.0.4 (/home/workspace/ros2/install/share/diagnostic_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Found FastRTPS: /home/workspace/ros2/install/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.0.7 (/home/workspace/ros2/install/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2-driver-for-Realsense/diagnostics/diagnostic_updater/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/diagnostic_updater
+[35m[1mScanning dependencies of target example[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable example[0m
+[ 25%] Built target example
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[35m[1mScanning dependencies of target gtest[0m
+[ 62%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[35m[1mScanning dependencies of target diagnostic_updater_test[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[100%] Built target diagnostic_updater_test
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py
+Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py'...
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/package.xml

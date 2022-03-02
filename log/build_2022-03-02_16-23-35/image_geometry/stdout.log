@@ -1,0 +1,39 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 77%] Built target image_geometry
+[100%] Built target image_geometry-utest
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py
+Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py'...
+Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py'...
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/visibility_control.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/include/image_geometry/stereo_camera_model.h
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/libimage_geometry.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/lib/libimage_geometry.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/image_geometry/share/image_geometry/package.xml

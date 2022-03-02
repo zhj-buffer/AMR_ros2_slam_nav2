@@ -1,0 +1,44 @@
+[ 11%] Built target controller_server_core
+[ 22%] Built target gtest
+[ 33%] Built target simple_goal_checker
+[ 44%] Built target gtest_main
+[ 55%] Built target simple_progress_checker
+[ 66%] Built target stopped_goal_checker
+[ 77%] Built target controller_server
+[ 88%] Built target pctest
+[100%] Built target gctest
+-- Install configuration: "Release"
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_progress_checker.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libsimple_goal_checker.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libstopped_goal_checker.so
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/libcontroller_server_core.a
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/lib/nav2_controller/controller_server
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include/
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/simple_progress_checker.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/simple_goal_checker.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/plugins/stopped_goal_checker.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/include//nav2_controller/nav2_controller.hpp
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/library_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/library_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/plugins.xml
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/package_run_dependencies/nav2_controller
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/parent_prefix_path/nav2_controller
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/path.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/environment/path.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.bash
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.sh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.zsh
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/package.dsv
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/packages/nav2_controller
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_controller
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_definitions-extras.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig-version.cmake
+-- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_controller/share/nav2_controller/package.xml

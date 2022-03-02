@@ -1,0 +1,15 @@
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/environment/path.sh
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/environment/path.dsv
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/local_setup.bash
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/local_setup.sh
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/local_setup.zsh
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/local_setup.dsv
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/package.dsv
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/navigation2/share/navigation2/package.xml

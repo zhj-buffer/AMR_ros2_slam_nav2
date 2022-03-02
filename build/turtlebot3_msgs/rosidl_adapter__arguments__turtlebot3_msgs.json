@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:msg/Sound.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:srv/Sound.srv",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

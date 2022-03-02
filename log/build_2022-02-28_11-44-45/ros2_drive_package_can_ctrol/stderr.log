@@ -1,0 +1,16 @@
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::ctrl_cmdCallBack(ros2_drive_package_msg::msg::CtrlCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:320:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgear[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kgear[m[K = msg->ctrl_cmd_gear;
+       [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::recvData()[m[K’:
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:445:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn[m[K’ [[01;35m[K-Wunused-variable[m[K]
+         static int [01;35m[Kn[m[K = 0;
+                    [01;35m[K^[m[K
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K In member function ‘[01m[Kvoid ros2_drive_package_can_ctrol::odomPub(float, float)[m[K’:
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:669:33:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kodom_quat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  geometry_msgs::msg::Quaternion [01;35m[Kodom_quat[m[K = tf2::toMsg(tf2_quat);
+                                 [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:[m[K At global scope:
+[01m[K/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ros2_driver_for_yhs_ODM/ros2_drive_package_can_ctrol/src/yhs_can_control.cpp:445:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kn[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+         static int [01;35m[Kn[m[K = 0;
+                    [01;35m[K^[m[K

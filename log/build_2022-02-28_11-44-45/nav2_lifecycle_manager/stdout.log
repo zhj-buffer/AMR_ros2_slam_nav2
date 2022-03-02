@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.4 (/home/workspace/ros2/install/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Found FastRTPS: /home/workspace/ros2/install/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found lifecycle_msgs: 1.0.0 (/home/workspace/ros2/install/share/lifecycle_msgs/cmake)
+-- Found nav2_common: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found nav2_util: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/home/workspace/ros2/install/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.4") 
+-- Found std_srvs: 2.0.4 (/home/workspace/ros2/install/share/std_srvs/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_lifecycle_manager/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_lifecycle_manager
+[35m[1mScanning dependencies of target nav2_lifecycle_manager_core[0m
+[  9%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[ 27%] Built target nav2_lifecycle_manager_core
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 45%] Built target gtest_main
+[35m[1mScanning dependencies of target lifecycle_manager[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[ 63%] Built target lifecycle_manager
+[35m[1mScanning dependencies of target gtest[0m
+[ 72%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 81%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 81%] Built target gtest
+[35m[1mScanning dependencies of target test_lifecycle_gtest[0m
+[ 90%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[100%] Built target test_lifecycle_gtest
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml

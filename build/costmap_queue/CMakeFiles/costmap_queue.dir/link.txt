@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcostmap_queue.a  CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o
+/usr/bin/ranlib libcostmap_queue.a

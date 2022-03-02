@@ -1,0 +1,25 @@
+/home/nvidia/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt)
+/home/nvidia/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  % (opt, underscore_opt)
+running egg_info
+writing ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+writing entry points to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+writing requirements to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+writing top-level names to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+reading manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+writing manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/nvidia/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages/nav2_gazebo_spawner-0.3.0-py3.6.egg-info' (and everything under it)
+Copying ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/python3.6/site-packages/nav2_gazebo_spawner-0.3.0-py3.6.egg-info
+running install_scripts
+Installing nav2_gazebo_spawner script to /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+writing list of installed files to '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_gazebo_spawner/install.log'

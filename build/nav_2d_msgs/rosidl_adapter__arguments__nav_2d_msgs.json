@@ -1,0 +1,11 @@
+{
+  "package_name": "nav_2d_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Path2D.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Pose2D32.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Pose2DStamped.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Twist2D.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Twist2D32.msg",
+    "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_dwb_controller/nav_2d_msgs:msg/Twist2DStamped.msg"
+  ]
+}

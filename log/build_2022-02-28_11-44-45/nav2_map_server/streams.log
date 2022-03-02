@@ -1,0 +1,165 @@
+[0.162s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server
+[0.495s] -- The C compiler identification is GNU 7.5.0
+[0.799s] -- The CXX compiler identification is GNU 7.5.0
+[0.859s] -- Check for working C compiler: /usr/bin/cc
+[1.062s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.074s] -- Detecting C compiler ABI info
+[1.293s] -- Detecting C compiler ABI info - done
+[1.464s] -- Detecting C compile features
+[1.469s] -- Detecting C compile features - done
+[1.501s] -- Check for working CXX compiler: /usr/bin/c++
+[1.753s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.762s] -- Detecting CXX compiler ABI info
+[1.991s] -- Detecting CXX compiler ABI info - done
+[2.181s] -- Detecting CXX compile features
+[2.186s] -- Detecting CXX compile features - done
+[2.200s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.317s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.318s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.329s] -- Found nav2_common: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake)
+[3.340s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[3.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.749s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.119s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.286s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[4.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.667s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[5.686s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.694s] -- Looking for pthread.h
+[5.906s] -- Looking for pthread.h - found
+[5.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.143s] -- Looking for pthread_create in pthreads
+[6.336s] -- Looking for pthread_create in pthreads - not found
+[6.339s] -- Looking for pthread_create in pthread
+[6.559s] -- Looking for pthread_create in pthread - found
+[6.577s] -- Found Threads: TRUE  
+[8.427s] -- Found rclcpp_lifecycle: 2.4.0 (/home/workspace/ros2/install/share/rclcpp_lifecycle/cmake)
+[8.787s] -- Found nav_msgs: 2.0.4 (/home/workspace/ros2/install/share/nav_msgs/cmake)
+[10.123s] -- Found nav2_msgs: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/share/nav2_msgs/cmake)
+[13.033s] -- Found yaml_cpp_vendor: 7.0.2 (/home/workspace/ros2/install/share/yaml_cpp_vendor/cmake)
+[13.034s] -- Setting yaml-cpp_DIR to: '/home/workspace/ros2/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[13.049s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[13.169s] -- Found nav2_util: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/share/nav2_util/cmake)
+[16.692s] -- Found eigen3_cmake_module: 0.1.1 (/home/workspace/ros2/install/share/eigen3_cmake_module/cmake)
+[16.710s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[18.297s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[18.298s] -- Setting build type to Release as none was specified.
+[22.666s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[23.334s] -- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.353s] -- Check if compiler accepts -pthread
+[23.572s] -- Check if compiler accepts -pthread - yes
+[23.619s] -- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.703s] -- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.796s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.808s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_map_server/include
+[23.809s] -- Configured cppcheck exclude dirs and/or files: 
+[23.823s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.825s] -- Configured cpplint exclude dirs and/or files: 
+[23.834s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.842s] -- Added test 'lint_cmake' to check CMake code style
+[23.850s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.864s] -- Added test 'uncrustify' to check C / C++ code style
+[23.865s] -- Configured uncrustify additional arguments: 
+[23.873s] -- Added test 'xmllint' to check XML markup files
+[23.923s] -- Configuring done
+[25.417s] -- Generating done
+[25.438s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server
+[25.494s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server
+[25.499s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server -- -j8 -l8
+[25.659s] [35m[1mScanning dependencies of target map_io[0m
+[25.952s] [  3%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[26.641s] [  6%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[40.436s] [  9%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[41.927s] [  9%] Built target map_io
+[41.949s] [35m[1mScanning dependencies of target gtest_main[0m
+[42.006s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[44.274s] [ 16%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[44.319s] [ 16%] Built target gtest_main
+[44.336s] [35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[44.493s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[58.689s] [ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[59.011s] [ 25%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[60.145s] [ 25%] Built target test_map_saver_publisher
+[60.167s] [35m[1mScanning dependencies of target map_server_core[0m
+[60.381s] [ 29%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[86.465s] [ 32%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[114.647s] [ 35%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[116.795s] [ 35%] Built target map_server_core
+[116.818s] [35m[1mScanning dependencies of target gtest[0m
+[116.904s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[141.135s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[141.387s] [ 41%] Built target gtest
+[141.462s] [35m[1mScanning dependencies of target map_saver_server[0m
+[141.878s] [ 45%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[150.737s] [ 48%] [32m[1mLinking CXX executable map_saver_server[0m
+[153.307s] [ 48%] Built target map_saver_server
+[153.326s] [35m[1mScanning dependencies of target test_map_saver_cli[0m
+[153.551s] [ 51%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[170.025s] [ 54%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[170.363s] [ 58%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[171.109s] [ 58%] Built target test_map_saver_cli
+[171.131s] [35m[1mScanning dependencies of target test_map_server_node[0m
+[171.339s] [ 61%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[187.632s] [ 64%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[188.032s] [ 67%] [32m[1mLinking CXX executable test_map_server_node[0m
+[189.395s] [ 67%] Built target test_map_server_node
+[189.420s] [35m[1mScanning dependencies of target test_map_saver_node[0m
+[189.621s] [ 70%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[205.864s] [ 74%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[206.336s] [ 77%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[207.885s] [ 77%] Built target test_map_saver_node
+[207.912s] [35m[1mScanning dependencies of target test_map_io[0m
+[208.234s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[223.964s] [ 83%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[224.721s] [ 87%] [32m[1mLinking CXX executable test_map_io[0m
+[227.198s] [ 87%] Built target test_map_io
+[227.274s] [35m[1mScanning dependencies of target map_saver_cli[0m
+[227.636s] [ 90%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[235.672s] [ 93%] [32m[1mLinking CXX executable map_saver_cli[0m
+[237.680s] [ 93%] Built target map_saver_cli
+[237.708s] [35m[1mScanning dependencies of target map_server[0m
+[237.900s] [ 96%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[244.209s] [100%] [32m[1mLinking CXX executable map_server[0m
+[245.867s] [100%] Built target map_server
+[245.891s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server -- -j8 -l8
+[245.993s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server
+[246.013s] -- Install configuration: "Release"
+[246.016s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/libmap_server_core.so
+[246.019s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[246.020s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/libmap_io.so
+[246.022s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/libmap_io.so" to ""
+[246.023s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_server
+[246.024s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[246.025s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[246.027s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[246.028s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[246.029s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[246.030s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include/
+[246.031s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include//nav2_map_server
+[246.032s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[246.033s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[246.033s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[246.033s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[246.034s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/launch
+[246.034s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[246.035s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[246.035s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[246.036s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[246.037s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[246.037s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[246.038s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[246.038s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[246.038s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[246.039s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[246.039s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[246.040s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[246.041s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[246.041s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/package.dsv
+[246.042s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[246.043s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[246.043s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[246.044s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[246.044s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[246.045s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_map_server/share/nav2_map_server/package.xml
+[246.063s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_util/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_msgs/lib/python3.6/site-packages:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_map_server

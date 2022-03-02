@@ -1,0 +1,4 @@
+source;share/fdlink_ahrs/local_setup.bash
+source;share/fdlink_ahrs/local_setup.dsv
+source;share/fdlink_ahrs/local_setup.sh
+source;share/fdlink_ahrs/local_setup.zsh

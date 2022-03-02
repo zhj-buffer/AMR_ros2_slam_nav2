@@ -1,0 +1,4 @@
+source;share/yhs_chassis_description/local_setup.bash
+source;share/yhs_chassis_description/local_setup.dsv
+source;share/yhs_chassis_description/local_setup.sh
+source;share/yhs_chassis_description/local_setup.zsh

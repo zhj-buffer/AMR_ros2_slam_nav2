@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found diagnostic_msgs: 2.0.4 (/home/workspace/ros2/install/share/diagnostic_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Found FastRTPS: /home/workspace/ros2/install/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 2.0.8 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/diagnostic_updater/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/ROS2-driver-for-Realsense/diagnostics/self_test/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/self_test
+[35m[1mScanning dependencies of target run_selftest[0m
+[  6%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable run_selftest[0m
+[ 12%] Built target run_selftest
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[35m[1mScanning dependencies of target gtest[0m
+[ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 37%] Built target gtest
+[35m[1mScanning dependencies of target selftest_example[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/src/selftest_example.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable selftest_example[0m
+[ 50%] Built target selftest_example
+[35m[1mScanning dependencies of target test_error_selftest[0m
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_error_selftest[0m
+[ 62%] Built target test_error_selftest
+[35m[1mScanning dependencies of target test_exception_selftest[0m
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[ 75%] Built target test_exception_selftest
+[35m[1mScanning dependencies of target test_nominal_selftest[0m
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[ 87%] Built target test_nominal_selftest
+[35m[1mScanning dependencies of target test_no_id_selftest[0m
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[100%] Built target test_no_id_selftest
+-- Install configuration: ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/include/self_test/test_runner.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/run_selftest
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/run_selftest" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/selftest_example
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/lib/self_test/selftest_example" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/ament_index/resource_index/packages/self_test
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/cmake/self_testConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/self_test/share/self_test/package.xml

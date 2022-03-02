@@ -1,0 +1,93 @@
+[0.084s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node
+[0.420s] -- The C compiler identification is GNU 7.5.0
+[0.742s] -- The CXX compiler identification is GNU 7.5.0
+[0.811s] -- Check for working C compiler: /usr/bin/cc
+[1.074s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.105s] -- Detecting C compiler ABI info
+[1.386s] -- Detecting C compiler ABI info - done
+[1.600s] -- Detecting C compile features
+[1.603s] -- Detecting C compile features - done
+[1.636s] -- Check for working CXX compiler: /usr/bin/c++
+[1.871s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.883s] -- Detecting CXX compiler ABI info
+[2.180s] -- Detecting CXX compiler ABI info - done
+[2.357s] -- Detecting CXX compile features
+[2.363s] -- Detecting CXX compile features - done
+[2.378s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.499s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.494s] -- Found dynamixel_sdk: 3.7.40 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.520s] -- Found geometry_msgs: 2.0.4 (/home/workspace/ros2/install/share/geometry_msgs/cmake)
+[3.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.802s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.142s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.278s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[4.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.951s] -- Found message_filters: 3.2.5 (/home/workspace/ros2/install/share/message_filters/cmake)
+[5.980s] -- Found nav_msgs: 2.0.4 (/home/workspace/ros2/install/share/nav_msgs/cmake)
+[6.772s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[7.202s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[7.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.229s] -- Looking for pthread.h
+[7.434s] -- Looking for pthread.h - found
+[7.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.673s] -- Looking for pthread_create in pthreads
+[7.897s] -- Looking for pthread_create in pthreads - not found
+[7.901s] -- Looking for pthread_create in pthread
+[8.135s] -- Looking for pthread_create in pthread - found
+[8.148s] -- Found Threads: TRUE  
+[9.879s] -- Found sensor_msgs: 2.0.4 (/home/workspace/ros2/install/share/sensor_msgs/cmake)
+[10.727s] -- Found std_srvs: 2.0.4 (/home/workspace/ros2/install/share/std_srvs/cmake)
+[10.848s] -- Found tf2: 0.13.12 (/home/workspace/ros2/install/share/tf2/cmake)
+[10.984s] -- Found tf2_ros: 0.13.12 (/home/workspace/ros2/install/share/tf2_ros/cmake)
+[14.988s] -- Found turtlebot3_msgs: 2.2.1 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[16.805s] -- Configuring done
+[17.174s] -- Generating done
+[17.186s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node
+[17.226s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node
+[17.228s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node -- -j8 -l8
+[17.484s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[18.060s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[26.487s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[35.851s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[46.316s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[57.144s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[66.663s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[90.781s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[129.182s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[130.462s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[137.444s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[145.945s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[154.472s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[155.425s] [ 85%] Built target turtlebot3_node_lib
+[155.443s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[155.670s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[163.206s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[166.827s] [100%] Built target turtlebot3_ros
+[166.856s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node -- -j8 -l8
+[167.050s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node
+[167.086s] -- Install configuration: ""
+[167.089s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/param
+[167.091s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[167.093s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[167.094s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[167.098s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[167.134s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[167.138s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[167.141s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[167.144s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[167.146s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[167.149s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[167.152s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[167.154s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[167.158s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[167.160s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[167.162s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[167.165s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[167.168s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[167.170s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[167.173s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[167.175s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[167.178s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[167.188s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/dynamixel_sdk/lib:/home/workspace/ros2/install/opt/yaml_cpp_vendor/lib:/home/workspace/ros2/install/opt/rviz_ogre_vendor/lib:/home/workspace/ros2/install/lib:/usr/local/cuda-10.2/lib64 PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/turtlebot3_node

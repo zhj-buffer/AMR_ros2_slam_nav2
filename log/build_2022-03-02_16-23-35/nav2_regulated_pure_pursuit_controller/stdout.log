@@ -1,0 +1,33 @@
+[ 25%] Built target gtest_main
+[ 50%] Built target gtest
+[ 75%] Built target nav2_regulated_pure_pursuit_controller
+[100%] Built target test_regulated_pp
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+-- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so" to ""
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/include/
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+-- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml

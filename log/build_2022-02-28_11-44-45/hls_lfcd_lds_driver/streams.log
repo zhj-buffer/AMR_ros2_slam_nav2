@@ -1,0 +1,74 @@
+[0.055s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver
+[0.338s] -- The C compiler identification is GNU 7.5.0
+[0.612s] -- The CXX compiler identification is GNU 7.5.0
+[0.662s] -- Check for working C compiler: /usr/bin/cc
+[0.863s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.871s] -- Detecting C compiler ABI info
+[1.083s] -- Detecting C compiler ABI info - done
+[1.300s] -- Detecting C compile features
+[1.305s] -- Detecting C compile features - done
+[1.344s] -- Check for working CXX compiler: /usr/bin/c++
+[1.577s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.597s] -- Detecting CXX compiler ABI info
+[1.843s] -- Detecting CXX compiler ABI info - done
+[2.047s] -- Detecting CXX compile features
+[2.055s] -- Detecting CXX compile features - done
+[2.070s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.208s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.209s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.146s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[3.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.589s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[3.940s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.075s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[4.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.481s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[5.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.507s] -- Looking for pthread.h
+[5.719s] -- Looking for pthread.h - found
+[5.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.947s] -- Looking for pthread_create in pthreads
+[6.175s] -- Looking for pthread_create in pthreads - not found
+[6.179s] -- Looking for pthread_create in pthread
+[6.443s] -- Looking for pthread_create in pthread - found
+[6.460s] -- Found Threads: TRUE  
+[8.803s] -- Found sensor_msgs: 2.0.4 (/home/workspace/ros2/install/share/sensor_msgs/cmake)
+[10.711s] -- Found Boost: /usr/include (found version "1.65.1") found components: system 
+[11.257s] -- Configuring done
+[11.359s] -- Generating done
+[11.372s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver
+[11.403s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver' returned '0': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver
+[11.414s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver -- -j8 -l8
+[11.517s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[11.705s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[23.972s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[24.848s] [100%] Built target hlds_laser_publisher
+[24.872s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver' returned '0': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver -- -j8 -l8
+[24.952s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver
+[24.978s] -- Install configuration: ""
+[24.980s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch
+[24.983s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[24.984s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[24.985s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz
+[24.986s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[24.988s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[24.990s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher" to ""
+[24.991s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[24.992s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[24.993s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[24.996s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[24.997s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[24.999s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[25.000s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[25.003s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[25.003s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[25.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[25.005s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[25.007s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[25.028s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.029s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.030s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[25.031s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[25.031s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[25.032s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver' returned '0': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/hls_lfcd_lds_driver

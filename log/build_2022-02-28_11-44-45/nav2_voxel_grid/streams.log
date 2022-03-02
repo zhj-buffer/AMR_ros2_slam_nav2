@@ -1,0 +1,100 @@
+[0.071s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid
+[0.390s] -- The C compiler identification is GNU 7.5.0
+[0.690s] -- The CXX compiler identification is GNU 7.5.0
+[0.760s] -- Check for working C compiler: /usr/bin/cc
+[0.965s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.976s] -- Detecting C compiler ABI info
+[1.200s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compile features
+[1.450s] -- Detecting C compile features - done
+[1.492s] -- Check for working CXX compiler: /usr/bin/c++
+[1.734s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.755s] -- Detecting CXX compiler ABI info
+[2.033s] -- Detecting CXX compiler ABI info - done
+[2.266s] -- Detecting CXX compile features
+[2.273s] -- Detecting CXX compile features - done
+[2.289s] -- Found ament_cmake: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake/cmake)
+[2.412s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.421s] -- Found nav2_common: 0.4.7 (/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake)
+[3.431s] -- Found rclcpp: 2.4.0 (/home/workspace/ros2/install/share/rclcpp/cmake)
+[3.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.970s] -- Found rosidl_adapter: 1.2.1 (/home/workspace/ros2/install/share/rosidl_adapter/cmake)
+[4.346s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[4.531s] -- Found FastRTPS: /home/workspace/ros2/install/include  
+[5.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.098s] -- Found rmw_implementation_cmake: 1.0.3 (/home/workspace/ros2/install/share/rmw_implementation_cmake/cmake)
+[6.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.128s] -- Looking for pthread.h
+[6.343s] -- Looking for pthread.h - found
+[6.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.585s] -- Looking for pthread_create in pthreads
+[6.798s] -- Looking for pthread_create in pthreads - not found
+[6.801s] -- Looking for pthread_create in pthread
+[7.015s] -- Looking for pthread_create in pthread - found
+[7.030s] -- Found Threads: TRUE  
+[9.196s] -- Setting build type to Release as none was specified.
+[9.213s] -- Found ament_lint_auto: 0.9.6 (/home/workspace/ros2/install/share/ament_lint_auto/cmake)
+[10.274s] -- Found gtest sources under '/home/workspace/ros2/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.350s] -- Check if compiler accepts -pthread
+[11.097s] -- Check if compiler accepts -pthread - yes
+[11.293s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.297s] -- Configured cppcheck include dirs: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_voxel_grid/include
+[11.297s] -- Configured cppcheck exclude dirs and/or files: 
+[11.343s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.344s] -- Configured cpplint exclude dirs and/or files: 
+[11.373s] -- Added test 'lint_cmake' to check CMake code style
+[11.407s] -- Added test 'uncrustify' to check C / C++ code style
+[11.407s] -- Configured uncrustify additional arguments: 
+[11.441s] -- Added test 'xmllint' to check XML markup files
+[11.583s] -- Configuring done
+[12.006s] -- Generating done
+[12.044s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid
+[12.147s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid
+[12.150s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid -- -j8 -l8
+[12.530s] [35m[1mScanning dependencies of target gtest[0m
+[12.578s] [35m[1mScanning dependencies of target voxel_grid[0m
+[12.587s] [35m[1mScanning dependencies of target gtest_main[0m
+[12.807s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.836s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.258s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[18.173s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.415s] [ 50%] Built target gtest_main
+[29.060s] [ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[31.026s] [ 62%] Built target voxel_grid
+[49.214s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[49.390s] [ 75%] Built target gtest
+[49.463s] [35m[1mScanning dependencies of target voxel_grid_tests[0m
+[49.766s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[59.260s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[60.022s] [100%] Built target voxel_grid_tests
+[60.050s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid -- -j8 -l8
+[60.168s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid
+[60.195s] -- Install configuration: "Release"
+[60.197s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[60.200s] -- Set runtime path of "/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[60.202s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/include
+[60.204s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/include/nav2_voxel_grid
+[60.204s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[60.205s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[60.206s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[60.206s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[60.208s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[60.209s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[60.210s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[60.211s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[60.212s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[60.213s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[60.216s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[60.216s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[60.217s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[60.218s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[60.218s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[60.220s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.222s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.224s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[60.224s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[60.225s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[60.225s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[60.239s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages:/home/workspace/ros2/install/lib/python3.6/site-packages:/usr/local/lib:/usr/local/cuda/bin /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_voxel_grid

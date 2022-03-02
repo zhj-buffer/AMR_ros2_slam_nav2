@@ -1,0 +1,242 @@
+[0.298s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer -- -j8 -l8
+[0.670s] [  0%] [34m[1mBuilding documentation.[0m
+[0.719s] [  1%] Built target gmock_main
+[0.720s] [  1%] Built target cartographer_detect_changes
+[1.171s] [ 55%] Built target cartographer
+[1.331s] [ 55%] Built target cartographer_migrate_serialization_format
+[1.331s] [ 56%] Built target cartographer_compute_relations_metrics
+[1.332s] [ 57%] Built target cartographer_test_library
+[1.392s] [ 58%] Built target cartographer_autogenerate_ground_truth
+[1.468s] [ 58%] Built target cartographer.mapping.2d.submap_2d_test
+[1.509s] [ 59%] Built target cartographer.mapping.2d.xy_index_test
+[1.510s] [ 60%] Built target cartographer.mapping.3d.submap_3d_test
+[1.511s] [ 61%] Built target cartographer.sensor.point_cloud_test
+[1.524s] [ 61%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[1.535s] [ 62%] Built target cartographer.io.proto_stream_deserializer_test
+[1.537s] [ 63%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[1.620s] [ 64%] Built target cartographer.mapping.imu_tracker_test
+[1.621s] [ 65%] Built target cartographer.common.lua_parameter_dictionary_test
+[1.628s] [ 65%] Built target cartographer.mapping.3d.hybrid_grid_test
+[1.632s] [ 65%] Built target cartographer.io.proto_stream_test
+[1.650s] [01mRunning Sphinx v1.6.7[39;49;00m
+[1.667s] [ 65%] Built target cartographer.mapping.trajectory_node_test
+[1.695s] [ 65%] Built target cartographer.mapping.2d.probability_grid_test
+[1.741s] [ 65%] Built target cartographer.common.math_test
+[1.753s] [ 65%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[1.768s] [ 65%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[1.773s] [ 67%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[1.782s] [ 67%] Built target cartographer.sensor.internal.voxel_filter_test
+[1.791s] [ 67%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[1.793s] [ 67%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[1.861s] [ 68%] Built target cartographer.common.lockless_queue_test
+[1.861s] [ 68%] Built target cartographer.common.blocking_queue_test
+[1.863s] [ 68%] Built target cartographer.common.fixed_ratio_sampler_test
+[1.899s] [ 68%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[1.935s] [ 68%] Built target cartographer.mapping.id_test
+[1.938s] [ 69%] Built target cartographer.common.configuration_files_test
+[1.954s] [ 70%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[1.981s] [ 71%] Built target cartographer.common.optional_test
+[2.002s] [ 71%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[2.021s] [ 72%] Built target cartographer.io.serialization_format_migration_test
+[2.042s] [ 73%] Built target cartographer.common.thread_pool_test
+[2.061s] [ 74%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[2.130s] [ 75%] Built target cartographer.common.task_test
+[2.131s] [ 76%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[2.132s] [ 76%] Built target cartographer.mapping.internal.connected_components_test
+[2.176s] [ 77%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[2.239s] [ 77%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[2.241s] [ 78%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[2.242s] [ 79%] Built target cartographer.mapping.map_builder_test
+[2.257s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[2.263s] [ 81%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[2.295s] [ 82%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[2.296s] [ 82%] Built target cartographer.common.rate_timer_test
+[2.423s] [ 82%] Built target cartographer.mapping.probability_values_test
+[2.424s] [ 84%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[2.425s] [ 84%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[2.434s] [ 85%] Built target cartographer.mapping.internal.motion_filter_test
+[2.445s] [ 86%] Built target cartographer.mapping.internal.range_data_collator_test
+[2.501s] [ 87%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[2.512s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[2.555s] [01mloading pickled environment... [39;49;00m[ 87%] Built target cartographer.io.fake_file_writer_test
+[2.558s] done
+[2.564s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[2.566s] [01mbuilding [html][39;49;00m: targets for 0 source files that are out of date
+[2.573s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[2.574s] [01mlooking for now-outdated files... [39;49;00mnone found
+[2.575s] [01mno targets are out of date.[39;49;00m
+[2.577s] [01mbuild succeeded.[39;49;00m
+[2.612s] [ 88%] Built target cartographer.mapping.pose_extrapolator_test
+[2.613s] [ 89%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[2.622s] [ 90%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[2.644s] [ 90%] Built target cartographer.io.points_processor_pipeline_builder_test
+[2.675s] [ 90%] Built target cartographer.mapping.pose_graph_test
+[2.691s] [ 90%] Built target build_doc
+[2.694s] [ 91%] Built target cartographer.mapping.pose_graph_trimmer_test
+[2.747s] [ 92%] Built target cartographer.sensor.internal.collator_test
+[2.765s] [ 93%] Built target cartographer.mapping.submaps_test
+[2.771s] [ 94%] Built target cartographer.sensor.compressed_point_cloud_test
+[2.781s] [ 95%] Built target cartographer.sensor.internal.trajectory_collator_test
+[2.802s] [ 96%] Built target cartographer.mapping.2d.map_limits_test
+[2.808s] [ 96%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[2.824s] [ 97%] Built target cartographer.sensor.landmark_data_test
+[2.852s] [ 97%] Built target cartographer.transform.transform_test
+[2.872s] [ 98%] Built target cartographer.sensor.range_data_test
+[2.894s] [ 98%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[2.895s] [ 98%] Built target cartographer.transform.rigid_transform_test
+[2.903s] [ 98%] Built target cartographer.sensor.map_by_time_test
+[2.921s] [100%] Built target cartographer.transform.transform_interpolation_buffer_test
+[2.952s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer -- -j8 -l8
+[7.983s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer
+[8.027s] -- Install configuration: "Release"
+[8.036s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer/package.xml
+[8.052s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files
+[8.052s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[8.055s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[8.058s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[8.059s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[8.061s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[8.061s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[8.062s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake
+[8.063s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake/modules
+[8.067s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[8.086s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[8.088s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[8.090s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer//cmake/functions.cmake
+[8.110s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[8.125s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/bin/cartographer_compute_relations_metrics
+[8.149s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/bin/cartographer_migrate_serialization_format
+[8.182s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/lib/libcartographer.a
+[8.263s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/blocking_queue.h
+[8.264s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/ceres_solver_options.h
+[8.264s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[8.265s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[8.267s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/histogram.h
+[8.282s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/lockless_queue.h
+[8.283s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/lua.h
+[8.285s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[8.285s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/make_unique.h
+[8.286s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/math.h
+[8.287s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/mutex.h
+[8.289s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/optional.h
+[8.290s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/port.h
+[8.290s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/rate_timer.h
+[8.296s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/task.h
+[8.298s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/thread_pool.h
+[8.300s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/time.h
+[8.302s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[8.303s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/color.h
+[8.307s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[8.308s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/counting_points_processor.h
+[8.309s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/draw_trajectories.h
+[8.312s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/file_writer.h
+[8.314s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[8.314s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[8.315s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[8.315s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/image.h
+[8.315s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[8.316s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[8.316s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/null_points_processor.h
+[8.317s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[8.319s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[8.319s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[8.321s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/points_batch.h
+[8.321s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/points_processor.h
+[8.322s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[8.323s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[8.324s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/proto_stream.h
+[8.324s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[8.325s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[8.326s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[8.326s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/submap_painter.h
+[8.327s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/xray_points_processor.h
+[8.327s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[8.327s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[8.328s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[8.329s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[8.329s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[8.330s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[8.330s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[8.333s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[8.333s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[8.334s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[8.334s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/detect_floors.h
+[8.335s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/grid_interface.h
+[8.336s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/id.h
+[8.336s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[8.339s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/local_slam_result_data.h
+[8.340s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/map_builder.h
+[8.342s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[8.342s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[8.344s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/pose_graph.h
+[8.344s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[8.345s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[8.345s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/probability_values.h
+[8.346s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[8.346s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/submaps.h
+[8.347s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[8.347s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[8.347s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/metrics/counter.h
+[8.348s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/metrics/family_factory.h
+[8.348s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/metrics/gauge.h
+[8.349s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/metrics/histogram.h
+[8.349s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/metrics/register.h
+[8.350s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/collator_interface.h
+[8.350s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[8.350s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/data.h
+[8.351s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[8.351s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/imu_data.h
+[8.352s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/landmark_data.h
+[8.352s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/map_by_time.h
+[8.353s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/odometry_data.h
+[8.353s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/point_cloud.h
+[8.353s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/range_data.h
+[8.354s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[8.354s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/rigid_transform.h
+[8.354s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[8.355s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/transform.h
+[8.355s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[8.355s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/lua_parameter_dictionary_test_helpers.h
+[8.356s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/io/fake_file_writer.h
+[8.356s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[8.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[8.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[8.357s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/cell_limits.pb.h
+[8.358s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/grid_2d.pb.h
+[8.358s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/grid_2d_options.pb.h
+[8.359s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/local_trajectory_builder_options_2d.pb.h
+[8.359s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/map_limits.pb.h
+[8.359s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/probability_grid.pb.h
+[8.360s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/probability_grid_range_data_inserter_options_2d.pb.h
+[8.360s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/2d/submaps_options_2d.pb.h
+[8.361s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/3d/hybrid_grid.pb.h
+[8.362s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/3d/local_trajectory_builder_options_3d.pb.h
+[8.362s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/3d/range_data_inserter_options_3d.pb.h
+[8.363s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/3d/submaps_options_3d.pb.h
+[8.363s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[8.364s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/internal/legacy_serialized_data.pb.h
+[8.365s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[8.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[8.366s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[8.367s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[8.367s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[8.368s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[8.368s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[8.369s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[8.370s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[8.370s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[8.371s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[8.371s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[8.371s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[8.372s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[8.372s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[8.373s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[8.373s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[8.373s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[8.374s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[8.374s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[8.374s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[8.375s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[8.375s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[8.375s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/cartographer/share/cartographer/cartographer-config.cmake
+[8.644s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/cartographer

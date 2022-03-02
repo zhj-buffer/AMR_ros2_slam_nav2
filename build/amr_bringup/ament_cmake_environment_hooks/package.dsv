@@ -1,0 +1,4 @@
+source;share/amr_bringup/local_setup.bash
+source;share/amr_bringup/local_setup.dsv
+source;share/amr_bringup/local_setup.sh
+source;share/amr_bringup/local_setup.zsh

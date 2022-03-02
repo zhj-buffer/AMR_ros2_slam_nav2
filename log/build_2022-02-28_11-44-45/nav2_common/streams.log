@@ -1,0 +1,48 @@
+[0.345s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common
+[0.446s] -- Found ament_cmake_core: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake_core/cmake)
+[0.537s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.537s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.342s] -- Found ament_cmake_python: 0.9.9 (/home/workspace/ros2/install/share/ament_cmake_python/cmake)
+[1.998s] -- Configuring done
+[2.016s] -- Generating done
+[2.023s] -- Build files have been written to: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common
+[2.034s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common' returned '0': /usr/local/bin/cmake /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common
+[2.036s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common -- -j8 -l8
+[2.115s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common' returned '0': /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common -- -j8 -l8
+[2.213s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common
+[2.230s] -- Install configuration: ""
+[2.232s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.234s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.235s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common
+[2.236s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/__init__.py
+[2.237s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch
+[2.239s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/__init__.py
+[2.239s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/has_node_params.py
+[2.240s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/rewritten_yaml.py
+[2.240s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/replace_string.py
+[2.375s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common'...
+[2.375s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/__init__.py'...
+[2.376s] Listing '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch'...
+[2.376s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/__init__.py'...
+[2.376s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/has_node_params.py'...
+[2.377s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/replace_string.py'...
+[2.377s] Compiling '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/lib/python3.6/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[2.393s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.394s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.394s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.395s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.396s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/path.sh
+[2.397s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.398s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/local_setup.bash
+[2.398s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/local_setup.sh
+[2.399s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.400s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.401s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/package.dsv
+[2.402s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.403s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.404s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.404s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.406s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/package.xml
+[2.406s] -- Up-to-date: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake
+[2.407s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[2.417s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common' returned '0': /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/nav2_common

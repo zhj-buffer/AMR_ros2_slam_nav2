@@ -1,0 +1,33 @@
+[0.349s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial -- -j8 -l8
+[0.606s] [100%] Built target serial
+[0.625s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --build /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial -- -j8 -l8
+[0.859s] Invoking command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial
+[0.867s] -- Install configuration: ""
+[0.869s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/lib/libserial.a
+[0.871s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/library_path.sh
+[0.872s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/library_path.dsv
+[0.873s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial
+[0.873s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial/v8stdint.h
+[0.873s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial/serial.h
+[0.875s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial/impl
+[0.880s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial/impl/win.h
+[0.883s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/include/serial/impl/unix.h
+[0.888s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.888s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.889s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.890s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.890s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/path.sh
+[0.890s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/environment/path.dsv
+[0.891s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/local_setup.bash
+[0.891s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/local_setup.sh
+[0.892s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/local_setup.zsh
+[0.892s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/local_setup.dsv
+[0.893s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/package.dsv
+[0.895s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/ament_index/resource_index/packages/serial
+[0.896s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.901s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.902s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.902s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake/serialConfig.cmake
+[0.903s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.903s] -- Installing: /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/serial/share/serial/package.xml
+[0.906s] Invoked command in '/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_teleop:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/turtlebot3_example:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/opencv_tests:/home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/install/nav2_gazebo_spawner:/home/nvidia/workspace/alan/AMR/install/turtlebot3_teleop:/home/nvidia/workspace/alan/AMR/install/turtlebot3_example:/home/nvidia/workspace/alan/AMR/install/opencv_tests:/home/nvidia/workspace/alan/AMR/install/nav2_gazebo_spawner /usr/local/bin/cmake --install /home/nvidia/workspace/alan/src/AMR_ros2_slam_nav2/build/serial
