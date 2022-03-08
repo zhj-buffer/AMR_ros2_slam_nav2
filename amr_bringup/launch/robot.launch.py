@@ -59,16 +59,16 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([realsense_pkg_dir, '/rs_launch.py']),
         ),
-         Node(
-            package='realsense2_camera',
-            executable='realsense2_camera_node',
-            name='realsense2_camera',
-            output = 'screen',
-            #arguments=['-d', rviz_config_dir],
-            parameters=[{'device_type': 'd455'},
-                        {'enable_pointcloud': True},
-                ]
-        ),
+#         Node(
+#            package='realsense2_camera',
+#            executable='realsense2_camera_node',
+#            name='realsense2_camera',
+#            output = 'screen',
+#            #arguments=['-d', rviz_config_dir],
+#            parameters=[{'device_type': 'd455'},
+#                        {'enable_pointcloud': True},
+#                ]
+#        ),
 
         Node(
             package='rslidar_sdk',

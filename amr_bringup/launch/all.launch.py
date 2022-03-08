@@ -61,6 +61,7 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([navigation_pkg_dir, '/navigation_noamcl_nomap_launch.py']),
+            launch_arguments={'map': './map_room.yaml'}.items(),
         ),
 
         IncludeLaunchDescription(
