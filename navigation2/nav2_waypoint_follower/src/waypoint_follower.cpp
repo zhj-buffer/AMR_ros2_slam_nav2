@@ -29,7 +29,7 @@ WaypointFollower::WaypointFollower()
 {
   RCLCPP_INFO(get_logger(), "Creating");
 
-  declare_parameter("stop_on_failure", true);
+  declare_parameter("stop_on_failure", false);
   declare_parameter("loop_rate", 20);
 }
 

@@ -38,9 +38,9 @@ def generate_launch_description():
         'navigation_pkg_dir',
         default=os.path.join(get_package_share_directory('nav2_bringup'), 'launch'))
 
-    slam_pkg_dir = LaunchConfiguration(
-        'slam_pkg_dir',
-        default=os.path.join(get_package_share_directory('slam_toolbox'), 'launch'))
+#    slam_pkg_dir = LaunchConfiguration(
+#        'slam_pkg_dir',
+#        default=os.path.join(get_package_share_directory('slam_toolbox'), 'launch'))
 
     rviz_config_dir = os.path.join(get_package_share_directory('nav2_bringup'),
          'rviz', 'nav2_default_view.rviz')
@@ -60,13 +60,14 @@ def generate_launch_description():
         ),
 
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([navigation_pkg_dir, '/navigation_noamcl_nomap_launch.py']),
-            launch_arguments={'map': './map_room.yaml'}.items(),
+            #PythonLaunchDescriptionSource([navigation_pkg_dir, '/navigation_noamcl_nomap_launch.py']),
+            PythonLaunchDescriptionSource([navigation_pkg_dir, '/bringup_launch.py']),
+            #launch_arguments={'map': './map_room.yaml'}.items(),
         ),
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([slam_pkg_dir, '/online_async_launch.py']),
-        ),
+#        IncludeLaunchDescription(
+#            PythonLaunchDescriptionSource([slam_pkg_dir, '/online_async_launch.py']),
+#        ),
          Node(
             package='rviz2',
             executable='rviz2',

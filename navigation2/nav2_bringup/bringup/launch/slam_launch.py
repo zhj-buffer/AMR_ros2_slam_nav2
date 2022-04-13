@@ -32,12 +32,13 @@ def generate_launch_description():
     autostart = LaunchConfiguration('autostart')
 
     # Variables
-    lifecycle_nodes = ['map_saver']
+    #lifecycle_nodes = ['map_saver']
+    lifecycle_nodes = ['']
 
     # Getting directories and launch-files
     bringup_dir = get_package_share_directory('nav2_bringup')
     slam_toolbox_dir = get_package_share_directory('slam_toolbox')
-    slam_launch_file = os.path.join(slam_toolbox_dir, 'launch', 'online_sync_launch.py')
+    slam_launch_file = os.path.join(slam_toolbox_dir, 'launch', 'online_async_launch.py')
 
     # Create our own temporary YAML files that include substitutions
     param_substitutions = {
@@ -57,7 +58,8 @@ def generate_launch_description():
 
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(bringup_dir, 'params', 'nav2_params.yaml'),
+        #default_value=os.path.join(bringup_dir, 'params', 'nav2_params.yaml'),
+        default_value=os.path.join(bringup_dir, 'params', 'nav2_params_nocmcl_nomap.yaml'),
         description='Full path to the ROS2 parameters file to use for all launched nodes')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -74,16 +76,16 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(slam_launch_file),
         launch_arguments={'use_sim_time': use_sim_time}.items())
 
-    start_map_saver_server_cmd = Node(
-            package='nav2_map_server',
-            node_executable='map_saver_server',
-            output='screen',
-            parameters=[configured_params])
+#    start_map_saver_server_cmd = Node(
+#            package='nav2_map_server',
+#            node_executable='map_saver_server',
+#            output='screen',
+#            parameters=[configured_params])
 
     start_lifecycle_manager_cmd = Node(
             package='nav2_lifecycle_manager',
-            node_executable='lifecycle_manager',
-            node_name='lifecycle_manager_slam',
+            executable='lifecycle_manager',
+            name='lifecycle_manager_slam',
             output='screen',
             parameters=[{'use_sim_time': use_sim_time},
                         {'autostart': autostart},
@@ -101,7 +103,7 @@ def generate_launch_description():
     ld.add_action(start_slam_toolbox_cmd)
 
     # Running Map Saver Server
-    ld.add_action(start_map_saver_server_cmd)
+    #ld.add_action(start_map_saver_server_cmd)
     ld.add_action(start_lifecycle_manager_cmd)
 
     return ld
