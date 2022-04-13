@@ -41,7 +41,7 @@ source  ./install/setup.bash
 # launch the robot
 
 ```
-ros2 launch amr_bring all.launch.py
+ros2 launch amr_bringup all.launch.py
 ```
 ![40F_map](https://user-images.githubusercontent.com/27679222/156326564-d1ab850e-9176-4f82-98bf-b30a924a4a9f.jpg)
 ![image](https://user-images.githubusercontent.com/27679222/156338672-031a6b97-e050-4d34-acde-920506032943.png)
